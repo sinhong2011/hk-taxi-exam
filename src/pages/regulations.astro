@@ -16,7 +16,7 @@ import { regulations } from "../data/regulations";
 
   <div class="flex flex-col">
     {regulations.map((r, i) => (
-      <section class="grid grid-cols-[100px_minmax(0,1fr)] gap-8 border-t border-line py-12 last:border-b last:border-line max-tablet:grid-cols-[60px_minmax(0,1fr)] max-tablet:gap-5 max-tablet:py-9">
+      <section class="grid grid-cols-[100px_minmax(0,1fr)] gap-8 border-t border-line py-12 max-tablet:grid-cols-[60px_minmax(0,1fr)] max-tablet:gap-5 max-tablet:py-9">
         <div>
           <div class="font-serif text-[56px] leading-none font-normal tracking-[-0.03em] text-red tabular-nums max-tablet:text-[40px]">
             {String(i + 1).padStart(2, "0")}
@@ -35,7 +35,7 @@ import { regulations } from "../data/regulations";
               <b>口訣</b>　{r.mnemonic}
             </div>
           )}
-          <div class="grid grid-cols-3 border-t border-line max-tablet:grid-cols-1">
+          <div class="grid grid-cols-3 max-tablet:grid-cols-1">
             {r.rules.map((rule) => (
               <div class="relative flex min-h-[70px] flex-col gap-1 border-r border-b border-line px-5 py-4 nth-[3n]:border-r-0 max-tablet:border-r-0">
                 <div class:list={[

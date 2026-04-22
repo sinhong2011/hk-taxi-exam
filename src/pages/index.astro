@@ -24,7 +24,7 @@ const meta = [
 ---
 
 <BaseLayout activeTab="overview">
-  <section class="mb-12 border-b border-line pt-6 pb-12">
+  <section class="mb-12 pt-6 pb-12">
     <div class="mb-3 text-[11px] font-semibold tracking-[0.14em] text-red uppercase">備考手冊　・　2026 年 4 月版</div>
     <div class="grid grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] items-end gap-12 max-tablet:grid-cols-1 max-tablet:gap-8">
       <h1 class="font-serif text-[clamp(32px,5vw,48px)] leading-[1.15] font-medium tracking-[-0.02em] text-ink">
@@ -36,7 +36,7 @@ const meta = [
       </aside>
     </div>
 
-    <ul class="mt-12 grid list-none grid-cols-[repeat(auto-fit,minmax(140px,1fr))] border-t border-line max-[520px]:grid-cols-2">
+    <ul class="mt-12 grid list-none grid-cols-[repeat(auto-fit,minmax(140px,1fr))] max-[520px]:grid-cols-2">
       {meta.map((m) => (
         <li class="border-r border-line px-4 py-5 text-center last:border-r-0 max-[520px]:border-r-0 max-[520px]:border-b max-[520px]:py-4 max-[520px]:last:border-b-0">
           <div class="mb-2 font-serif text-[40px] leading-none font-normal tracking-[-0.02em] text-ink tabular-nums max-[520px]:text-[32px]">{m.n}</div>
@@ -51,9 +51,9 @@ const meta = [
     <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">最後衝刺・高頻考點十項</h2>
   </div>
 
-  <div class="flex flex-col border-t border-line">
+  <div class="flex flex-col">
     {tips.map((t, i) => (
-      <div class="grid grid-cols-[44px_minmax(0,1fr)_minmax(0,1.2fr)] items-baseline gap-6 border-b border-line py-[18px] max-tablet:grid-cols-[36px_1fr] max-tablet:gap-3">
+      <div class="grid grid-cols-[44px_minmax(0,1fr)_minmax(0,1.2fr)] items-baseline gap-6 py-[18px] not-last:border-b not-last:border-line max-tablet:grid-cols-[36px_1fr] max-tablet:gap-3">
         <div class="font-serif text-[22px] text-muted tabular-nums">{String(i + 1).padStart(2, "0")}</div>
         <div class="text-base font-semibold text-ink">{t.title}</div>
         <div class="text-sm leading-[1.6] text-ink-2 max-tablet:col-[2/-1] max-tablet:mt-1">{t.desc}</div>
@@ -61,9 +61,7 @@ const meta = [
     ))}
   </div>
 
-  <hr class="my-12 h-px border-0 bg-line" />
-
-  <div class="mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+  <div class="mt-16 mb-8 flex items-baseline gap-4 border-b border-line pb-4">
     <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">02</span>
     <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">建議溫習次序</h2>
   </div>

@@ -27,7 +27,7 @@ const pointsLabel = (p: number) => `${p} 分`;
   </div>
 
   <div class="mb-14">
-    <div class="grid grid-cols-3 border-t border-b border-line-strong max-tablet:grid-cols-1">
+    <div class="grid grid-cols-3 border-b border-line-strong max-tablet:grid-cols-1">
       {fareTable.map((f) => (
         <div class="flex flex-col gap-5 border-r border-line px-7 py-9 text-center last:border-r-0 max-tablet:border-r-0 max-tablet:border-b max-tablet:py-7 max-tablet:last:border-b-0">
           <div class="flex items-center justify-center gap-2.5 text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">
@@ -108,7 +108,7 @@ const pointsLabel = (p: number) => `${p} 分`;
     <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">附加費明細</h2>
   </div>
 
-  <div class="grid grid-cols-3 border-t border-line max-tablet:grid-cols-1">
+  <div class="grid grid-cols-3 max-tablet:grid-cols-1">
     {surcharges.map((s) => (
       <div class="relative flex min-h-[70px] flex-col gap-1 border-r border-b border-line px-5 py-4 nth-[3n]:border-r-0 max-tablet:border-r-0">
         <div class:list={[
@@ -155,7 +155,7 @@ const pointsLabel = (p: number) => `${p} 分`;
     <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">收費相關規則</h2>
   </div>
 
-  <div class="grid grid-cols-3 border-t border-line max-tablet:grid-cols-1">
+  <div class="grid grid-cols-3 max-tablet:grid-cols-1">
     {fareRules.map((r) => (
       <div class="relative flex min-h-[70px] flex-col gap-1 border-r border-b border-line px-5 py-4 nth-[3n]:border-r-0 max-tablet:border-r-0">
         <div class:list={[

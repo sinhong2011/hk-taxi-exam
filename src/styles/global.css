@@ -8,9 +8,9 @@
   --color-ink-2: #b8b2a3;
   --color-ink-3: #8a857a;
   --color-muted: #68635a;
-  --color-line: rgba(236, 230, 215, 0.08);
-  --color-line-2: rgba(236, 230, 215, 0.12);
-  --color-line-strong: rgba(236, 230, 215, 0.22);
+  --color-line: rgba(236, 230, 215, 0.05);
+  --color-line-2: rgba(236, 230, 215, 0.08);
+  --color-line-strong: rgba(236, 230, 215, 0.14);
   --color-red: #e64150;
   --color-red-deep: #b3313c;
   --color-red-soft: rgba(230, 65, 80, 0.1);
