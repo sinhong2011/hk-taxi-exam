@@ -67,27 +67,50 @@ const { title = "的士筆試・備考手冊", activeTab } = Astro.props;
       <BottomNav activeTab={activeTab} />
 
       <footer
-        class="mx-auto w-full max-w-(--container-content) border-t border-line px-8 pt-8 pb-10 text-xs leading-7 text-muted max-tablet:px-5 max-tablet:pt-6 max-tablet:pb-8"
+        class="mx-auto w-full max-w-(--container-content) border-t border-line px-8 pt-9 pb-12 text-xs leading-[1.7] text-muted max-tablet:px-5 max-tablet:pt-7 max-tablet:pb-10"
+        aria-label="頁尾"
       >
-        <div>本應用整理自運輸署公開資料，僅供溫習用途。一切收費、規則、罰則以憲報及運輸署最新公布為準。</div>
-        <div class="mt-3.5">
-          <span class="text-[11px] tracking-[0.12em] text-ink-3 uppercase">原文 PDF　</span>
-          <a
-            href="https://www.td.gov.hk/filemanager/tc/publication/taxi%20operation%20booklet_tc_20260320_revised.pdf"
-            target="_blank"
-            rel="noopener"
-            class="mr-4 text-ink-2 underline decoration-line-strong underline-offset-[3px]"
-          >
-            的士營運小冊子 (2026/03)
-          </a>
-          <a
-            href="https://www.td.gov.hk/filemanager/tc/content_172/road_users_code_2020_chi.pdf"
-            target="_blank"
-            rel="noopener"
-            class="text-ink-2 underline decoration-line-strong underline-offset-[3px]"
-          >
-            道路使用者守則
-          </a>
+        <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-2 border-b border-line pb-6 max-tablet:pb-5">
+          <div class="flex items-baseline gap-2.5">
+            <span class="inline-block size-2 translate-y-[1px] rounded-full bg-red" aria-hidden="true"></span>
+            <span class="font-serif text-[15px] tracking-[-0.01em] text-ink-2">的士筆試備考手冊</span>
+            <span class="text-[10.5px] tracking-[0.14em] text-ink-3 uppercase">2026 · 04</span>
+          </div>
+          <span class="text-[10.5px] tracking-[0.14em] text-ink-3 uppercase">第三方學習工具・非運輸署官方</span>
+        </div>
+
+        <div class="grid grid-cols-[1.4fr_1fr] gap-10 pt-6 max-tablet:grid-cols-1 max-tablet:gap-5 max-tablet:pt-5">
+          <div class="flex flex-col gap-2.5">
+            <div class="text-[10.5px] tracking-[0.14em] text-ink-3 uppercase">關於</div>
+            <p>本應用整理自運輸署公開資料，僅供溫習用途。一切收費、規則、罰則以憲報及運輸署最新公布為準。</p>
+            <p class="text-ink-3">純前端應用・不設帳戶・不收集個人資料・無 cookie 追蹤。</p>
+          </div>
+
+          <div class="flex flex-col gap-2.5">
+            <div class="text-[10.5px] tracking-[0.14em] text-ink-3 uppercase">原文 PDF</div>
+            <ul class="flex flex-col gap-2">
+              <li>
+                <a
+                  href="https://www.td.gov.hk/filemanager/tc/publication/taxi%20operation%20booklet_tc_20260320_revised.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  class="text-ink-2 underline decoration-line-strong underline-offset-[3px] transition-colors hover:text-ink hover:decoration-red"
+                >
+                  的士營運小冊子（2026/03）
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.td.gov.hk/filemanager/tc/content_172/road_users_code_2020_chi.pdf"
+                  target="_blank"
+                  rel="noopener"
+                  class="text-ink-2 underline decoration-line-strong underline-offset-[3px] transition-colors hover:text-ink hover:decoration-red"
+                >
+                  道路使用者守則
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </footer>
     </div>

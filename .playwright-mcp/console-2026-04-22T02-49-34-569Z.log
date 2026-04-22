@@ -45,3 +45,7 @@
 [ 2244976ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
 [ 2245008ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=395e82a7:20102
 [ 3567712ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:4321/@vite/client:1596
+[ 3568904ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[ 3568933ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=82ff596a:20102
+[ 3729472ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[ 3729479ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=82ff596a:20102
