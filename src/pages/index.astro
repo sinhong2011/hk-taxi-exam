@@ -36,9 +36,9 @@ const meta = [
       </aside>
     </div>
 
-    <ul class="mt-12 grid list-none grid-cols-[repeat(auto-fit,minmax(140px,1fr))] max-[520px]:grid-cols-2">
+    <ul class="mt-12 grid list-none grid-cols-[repeat(auto-fit,minmax(140px,1fr))] gap-x-4 gap-y-6 max-[520px]:grid-cols-2 max-[520px]:gap-y-5">
       {meta.map((m) => (
-        <li class="border-r border-line px-4 py-5 text-center last:border-r-0 max-[520px]:border-r-0 max-[520px]:border-b max-[520px]:py-4 max-[520px]:last:border-b-0">
+        <li class="px-4 py-3 text-center">
           <div class="mb-2 font-serif text-[40px] leading-none font-normal tracking-[-0.02em] text-ink tabular-nums max-[520px]:text-[32px]">{m.n}</div>
           <div class="text-xs tracking-[0.06em] text-muted uppercase">{m.l}</div>
         </li>
@@ -46,14 +46,14 @@ const meta = [
     </ul>
   </section>
 
-  <div class="mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+  <div class="mb-8 flex items-baseline gap-4">
     <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">01</span>
     <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">最後衝刺・高頻考點十項</h2>
   </div>
 
   <div class="flex flex-col">
     {tips.map((t, i) => (
-      <div class="grid grid-cols-[44px_minmax(0,1fr)_minmax(0,1.2fr)] items-baseline gap-6 py-[18px] not-last:border-b not-last:border-line max-tablet:grid-cols-[36px_1fr] max-tablet:gap-3">
+      <div class="grid grid-cols-[44px_minmax(0,1fr)_minmax(0,1.2fr)] items-baseline gap-6 py-3.5 max-tablet:grid-cols-[36px_1fr] max-tablet:gap-3">
         <div class="font-serif text-[22px] text-muted tabular-nums">{String(i + 1).padStart(2, "0")}</div>
         <div class="text-base font-semibold text-ink">{t.title}</div>
         <div class="text-sm leading-[1.6] text-ink-2 max-tablet:col-[2/-1] max-tablet:mt-1">{t.desc}</div>
@@ -61,7 +61,7 @@ const meta = [
     ))}
   </div>
 
-  <div class="mt-16 mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+  <div class="mt-16 mb-8 flex items-baseline gap-4">
     <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">02</span>
     <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">建議溫習次序</h2>
   </div>

@@ -8,9 +8,9 @@
   --color-ink-2: #b8b2a3;
   --color-ink-3: #8a857a;
   --color-muted: #68635a;
-  --color-line: rgba(236, 230, 215, 0.05);
-  --color-line-2: rgba(236, 230, 215, 0.08);
-  --color-line-strong: rgba(236, 230, 215, 0.14);
+  --color-line: rgba(236, 230, 215, 0.08);
+  --color-line-2: rgba(236, 230, 215, 0.12);
+  --color-line-strong: rgba(236, 230, 215, 0.22);
   --color-red: #e64150;
   --color-red-deep: #b3313c;
   --color-red-soft: rgba(230, 65, 80, 0.1);
@@ -64,9 +64,8 @@
 }
 .data-table th,
 .data-table td {
-  padding: 14px 16px;
+  padding: 12px 16px;
   text-align: left;
-  border-bottom: 1px solid var(--color-line);
   white-space: nowrap;
 }
 .data-table th {
@@ -75,10 +74,16 @@
   text-transform: uppercase;
   color: var(--color-muted);
   font-weight: 600;
-  border-bottom: 1px solid var(--color-line-strong);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 6px;
+  padding-bottom: 14px;
 }
+/* Striped rows in lieu of horizontal rules — preserves scan-ability without
+   visible dividers. Subtle paper-2 tone reads as a soft band. */
+.data-table tbody tr:nth-child(even) td { background: var(--color-paper-2); }
+.data-table td:first-child,
+.data-table th:first-child { padding-left: 18px; border-radius: 6px 0 0 6px; }
+.data-table td:last-child,
+.data-table th:last-child { padding-right: 18px; border-radius: 0 6px 6px 0; }
 .data-table td:first-child { white-space: normal; }
 .data-table th:not(:first-child),
 .data-table td:not(:first-child) { text-align: right; }
@@ -181,7 +186,6 @@
   z-index: 30;
   background: color-mix(in srgb, var(--color-paper) 92%, transparent);
   backdrop-filter: saturate(1.2) blur(14px);
-  border-top: 1px solid var(--color-line);
   padding-bottom: env(safe-area-inset-bottom);
 }
 @media (max-width: 639px) {
@@ -253,8 +257,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4px 0 14px;
-  border-bottom: 1px solid var(--color-line);
+  padding: 4px 0 18px;
 }
 .sheet-head strong {
   font-family: var(--font-serif);
@@ -279,19 +282,20 @@
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.sheet-list { display: flex; flex-direction: column; }
+.sheet-list { display: flex; flex-direction: column; gap: 4px; }
 .sheet-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 4px;
-  border-bottom: 1px solid var(--color-line);
+  padding: 14px 12px;
+  border-radius: 8px;
   font-size: 15px;
   color: var(--color-ink);
   min-height: 44px;
+  transition: background-color 0.15s;
 }
-.sheet-item:last-child { border-bottom: none; }
-.sheet-item.active { color: var(--color-red); font-weight: 600; }
+.sheet-item:hover { background: var(--color-paper-2); }
+.sheet-item.active { color: var(--color-red); font-weight: 600; background: var(--color-red-soft); }
 .sheet-chev {
   width: 16px; height: 16px;
   color: var(--color-ink-3);
