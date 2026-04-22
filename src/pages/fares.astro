@@ -20,7 +20,11 @@ const dotColor: Record<string, string> = {
 const pointsLabel = (p: number) => `${p} 分`;
 ---
 
-<BaseLayout activeTab="fares" title="收費・的士筆試">
+<BaseLayout
+  activeTab="fares"
+  title="收費・的士筆試備考手冊"
+  description="香港市區、新界、大嶼山三區的士收費對照，附加費明細、隧道收費、道路收費，以及收費相關違例記分。"
+>
   <div class="mb-8 flex items-baseline gap-4 ">
     <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">03</span>
     <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">的士收費・三區對照</h2>

@@ -5,6 +5,8 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
+  // Production URL — used by BaseLayout for canonical links + absolute og:image.
+  site: "https://hktaxiexam.vercel.app",
   integrations: [react()],
   devToolbar: { enabled: false },
   vite: {

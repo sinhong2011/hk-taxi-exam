@@ -3,6 +3,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Mock from "../islands/Mock";
 ---
 
-<BaseLayout activeTab="mock" title="模擬試・的士筆試">
+<BaseLayout
+  activeTab="mock"
+  title="模擬試・的士筆試備考手冊"
+  description="全卷 75 題（Part A 40 題 + Part B 35 題）模擬試，45 分鐘計時、不可暫停，模擬真實的士筆試考場環境。可生成成績分享圖。"
+>
   <Mock client:only="react" />
 </BaseLayout>

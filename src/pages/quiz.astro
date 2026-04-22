@@ -3,6 +3,10 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Quiz from "../islands/Quiz";
 ---
 
-<BaseLayout activeTab="quiz" title="測驗・的士筆試">
+<BaseLayout
+  activeTab="quiz"
+  title="測驗・的士筆試備考手冊"
+  description="的士筆試隨機抽題練習，由則例、收費、地方、路線、道路守則整合題庫，即時對答案，可按主題集中練習。"
+>
   <Quiz client:only="react" />
 </BaseLayout>
