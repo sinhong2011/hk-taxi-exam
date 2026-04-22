@@ -44,6 +44,9 @@ export type ResultCardProps = {
   overallPass: boolean;
   topicRows: TopicRow[];
   date: Date;
+  // Optional display-only signature shown in the header. Never persisted —
+  // lives only in the rendered PNG the user explicitly chooses to export.
+  nickname?: string;
 };
 
 function formatDate(d: Date): string {
@@ -52,10 +55,11 @@ function formatDate(d: Date): string {
 }
 
 const ResultCard = forwardRef<HTMLDivElement, ResultCardProps>(function ResultCard(
-  { verdict, partA, partB, overallPass, topicRows, date },
+  { verdict, partA, partB, overallPass, topicRows, date, nickname },
   ref,
 ) {
   const shownRows = topicRows.slice(0, 7);
+  const trimmedNick = nickname?.trim() ?? "";
 
   return (
     <div
@@ -112,13 +116,39 @@ const ResultCard = forwardRef<HTMLDivElement, ResultCardProps>(function ResultCa
         </div>
         <div
           style={{
-            fontSize: 14,
-            color: TOK.muted,
-            fontVariantNumeric: "tabular-nums",
-            letterSpacing: "0.04em",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "flex-end",
+            gap: 6,
           }}
         >
-          {formatDate(date)}
+          {trimmedNick && (
+            <div
+              style={{
+                fontFamily: TOK.fontSerif,
+                fontStyle: "italic",
+                fontSize: 18,
+                color: TOK.ink2,
+                letterSpacing: "-0.005em",
+                maxWidth: 520,
+                overflow: "hidden",
+                textOverflow: "ellipsis",
+                whiteSpace: "nowrap",
+              }}
+            >
+              {trimmedNick}
+            </div>
+          )}
+          <div
+            style={{
+              fontSize: 14,
+              color: TOK.muted,
+              fontVariantNumeric: "tabular-nums",
+              letterSpacing: "0.04em",
+            }}
+          >
+            {formatDate(date)}
+          </div>
         </div>
       </div>
 

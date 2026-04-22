@@ -12,12 +12,6 @@ import {
 import type { MockQuestion } from "../data/question";
 import { topicLabels, topicToRoute, type Topic } from "../data/topics";
 import { getVerdictComment, type VerdictComment } from "../data/verdictComments";
-import { supabase, supabaseReady } from "../lib/supabase";
-import {
-  getDisplayName,
-  getOrCreateDeviceId,
-  setDisplayName,
-} from "../lib/identity";
 
 // ---------------------------------------------------------------------------
 // Constants / types
@@ -37,10 +31,10 @@ const HISTORY_CAP = 50;
 
 type Phase = "start" | "partA" | "intermission" | "partB" | "done";
 
-// "ranked"   = real-exam fidelity (timed, no pause, can submit to 龍虎榜).
-// "practice" = pausable, autosaved, NOT eligible for leaderboard.
+// "ranked"   = real-exam fidelity (timed, no pause).
+// "practice" = pausable, autosaved.
 // "sample"   = 10 TD-official sample questions (6 Part A + 4 Part B), no
-//              timer, no autosave, no leaderboard submit. Diagnostic mode:
+//              timer, no autosave. Diagnostic mode:
 //              the killer feature is that every wrong answer carries the
 //              TD source-page citation stored in `explain`.
 type MockMode = "ranked" | "practice" | "sample";
@@ -576,7 +570,7 @@ function StartScreen({
           >
             開始計分模擬試 →
           </button>
-          <div className={ctaCaptionCls}>全卷 45 分鐘計時 · 不可暫停 · 可上龍虎榜</div>
+          <div className={ctaCaptionCls}>全卷 45 分鐘計時 · 不可暫停</div>
         </div>
 
         <div className="flex min-w-0 flex-col gap-1.5">
@@ -588,7 +582,7 @@ function StartScreen({
           >
             練習模式（可暫停）→
           </button>
-          <div className={ctaCaptionCls}>唔計時 · 自動保存進度 · 唔計入龍虎榜</div>
+          <div className={ctaCaptionCls}>唔計時 · 自動保存進度</div>
         </div>
 
         <div className="flex min-w-0 flex-col gap-1.5">
@@ -965,7 +959,6 @@ function ResultScreen({
     if (wroteRef.current) return;
     wroteRef.current = true;
     // Actual elapsed time from Part A start to now (result screen mount = run finished).
-    // Used both for display and for leaderboard tiebreak (lower time wins at equal score).
     const durationSec = Math.max(
       0,
       Math.floor((Date.now() - state.partAStartedAt) / 1000),
@@ -1025,103 +1018,18 @@ function ResultScreen({
   const cardRef = useRef<HTMLDivElement>(null);
   const [exporting, setExporting] = useState(false);
 
-  // --- Leaderboard submit flow ----------------------------------------------
-  // "naming" shows the inline display-name form; "submitting" disables the
-  // button; "done" flips the button to a link over to /leaderboard.
-  const [submitState, setSubmitState] = useState<
-    "idle" | "naming" | "submitting" | "done" | "error"
-  >("idle");
-  const [submitError, setSubmitError] = useState<string | null>(null);
-  const [nameDraft, setNameDraft] = useState("");
+  // Display-only signature for the shareable result card. Session-only
+  // state: never written to localStorage, never sent over the network.
+  // Lives only in the rendered PNG the user explicitly chooses to export.
+  const [nickname, setNickname] = useState("");
 
-  // Elapsed duration in seconds — also used for leaderboard tiebreak.
-  const durationSec = useMemo(
-    () => Math.max(0, Math.floor((Date.now() - state.partAStartedAt) / 1000)),
-    [state.partAStartedAt],
-  );
-
-  const beginSubmit = () => {
-    const existingName = getDisplayName();
-    if (existingName) {
-      void doSubmit(existingName);
-    } else {
-      setNameDraft("");
-      setSubmitError(null);
-      setSubmitState("naming");
-    }
-  };
-
-  const confirmName = () => {
-    // Strip ASCII control chars + invisible / direction-override unicode
-    // (zero-width joiners, RTL override, BOM). These are the classic vectors
-    // for leaderboard-name spoofing: 「Admin‮」 renders with reversed text and
-    // hides as an impersonation on naive readers. Collapse runs of whitespace
-    // to a single space so "A     B" doesn't game the length budget.
-    const cleaned = nameDraft
-      .replace(/[\x00-\x1F\x7F\u200B-\u200F\u202A-\u202E\u2060\uFEFF]/g, "")
-      .replace(/\s+/g, " ")
-      .trim();
-
-    if (cleaned.length < 1) {
-      setSubmitError("名唔可以淨係空白。");
-      return;
-    }
-    if (cleaned.length > 20) {
-      setSubmitError("名最多 20 個字。");
-      return;
-    }
-    // Allow letters (all scripts), numbers, marks (CJK combining), punctuation,
-    // and ASCII space. Excludes emoji, symbols, math/currency, geometric shapes.
-    if (!/^[\p{L}\p{N}\p{M}\p{P} ]+$/u.test(cleaned)) {
-      setSubmitError("只可以用文字、數字同標點（唔可以用 emoji）。");
-      return;
-    }
-    // Anti-impersonation blocklist. Prefix match so "TD 官方" / "運輸署助理"
-    // / "admin_xxx" all caught without blocking legitimate names that happen
-    // to contain these substrings.
-    const impersonation = /^(td(\b|\s|$)|運輸署|官方|admin|moderator|staff)/i;
-    if (impersonation.test(cleaned)) {
-      setSubmitError("呢個名唔畀用（避免假冒官方）。");
-      return;
-    }
-
-    setDisplayName(cleaned);
-    void doSubmit(cleaned);
-  };
-
-  const doSubmit = async (displayName: string) => {
-    setSubmitState("submitting");
-    setSubmitError(null);
-    try {
-      const deviceId = getOrCreateDeviceId();
-      // NOTE: capped runs submit fine; leaderboard displays part_b_total so
-      // rank is honest (a 30/30 capped run isn't ranked as if it were 30/35).
-      const { error } = await supabase
-        .from("mock_runs")
-        .insert({
-          display_name: displayName,
-          part_a_correct: a.correct,
-          part_a_total: a.total,
-          part_b_correct: b.correct,
-          part_b_total: b.total,
-          verdict: overall ? "pass" : "fail",
-          duration_sec: durationSec,
-          device_id: deviceId,
-        })
-        .select("id")
-        .single();
-
-      if (error) {
-        setSubmitError(error.message);
-        setSubmitState("error");
-        return;
-      }
-      setSubmitState("done");
-    } catch (err) {
-      setSubmitError((err as Error)?.message ?? "未知錯誤");
-      setSubmitState("error");
-    }
-  };
+  // Light cosmetic filter: strip control chars + bidi/zero-width tricks,
+  // collapse whitespace, cap length. No moderation — content stays on-device.
+  const cleanedNickname = nickname
+    .replace(/[\x00-\x1F\x7F\u200B-\u200F\u202A-\u202E\u2060\uFEFF]/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 20);
 
   // Feature detection (runs once on mount; APIs can't appear mid-session).
   const [canShare, setCanShare] = useState(false);
@@ -1409,120 +1317,25 @@ function ResultScreen({
         </div>
       )}
 
-      {/* Leaderboard submit panel — ranked mode only. Practice and sample
-          runs aren't eligible, so render a muted explanation instead of the
-          submit UI. */}
-      {state.mode !== "ranked" ? (
-        <div className="mb-2 border-t border-line py-6">
-          <div className="mb-2.5 text-xs font-medium tracking-[0.12em] text-muted uppercase">
-            {isSample ? "官方樣本" : "練習模式"}
+      {/* Share-card signature panel — non-sample only. Optional nickname
+          appears on the exported PNG header. Pure cosmetic: never persisted,
+          never sent over the network. */}
+      {!isSample && (
+        <div className="mb-2 flex flex-col gap-2 border-t border-line py-6">
+          <div className="text-xs font-medium tracking-[0.12em] text-muted uppercase">
+            分享圖片署名（可留空）
           </div>
-          <div className="font-serif text-[13.5px] leading-[1.7] text-ink-2 italic">
-            {isSample
-              ? "官方樣本唔計入龍虎榜。想挑戰 75 題全卷排名，返 StartScreen 揀「計分模擬試」。"
-              : "練習模式唔計入龍虎榜。下次想挑戰排名，返 StartScreen 揀「計分模擬試」。"}
+          <input
+            type="text"
+            className="w-full border-0 border-b border-line-strong bg-transparent py-3 font-serif text-base tracking-[-0.01em] text-ink transition-colors placeholder:text-muted placeholder:italic focus:border-b-red focus:outline-none"
+            value={nickname}
+            onChange={(e) => setNickname(e.target.value)}
+            maxLength={20}
+            placeholder="例：旺角阿明 / 的士新人 / 留空都得"
+          />
+          <div className="font-serif text-[12.5px] leading-[1.6] text-muted italic">
+            只會印喺你下面儲存／分享嘅圖片上。本 app 唔會記低、亦唔會送去任何伺服器。
           </div>
-        </div>
-      ) : (
-        <div className="mb-2 flex flex-col gap-3 border-t border-line py-6">
-          <div className="text-xs font-medium tracking-[0.12em] text-muted uppercase">龍虎榜</div>
-
-          {submitState === "naming" && (
-            <div className="flex flex-col gap-3 border border-l-2 border-line border-l-red bg-red-soft px-[18px] py-4">
-              <div className="font-serif text-xl tracking-[-0.01em] text-ink">起個名，上榜啦</div>
-              <input
-                type="text"
-                className="w-full border-0 border-b border-line-strong bg-transparent py-3 font-serif text-base tracking-[-0.01em] text-ink transition-colors placeholder:text-muted placeholder:italic focus:border-b-red focus:outline-none"
-                value={nameDraft}
-                onChange={(e) => setNameDraft(e.target.value)}
-                onKeyDown={(e) => {
-                  if (e.key === "Enter") confirmName();
-                  if (e.key === "Escape") setSubmitState("idle");
-                }}
-                maxLength={20}
-                autoFocus
-                placeholder="例：旺角阿 Sir / 阿明 / 的士新人"
-              />
-              <div className="font-serif text-[12.5px] leading-[1.6] text-muted italic">
-                匿名上榜，唔使登記。名會記住，下次自動用返。
-              </div>
-              {submitError && <div className="text-[13px] text-red">{submitError}</div>}
-              <div className="flex gap-4">
-                <button
-                  type="button"
-                  className="py-2 text-[13px] font-semibold tracking-[0.05em] text-muted uppercase transition-colors hover:text-ink"
-                  onClick={() => setSubmitState("idle")}
-                >
-                  取消
-                </button>
-                <button
-                  type="button"
-                  className="py-2 text-[13px] font-semibold tracking-[0.05em] text-red uppercase transition-colors hover:text-red-deep"
-                  onClick={confirmName}
-                >
-                  確認 →
-                </button>
-              </div>
-            </div>
-          )}
-
-          {submitState === "idle" && (
-            <div className="flex flex-wrap items-baseline gap-4">
-              <button
-                type="button"
-                className="py-2 text-sm font-semibold tracking-[0.05em] text-red uppercase transition-colors enabled:hover:text-red-deep disabled:cursor-not-allowed disabled:opacity-40"
-                onClick={beginSubmit}
-                disabled={!supabaseReady}
-              >
-                上龍虎榜 →
-              </button>
-              {!supabaseReady && <span className="text-xs text-muted">（龍虎榜功能未配置）</span>}
-            </div>
-          )}
-
-          {submitState === "submitting" && <div className="text-[13px] text-muted">提交緊…</div>}
-
-          {submitState === "done" && (
-            <div className="flex flex-col gap-1.5">
-              <div className="flex flex-wrap items-baseline gap-4">
-                <span className="text-sm font-semibold text-olive">已提交 ✓</span>
-                <a
-                  href="/leaderboard"
-                  className="py-2 text-[13px] font-semibold tracking-[0.05em] text-red uppercase transition-colors hover:text-red-deep"
-                >
-                  睇龍虎榜 →
-                </a>
-              </div>
-              <div className="font-serif text-[12.5px] text-muted italic">
-                「已匿名上榜。唔合心意？喺 /leaderboard 可以重交。」
-              </div>
-            </div>
-          )}
-
-          {submitState === "error" && (
-            <div className="flex flex-col gap-2">
-              <div className="text-[13.5px] text-red">
-                提交失敗：{submitError ?? "未知錯誤"}
-              </div>
-              <div>
-                <button
-                  type="button"
-                  className="py-2 text-[13px] font-semibold tracking-[0.05em] text-red uppercase transition-colors hover:text-red-deep"
-                  onClick={() => {
-                    setSubmitError(null);
-                    const existingName = getDisplayName();
-                    if (existingName) {
-                      void doSubmit(existingName);
-                    } else {
-                      setSubmitState("idle");
-                    }
-                  }}
-                >
-                  再試 →
-                </button>
-              </div>
-            </div>
-          )}
         </div>
       )}
 
@@ -1585,6 +1398,7 @@ function ResultScreen({
           overallPass={overall}
           topicRows={cardTopicRows}
           date={new Date()}
+          nickname={cleanedNickname || undefined}
         />
       </div>
     </div>
