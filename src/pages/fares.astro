@@ -1,0 +1,192 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import {
+  fareTable,
+  extraFees,
+  tunnels,
+  tunnelExceptions,
+  surcharges,
+  areaExtras,
+  fareRules,
+  fareOffences,
+} from "../data/fares";
+
+const dotColor: Record<string, string> = {
+  市區: "#e64150",
+  新界: "#6ec38a",
+  大嶼山: "#7cb0d9",
+};
+
+const pointsLabel = (p: number) => `${p} 分`;
+---
+
+<BaseLayout activeTab="fares" title="收費・的士筆試">
+  <div class="mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+    <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">03</span>
+    <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">的士收費・三區對照</h2>
+  </div>
+
+  <div class="mb-14">
+    <div class="grid grid-cols-3 border-t border-b border-line-strong max-tablet:grid-cols-1">
+      {fareTable.map((f) => (
+        <div class="flex flex-col gap-5 border-r border-line px-7 py-9 text-center last:border-r-0 max-tablet:border-r-0 max-tablet:border-b max-tablet:py-7 max-tablet:last:border-b-0">
+          <div class="flex items-center justify-center gap-2.5 text-[11px] font-semibold tracking-[0.16em] text-muted uppercase">
+            <span class="inline-block size-2 rounded-full" style={`background: ${dotColor[f.area]}`}></span>
+            {f.area}的士
+          </div>
+          <div>
+            <div class="mb-1 text-[11px] font-semibold tracking-[0.14em] text-ink-3 uppercase">首 2 公里</div>
+            <div class="flex items-baseline justify-center gap-1.5 text-ink">
+              <span class="font-serif text-2xl text-muted">$</span>
+              <span class="font-serif text-[64px] leading-none font-normal tracking-[-0.04em] tabular-nums max-tablet:text-[52px]">{f.first2km}</span>
+            </div>
+          </div>
+          <div>
+            <div class="flex justify-between border-t border-line py-2.5 text-[13.5px] text-ink-2 tabular-nums">
+              <span>其後每 200m／分鐘</span>
+              <strong class="font-serif text-[17px] font-medium text-ink">${f.upperStep}</strong>
+            </div>
+            <div class="flex justify-between border-t border-line py-2.5 text-[13.5px] text-ink-2 tabular-nums">
+              <span>達 ${f.threshold} 後</span>
+              <strong class="font-serif text-[17px] font-medium text-ink">${f.afterStep}</strong>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <div class="mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+    <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">03.1</span>
+    <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">其他附加費</h2>
+  </div>
+
+  <table class="data-table">
+    <thead>
+      <tr><th>項目</th><th>市區</th><th>新界</th><th>大嶼山</th></tr>
+    </thead>
+    <tbody>
+      {extraFees.map((e) => (
+        <tr>
+          <td class="label">{e.item}</td>
+          <td>{e.urban}</td>
+          <td>{e.nt}</td>
+          <td>{e.lantau}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <div class="mt-14 mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+    <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">03.2</span>
+    <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">隧道附加費</h2>
+  </div>
+
+  <table class="data-table">
+    <thead>
+      <tr><th>隧道／道路</th><th>收費</th></tr>
+    </thead>
+    <tbody>
+      {tunnels.map((t) => (
+        <tr>
+          <td class="label">{t.name}</td>
+          <td>{t.fee}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <div class="mt-4 border-l-2 border-navy pl-[18px] text-[13.5px] leading-[1.7] text-ink-2 [&_strong]:mb-1 [&_strong]:block [&_strong]:text-[11px] [&_strong]:font-semibold [&_strong]:tracking-[0.12em] [&_strong]:text-navy [&_strong]:uppercase [&_ul]:mt-1 [&_ul]:ml-4">
+    <strong>免回程費</strong>
+    <ul>
+      {tunnelExceptions.map((e) => <li>{e}</li>)}
+    </ul>
+  </div>
+
+  <div class="mt-14 mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+    <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">03.3</span>
+    <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">附加費明細</h2>
+  </div>
+
+  <div class="grid grid-cols-3 border-t border-line max-tablet:grid-cols-1">
+    {surcharges.map((s) => (
+      <div class="relative flex min-h-[70px] flex-col gap-1 border-r border-b border-line px-5 py-4 nth-[3n]:border-r-0 max-tablet:border-r-0">
+        <div class:list={[
+          "text-[12.5px] font-medium tracking-[0.02em] text-muted",
+          s.hot && "after:ml-2 after:inline-block after:size-[5px] after:-translate-y-[4px] after:rounded-full after:bg-red after:content-['']"
+        ]}>{s.label}</div>
+        <div class="text-[14.5px] leading-[1.55] text-ink [font-feature-settings:'tnum'_1]">
+          <strong class="font-serif text-lg text-ink">{s.amount}</strong>
+          {s.condition && <div class="mt-1 text-[12.5px] leading-[1.55] text-ink-3">{s.condition}</div>}
+        </div>
+      </div>
+    ))}
+  </div>
+
+  <div class="mt-14 mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+    <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">03.4</span>
+    <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">隧道與收費道路</h2>
+  </div>
+
+  <table class="data-table">
+    <thead>
+      <tr><th>項目</th><th>收費</th><th>適用範圍</th></tr>
+    </thead>
+    <tbody>
+      {areaExtras.map((a) => (
+        <tr>
+          <td class="label">{a.label}</td>
+          <td>{a.amount}</td>
+          <td>{a.appliesTo.join("、")}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <div class="mt-4 border-l-2 border-navy pl-[18px] text-[13.5px] leading-[1.7] text-ink-2 [&_strong]:mb-1 [&_strong]:block [&_strong]:text-[11px] [&_strong]:font-semibold [&_strong]:tracking-[0.12em] [&_strong]:text-navy [&_strong]:uppercase [&_ul]:mt-1 [&_ul]:ml-4">
+    <strong>回程費豁免</strong>
+    <ul>
+      {tunnelExceptions.map((e) => <li>{e}</li>)}
+    </ul>
+  </div>
+
+  <div class="mt-14 mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+    <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">03.5</span>
+    <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">收費相關規則</h2>
+  </div>
+
+  <div class="grid grid-cols-3 border-t border-line max-tablet:grid-cols-1">
+    {fareRules.map((r) => (
+      <div class="relative flex min-h-[70px] flex-col gap-1 border-r border-b border-line px-5 py-4 nth-[3n]:border-r-0 max-tablet:border-r-0">
+        <div class:list={[
+          "text-[12.5px] font-medium tracking-[0.02em] text-muted",
+          r.hot && "after:ml-2 after:inline-block after:size-[5px] after:-translate-y-[4px] after:rounded-full after:bg-red after:content-['']"
+        ]}>{r.title}</div>
+        <div class="text-[14.5px] leading-[1.55] text-ink [font-feature-settings:'tnum'_1]">{r.desc}</div>
+      </div>
+    ))}
+  </div>
+
+  <div class="mt-14 mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+    <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">03.6</span>
+    <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">收費相關違例記分</h2>
+  </div>
+
+  <table class="data-table">
+    <thead>
+      <tr><th>罪行</th><th>被記分數</th></tr>
+    </thead>
+    <tbody>
+      {fareOffences.map((o) => (
+        <tr>
+          <td class="label">{o.label}</td>
+          <td class={o.hot ? "font-semibold text-red" : ""}>{pointsLabel(o.points)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <p class="mt-6 text-xs text-muted">
+    註：以上收費僅供參考，以憲報最新公布為準。來源：運輸署《的士營運小冊子》(2026 年 3 月修訂) 附錄丙、附錄己。
+  </p>
+</BaseLayout>

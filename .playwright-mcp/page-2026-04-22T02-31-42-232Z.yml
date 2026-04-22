@@ -1,0 +1,64 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "返回首頁 · 的士筆試備考手冊" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e7]: 的士筆試
+      - tablist [ref=e9]:
+        - tab "01 總覽" [ref=e10] [cursor=pointer]:
+          - generic [ref=e11]: "01"
+          - text: 總覽
+        - tab "02 則例" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: "02"
+          - text: 則例
+        - tab "03 收費" [ref=e14] [cursor=pointer]:
+          - generic [ref=e15]: "03"
+          - text: 收費
+        - tab "04 地方" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: "04"
+          - text: 地方
+        - tab "05 路線" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: "05"
+          - text: 路線
+        - tab "06 道路守則" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: "06"
+          - text: 道路守則
+        - tab "07 測驗" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: "07"
+          - text: 測驗
+        - tab "08 模擬試" [selected] [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: "08"
+          - text: 模擬試
+        - tab "09 龍虎榜" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]: "09"
+          - text: 龍虎榜
+  - main [ref=e29]:
+    - generic [ref=e31]:
+      - generic [ref=e32]: 實戰模擬
+      - heading "模擬試" [level=1] [ref=e33]
+      - generic [ref=e34]:
+        - generic [ref=e35]: Part A 40 題 · 及格標準 34
+        - generic [ref=e36]: Part B 35 題 · 及格標準 30
+        - generic [ref=e37]: 計分模擬試：全卷 75 題共 45 分鐘計時（無分兩節），兩部分均須達及格標準方算通過。中途不可暫停，重新整理頁面將遺失進度。
+      - generic [ref=e38]:
+        - generic [ref=e39]: 最近三次紀錄
+        - generic [ref=e40]: 尚未有紀錄
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - button "開始計分模擬試 →" [ref=e43] [cursor=pointer]
+          - generic [ref=e44]: 全卷 45 分鐘計時 · 不可暫停 · 可上龍虎榜
+        - generic [ref=e45]:
+          - button "練習模式（可暫停）→" [ref=e46] [cursor=pointer]
+          - generic [ref=e47]: 唔計時 · 自動保存進度 · 唔計入龍虎榜
+        - generic [ref=e48]:
+          - button "官方樣本（10 題）→" [ref=e49] [cursor=pointer]
+          - generic [ref=e50]: 10 條 TD 官方題目 · 附來源頁數 · 唔計時 · 唔上榜
+  - contentinfo [ref=e51]:
+    - generic [ref=e52]: 本應用整理自運輸署公開資料，僅供溫習用途。一切收費、規則、罰則以憲報及運輸署最新公布為準。
+    - generic [ref=e53]:
+      - text: 原文 PDF
+      - link "的士營運小冊子 (2026/03)" [ref=e54] [cursor=pointer]:
+        - /url: https://www.td.gov.hk/filemanager/tc/publication/taxi%20operation%20booklet_tc_20260320_revised.pdf
+      - link "道路使用者守則" [ref=e55] [cursor=pointer]:
+        - /url: https://www.td.gov.hk/filemanager/tc/content_172/road_users_code_2020_chi.pdf

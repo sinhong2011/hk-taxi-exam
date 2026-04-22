@@ -1,0 +1,8 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Quiz from "../islands/Quiz";
+---
+
+<BaseLayout activeTab="quiz" title="測驗・的士筆試">
+  <Quiz client:only="react" />
+</BaseLayout>

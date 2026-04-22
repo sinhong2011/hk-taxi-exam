@@ -1,0 +1,3 @@
+[      86ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Outdated Optimize Dep) @ http://localhost:4321/@id/astro/runtime/client/dev-toolbar/entrypoint.js:0
+[     125ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=831b3f2d:20102
+[     192ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/leaderboard:0

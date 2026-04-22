@@ -1,0 +1,271 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "返回首頁 · 的士筆試備考手冊" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e7]: 的士筆試
+      - tablist [ref=e9]:
+        - tab "01 總覽" [ref=e10] [cursor=pointer]:
+          - generic [ref=e11]: "01"
+          - text: 總覽
+        - tab "02 則例" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: "02"
+          - text: 則例
+        - tab "03 收費" [ref=e14] [cursor=pointer]:
+          - generic [ref=e15]: "03"
+          - text: 收費
+        - tab "04 地方" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: "04"
+          - text: 地方
+        - tab "05 路線" [selected] [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: "05"
+          - text: 路線
+        - tab "06 道路守則" [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: "06"
+          - text: 道路守則
+        - tab "07 測驗" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: "07"
+          - text: 測驗
+        - tab "08 模擬試" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]: "08"
+          - text: 模擬試
+        - tab "09 龍虎榜" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]: "09"
+          - text: 龍虎榜
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]: "05"
+      - heading "路線・最直接可行" [level=2] [ref=e32]
+    - generic [ref=e33]:
+      - strong [ref=e34]: 記憶法・三大原則
+      - list [ref=e35]:
+        - listitem [ref=e36]:
+          - emphasis [ref=e37]: 過海
+          - text: ——起終點分處港島／九龍，三選一：紅隧、東隧、西隧
+        - listitem [ref=e38]:
+          - emphasis [ref=e39]: 過山
+          - text: ——新界↔市區：獅子山、大老山、尖山（青沙公路）、啟德隧道
+        - listitem [ref=e40]:
+          - emphasis [ref=e41]: 新界長距
+          - text: ——大欖隧道、青朗公路、粉嶺公路、林錦公路
+    - paragraph [ref=e42]: 點擊任何地點可於 Google Maps 開啟搜尋；點擊「路線」可開啟 Google Maps 駕駛路線。
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e45]: "231"
+        - generic [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: 起
+            - link "西貢匡湖居" [ref=e49] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E8%B2%A2%E5%8C%A1%E6%B9%96%E5%B1%85%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e50]:
+            - generic [ref=e51]: 迄
+            - link "大口環根德公爵夫人兒童醫院" [ref=e52] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%8F%A3%E7%92%B0%E6%A0%B9%E5%BE%B7%E5%85%AC%E7%88%B5%E5%A4%AB%E4%BA%BA%E5%85%92%E7%AB%A5%E9%86%AB%E9%99%A2%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 西貢匡湖居 到 大口環根德公爵夫人兒童醫院 的駕駛路線" [ref=e53] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E8%A5%BF%E8%B2%A2%E5%8C%A1%E6%B9%96%E5%B1%85%20%E9%A6%99%E6%B8%AF&destination=%E5%A4%A7%E5%8F%A3%E7%92%B0%E6%A0%B9%E5%BE%B7%E5%85%AC%E7%88%B5%E5%A4%AB%E4%BA%BA%E5%85%92%E7%AB%A5%E9%86%AB%E9%99%A2%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 西區海底隧道 ↗
+      - generic [ref=e54]:
+        - generic [ref=e55]: "232"
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: 起
+            - link "紅磡高山劇場" [ref=e59] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E7%B4%85%E7%A3%A1%E9%AB%98%E5%B1%B1%E5%8A%87%E5%A0%B4%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e60]:
+            - generic [ref=e61]: 迄
+            - link "長沙灣廣場" [ref=e62] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E6%B2%99%E7%81%A3%E5%BB%A3%E5%A0%B4%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 紅磡高山劇場 到 長沙灣廣場 的駕駛路線" [ref=e63] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E7%B4%85%E7%A3%A1%E9%AB%98%E5%B1%B1%E5%8A%87%E5%A0%B4%20%E9%A6%99%E6%B8%AF&destination=%E9%95%B7%E6%B2%99%E7%81%A3%E5%BB%A3%E5%A0%B4%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 佛光街、梭椏道及亞皆老街 ↗
+      - generic [ref=e64]:
+        - generic [ref=e65]: "233"
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: 起
+            - link "荃灣環宇海灣" [ref=e69] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%83%E7%81%A3%E7%92%B0%E5%AE%87%E6%B5%B7%E7%81%A3%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e70]:
+            - generic [ref=e71]: 迄
+            - link "米埔自然保護區" [ref=e72] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E7%B1%B3%E5%9F%94%E8%87%AA%E7%84%B6%E4%BF%9D%E8%AD%B7%E5%8D%80%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 荃灣環宇海灣 到 米埔自然保護區 的駕駛路線" [ref=e73] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E8%8D%83%E7%81%A3%E7%92%B0%E5%AE%87%E6%B5%B7%E7%81%A3%20%E9%A6%99%E6%B8%AF&destination=%E7%B1%B3%E5%9F%94%E8%87%AA%E7%84%B6%E4%BF%9D%E8%AD%B7%E5%8D%80%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 大欖隧道及青朗公路 ↗
+      - generic [ref=e74]:
+        - generic [ref=e75]: "234"
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: 起
+            - link "元朗大會堂" [ref=e79] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E5%85%83%E6%9C%97%E5%A4%A7%E6%9C%83%E5%A0%82%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e80]:
+            - generic [ref=e81]: 迄
+            - link "馬鞍山新港城中心" [ref=e82] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%AC%E9%9E%8D%E5%B1%B1%E6%96%B0%E6%B8%AF%E5%9F%8E%E4%B8%AD%E5%BF%83%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 元朗大會堂 到 馬鞍山新港城中心 的駕駛路線" [ref=e83] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E5%85%83%E6%9C%97%E5%A4%A7%E6%9C%83%E5%A0%82%20%E9%A6%99%E6%B8%AF&destination=%E9%A6%AC%E9%9E%8D%E5%B1%B1%E6%96%B0%E6%B8%AF%E5%9F%8E%E4%B8%AD%E5%BF%83%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 林錦公路 ↗
+      - generic [ref=e84]:
+        - generic [ref=e85]: "235"
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]: 起
+            - link "荃灣沙咀道遊樂場" [ref=e89] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%83%E7%81%A3%E6%B2%99%E5%92%80%E9%81%93%E9%81%8A%E6%A8%82%E5%A0%B4%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e90]:
+            - generic [ref=e91]: 迄
+            - link "沙田中心" [ref=e92] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%E4%B8%AD%E5%BF%83%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 荃灣沙咀道遊樂場 到 沙田中心 的駕駛路線" [ref=e93] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E8%8D%83%E7%81%A3%E6%B2%99%E5%92%80%E9%81%93%E9%81%8A%E6%A8%82%E5%A0%B4%20%E9%A6%99%E6%B8%AF&destination=%E6%B2%99%E7%94%B0%E4%B8%AD%E5%BF%83%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 大河道及象鼻山道 ↗
+      - generic [ref=e94]:
+        - generic [ref=e95]: "236"
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e98]: 起
+            - link "深水埗南昌邨" [ref=e99] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E6%B7%B1%E6%B0%B4%E5%9F%97%E5%8D%97%E6%98%8C%E9%82%A8%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e100]:
+            - generic [ref=e101]: 迄
+            - link "港鐵上水站" [ref=e102] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E6%B8%AF%E9%90%B5%E4%B8%8A%E6%B0%B4%E7%AB%99%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 深水埗南昌邨 到 港鐵上水站 的駕駛路線" [ref=e103] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E6%B7%B1%E6%B0%B4%E5%9F%97%E5%8D%97%E6%98%8C%E9%82%A8%20%E9%A6%99%E6%B8%AF&destination=%E6%B8%AF%E9%90%B5%E4%B8%8A%E6%B0%B4%E7%AB%99%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 青沙公路及尖山隧道 ↗
+      - generic [ref=e104]:
+        - generic [ref=e105]: "237"
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]: 起
+            - link "佐敦（西九龍站）巴士總站" [ref=e109] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E4%BD%90%E6%95%A6%EF%BC%88%E8%A5%BF%E4%B9%9D%E9%BE%8D%E7%AB%99%EF%BC%89%E5%B7%B4%E5%A3%AB%E7%B8%BD%E7%AB%99%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e110]:
+            - generic [ref=e111]: 迄
+            - link "銅鑼灣皇悅酒店" [ref=e112] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E9%8A%85%E9%91%BC%E7%81%A3%E7%9A%87%E6%82%85%E9%85%92%E5%BA%97%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 佐敦（西九龍站）巴士總站 到 銅鑼灣皇悅酒店 的駕駛路線" [ref=e113] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E4%BD%90%E6%95%A6%EF%BC%88%E8%A5%BF%E4%B9%9D%E9%BE%8D%E7%AB%99%EF%BC%89%E5%B7%B4%E5%A3%AB%E7%B8%BD%E7%AB%99%20%E9%A6%99%E6%B8%AF&destination=%E9%8A%85%E9%91%BC%E7%81%A3%E7%9A%87%E6%82%85%E9%85%92%E5%BA%97%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 康莊道及紅磡海底隧道 ↗
+      - generic [ref=e114]:
+        - generic [ref=e115]: "238"
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: 起
+            - link "九龍塘又一城" [ref=e119] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%A1%98%E5%8F%88%E4%B8%80%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e120]:
+            - generic [ref=e121]: 迄
+            - link "沙田大會堂" [ref=e122] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%E5%A4%A7%E6%9C%83%E5%A0%82%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 九龍塘又一城 到 沙田大會堂 的駕駛路線" [ref=e123] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E4%B9%9D%E9%BE%8D%E5%A1%98%E5%8F%88%E4%B8%80%E5%9F%8E%20%E9%A6%99%E6%B8%AF&destination=%E6%B2%99%E7%94%B0%E5%A4%A7%E6%9C%83%E5%A0%82%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 窩打老道及獅子山隧道 ↗
+      - generic [ref=e124]:
+        - generic [ref=e125]: "239"
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128]: 起
+            - link "西九文化區戲曲中心" [ref=e129] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E4%B9%9D%E6%96%87%E5%8C%96%E5%8D%80%E6%88%B2%E6%9B%B2%E4%B8%AD%E5%BF%83%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e130]:
+            - generic [ref=e131]: 迄
+            - link "九龍灣德福廣場" [ref=e132] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E7%81%A3%E5%BE%B7%E7%A6%8F%E5%BB%A3%E5%A0%B4%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 西九文化區戲曲中心 到 九龍灣德福廣場 的駕駛路線" [ref=e133] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E8%A5%BF%E4%B9%9D%E6%96%87%E5%8C%96%E5%8D%80%E6%88%B2%E6%9B%B2%E4%B8%AD%E5%BF%83%20%E9%A6%99%E6%B8%AF&destination=%E4%B9%9D%E9%BE%8D%E7%81%A3%E5%BE%B7%E7%A6%8F%E5%BB%A3%E5%A0%B4%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 漆咸道北、東九龍走廊及啟德隧道 ↗
+      - generic [ref=e134]:
+        - generic [ref=e135]: "240"
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - generic [ref=e138]: 起
+            - link "上水廣場" [ref=e139] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E6%B0%B4%E5%BB%A3%E5%A0%B4%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e140]:
+            - generic [ref=e141]: 迄
+            - link "入境事務處總部" [ref=e142] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E5%85%A5%E5%A2%83%E4%BA%8B%E5%8B%99%E8%99%95%E7%B8%BD%E9%83%A8%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 上水廣場 到 入境事務處總部 的駕駛路線" [ref=e143] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E4%B8%8A%E6%B0%B4%E5%BB%A3%E5%A0%B4%20%E9%A6%99%E6%B8%AF&destination=%E5%85%A5%E5%A2%83%E4%BA%8B%E5%8B%99%E8%99%95%E7%B8%BD%E9%83%A8%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 粉嶺公路及大老山隧道 ↗
+      - generic [ref=e144]:
+        - generic [ref=e145]: "241"
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - generic [ref=e148]: 起
+            - link "基督教聯合醫院" [ref=e149] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E5%9F%BA%E7%9D%A3%E6%95%99%E8%81%AF%E5%90%88%E9%86%AB%E9%99%A2%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e150]:
+            - generic [ref=e151]: 迄
+            - link "旺角區警署" [ref=e152] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E6%97%BA%E8%A7%92%E5%8D%80%E8%AD%A6%E7%BD%B2%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 基督教聯合醫院 到 旺角區警署 的駕駛路線" [ref=e153] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E5%9F%BA%E7%9D%A3%E6%95%99%E8%81%AF%E5%90%88%E9%86%AB%E9%99%A2%20%E9%A6%99%E6%B8%AF&destination=%E6%97%BA%E8%A7%92%E5%8D%80%E8%AD%A6%E7%BD%B2%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 新清水灣道及太子道東 ↗
+      - generic [ref=e154]:
+        - generic [ref=e155]: "242"
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e158]: 起
+            - link "荃灣荃豐中心" [ref=e159] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%83%E7%81%A3%E8%8D%83%E8%B1%90%E4%B8%AD%E5%BF%83%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e160]:
+            - generic [ref=e161]: 迄
+            - link "新蒲崗香港考試及評核局" [ref=e162] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E8%92%B2%E5%B4%97%E9%A6%99%E6%B8%AF%E8%80%83%E8%A9%A6%E5%8F%8A%E8%A9%95%E6%A0%B8%E5%B1%80%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 荃灣荃豐中心 到 新蒲崗香港考試及評核局 的駕駛路線" [ref=e163] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E8%8D%83%E7%81%A3%E8%8D%83%E8%B1%90%E4%B8%AD%E5%BF%83%20%E9%A6%99%E6%B8%AF&destination=%E6%96%B0%E8%92%B2%E5%B4%97%E9%A6%99%E6%B8%AF%E8%80%83%E8%A9%A6%E5%8F%8A%E8%A9%95%E6%A0%B8%E5%B1%80%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 青山公路葵涌段及龍翔道 ↗
+      - generic [ref=e164]:
+        - generic [ref=e165]: "243"
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e168]: 起
+            - link "紅磡置富都會" [ref=e169] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E7%B4%85%E7%A3%A1%E7%BD%AE%E5%AF%8C%E9%83%BD%E6%9C%83%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e170]:
+            - generic [ref=e171]: 迄
+            - link "北角廉政公署總部大樓" [ref=e172] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E8%A7%92%E5%BB%89%E6%94%BF%E5%85%AC%E7%BD%B2%E7%B8%BD%E9%83%A8%E5%A4%A7%E6%A8%93%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 紅磡置富都會 到 北角廉政公署總部大樓 的駕駛路線" [ref=e173] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E7%B4%85%E7%A3%A1%E7%BD%AE%E5%AF%8C%E9%83%BD%E6%9C%83%20%E9%A6%99%E6%B8%AF&destination=%E5%8C%97%E8%A7%92%E5%BB%89%E6%94%BF%E5%85%AC%E7%BD%B2%E7%B8%BD%E9%83%A8%E5%A4%A7%E6%A8%93%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 紅磡海底隧道 ↗
+      - generic [ref=e174]:
+        - generic [ref=e175]: "244"
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e178]: 起
+            - link "九龍塘香港浸會大學大學會堂" [ref=e179] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%A1%98%E9%A6%99%E6%B8%AF%E6%B5%B8%E6%9C%83%E5%A4%A7%E5%AD%B8%E5%A4%A7%E5%AD%B8%E6%9C%83%E5%A0%82%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e180]:
+            - generic [ref=e181]: 迄
+            - link "灣仔鷹君中心" [ref=e182] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E7%81%A3%E4%BB%94%E9%B7%B9%E5%90%9B%E4%B8%AD%E5%BF%83%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 九龍塘香港浸會大學大學會堂 到 灣仔鷹君中心 的駕駛路線" [ref=e183] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E4%B9%9D%E9%BE%8D%E5%A1%98%E9%A6%99%E6%B8%AF%E6%B5%B8%E6%9C%83%E5%A4%A7%E5%AD%B8%E5%A4%A7%E5%AD%B8%E6%9C%83%E5%A0%82%20%E9%A6%99%E6%B8%AF&destination=%E7%81%A3%E4%BB%94%E9%B7%B9%E5%90%9B%E4%B8%AD%E5%BF%83%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 紅磡海底隧道 ↗
+      - generic [ref=e184]:
+        - generic [ref=e185]: "245"
+        - generic [ref=e186]:
+          - generic [ref=e187]:
+            - generic [ref=e188]: 起
+            - link "九龍公共圖書館" [ref=e189] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%85%AC%E5%85%B1%E5%9C%96%E6%9B%B8%E9%A4%A8%20%E9%A6%99%E6%B8%AF
+          - generic [ref=e190]:
+            - generic [ref=e191]: 迄
+            - link "跑馬地馬場" [ref=e192] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=%E8%B7%91%E9%A6%AC%E5%9C%B0%E9%A6%AC%E5%A0%B4%20%E9%A6%99%E6%B8%AF
+        - link "在 Google Maps 開啟 九龍公共圖書館 到 跑馬地馬場 的駕駛路線" [ref=e193] [cursor=pointer]:
+          - /url: https://www.google.com/maps/dir/?api=1&origin=%E4%B9%9D%E9%BE%8D%E5%85%AC%E5%85%B1%E5%9C%96%E6%9B%B8%E9%A4%A8%20%E9%A6%99%E6%B8%AF&destination=%E8%B7%91%E9%A6%AC%E5%9C%B0%E9%A6%AC%E5%A0%B4%20%E9%A6%99%E6%B8%AF&travelmode=driving
+          - text: 紅磡海底隧道 ↗
+  - contentinfo [ref=e194]:
+    - generic [ref=e195]: 本應用整理自運輸署公開資料，僅供溫習用途。一切收費、規則、罰則以憲報及運輸署最新公布為準。
+    - generic [ref=e196]:
+      - text: 原文 PDF
+      - link "的士營運小冊子 (2026/03)" [ref=e197] [cursor=pointer]:
+        - /url: https://www.td.gov.hk/filemanager/tc/publication/taxi%20operation%20booklet_tc_20260320_revised.pdf
+      - link "道路使用者守則" [ref=e198] [cursor=pointer]:
+        - /url: https://www.td.gov.hk/filemanager/tc/content_172/road_users_code_2020_chi.pdf

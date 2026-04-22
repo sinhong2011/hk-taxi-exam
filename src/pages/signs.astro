@@ -1,0 +1,30 @@
+---
+// The /signs page has been merged into /roadcode as the 「交通標誌・原圖庫」
+// section. This stub remains so old bookmarks and deep-links continue to
+// resolve — it ships a meta-refresh plus a manual link for non-JS / slow
+// clients, and is otherwise cheap (no catalog import, no grid render).
+const target = "/roadcode#catalog-標誌圖鑑";
+---
+
+<!doctype html>
+<html lang="zh-HK">
+  <head>
+    <meta charset="utf-8" />
+    <title>交通標誌・的士筆試</title>
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <meta name="robots" content="noindex" />
+    <style>
+      body { font-family: -apple-system, "PingFang TC", sans-serif; padding: 48px 24px; color: #333; }
+      a { color: #c83232; }
+    </style>
+  </head>
+  <body>
+    <p>交通標誌・原圖庫已併入<a href={target}>道路守則頁面</a>。</p>
+    <p><small>若瀏覽器未能自動跳轉，請按上方連結。</small></p>
+    <script define:vars={{ target }}>
+      // Belt-and-suspenders: fire a client redirect in case meta-refresh is disabled.
+      window.location.replace(target);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="的士筆試備考手冊">
+  <!-- Maskable variant: full-bleed dark (no rounded corners — OS applies its own mask).
+       All content inside the inner 80% safe zone via a scale-0.8 transform centered at 256. -->
+  <rect width="512" height="512" fill="#0f1013"/>
+
+  <g transform="translate(51.2, 51.2) scale(0.8)">
+    <!-- Traffic light -->
+    <rect x="244" y="34" width="24" height="22" rx="2" fill="#ece6d7"/>
+    <rect x="170" y="56" width="172" height="74" rx="14" fill="#ece6d7"/>
+    <rect x="184" y="70" width="144" height="46" rx="8" fill="#0f1013"/>
+    <circle cx="214" cy="93" r="13" fill="#e64150"/>
+    <circle cx="256" cy="93" r="13" fill="#e5b429"/>
+    <circle cx="298" cy="93" r="13" fill="#a6c277"/>
+
+    <!-- Wheels -->
+    <rect x="120" y="412" width="54" height="22" rx="7" fill="#ece6d7"/>
+    <rect x="338" y="412" width="54" height="22" rx="7" fill="#ece6d7"/>
+
+    <!-- Taxi body -->
+    <rect x="92" y="232" width="328" height="196" rx="32" fill="#e64150"/>
+    <rect x="148" y="192" width="216" height="58" rx="24" fill="#e64150"/>
+
+    <!-- Windshield -->
+    <path d="M 172 252 L 192 218 L 320 218 L 340 252 Z" fill="#0f1013"/>
+
+    <!-- Headlights -->
+    <circle cx="134" cy="308" r="16" fill="#ece6d7"/>
+    <circle cx="378" cy="308" r="16" fill="#ece6d7"/>
+
+    <!-- Grille -->
+    <rect x="180" y="340" width="152" height="8" rx="2" fill="#ece6d7"/>
+    <rect x="180" y="356" width="152" height="8" rx="2" fill="#ece6d7"/>
+  </g>
+</svg>

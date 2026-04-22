@@ -1,0 +1,78 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const tips = [
+  { title: "三種首 2 公里收費", desc: "市區 $29　／　新界 $25.5　／　大嶼山 $24" },
+  { title: "跨越收費門檻", desc: "市區 $102.5　／　新界 $82.5　／　大嶼山 $195" },
+  { title: "過海免回程費", desc: "在過海的士站上車，或最終目的地不在海港另一方 → 免 $25 回程費" },
+  { title: "10 分嚴重罪 4 宗", desc: "濫收車費・拒絕租用・拒駛指定地點・毀損計程錶（重犯升至 $25,000 + 12 個月）" },
+  { title: "電子支付（2026/4/1 起）", desc: "必須接受 ≥ 1 種二維碼 + ≥ 1 種非二維碼媒介" },
+  { title: "輔幣規定", desc: "$90（$10 鈔或 $2 以上硬幣）＋ $10（$1 以下硬幣）" },
+  { title: "車隊識別牌顏色", desc: "市區紅　／　新界綠　／　大嶼山藍" },
+  { title: "違規停入車隊專位", desc: "一般的士駛入車隊停車處 → 定額罰款 $600" },
+  { title: "失物處理", desc: "6 小時內送警署；物主當場認領並能證明身分 → 可直接交還" },
+  { title: "記分與停牌", desc: "2 年內累積 15 分 → 首次停牌 3 個月，其後每次 6 個月" },
+];
+
+const meta = [
+  { n: "15", l: "則例章節" },
+  { n: "3", l: "的士種類收費" },
+  { n: "230", l: "地點位置題" },
+  { n: "15", l: "路線題" },
+  { n: "12", l: "道路守則" },
+];
+---
+
+<BaseLayout activeTab="overview">
+  <section class="mb-12 border-b border-line pt-6 pb-12">
+    <div class="mb-3 text-[11px] font-semibold tracking-[0.14em] text-red uppercase">備考手冊　・　2026 年 4 月版</div>
+    <div class="grid grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)] items-end gap-12 max-tablet:grid-cols-1 max-tablet:gap-8">
+      <h1 class="font-serif text-[clamp(32px,5vw,48px)] leading-[1.15] font-medium tracking-[-0.02em] text-ink">
+        把《的士營運小冊子》與《道路使用者守則》讀得<br />
+        像一本<em class="text-red italic">熟悉的書</em>。
+      </h1>
+      <aside class="border-l-2 border-line-strong pl-4 font-serif text-sm leading-7 text-ink-3 italic [&_b]:text-ink [&_b]:not-italic">
+        <b>記憶原則：</b>不是把條文背死，而是建立<b>場景連結</b>——把數字、顏色、位置與日常經驗扣在一起，筆試便自然通過。
+      </aside>
+    </div>
+
+    <ul class="mt-12 grid list-none grid-cols-[repeat(auto-fit,minmax(140px,1fr))] border-t border-line max-[520px]:grid-cols-2">
+      {meta.map((m) => (
+        <li class="border-r border-line px-4 py-5 text-center last:border-r-0 max-[520px]:border-r-0 max-[520px]:border-b max-[520px]:py-4 max-[520px]:last:border-b-0">
+          <div class="mb-2 font-serif text-[40px] leading-none font-normal tracking-[-0.02em] text-ink tabular-nums max-[520px]:text-[32px]">{m.n}</div>
+          <div class="text-xs tracking-[0.06em] text-muted uppercase">{m.l}</div>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <div class="mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+    <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">01</span>
+    <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">最後衝刺・高頻考點十項</h2>
+  </div>
+
+  <div class="flex flex-col border-t border-line">
+    {tips.map((t, i) => (
+      <div class="grid grid-cols-[44px_minmax(0,1fr)_minmax(0,1.2fr)] items-baseline gap-6 border-b border-line py-[18px] max-tablet:grid-cols-[36px_1fr] max-tablet:gap-3">
+        <div class="font-serif text-[22px] text-muted tabular-nums">{String(i + 1).padStart(2, "0")}</div>
+        <div class="text-base font-semibold text-ink">{t.title}</div>
+        <div class="text-sm leading-[1.6] text-ink-2 max-tablet:col-[2/-1] max-tablet:mt-1">{t.desc}</div>
+      </div>
+    ))}
+  </div>
+
+  <hr class="my-12 h-px border-0 bg-line" />
+
+  <div class="mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+    <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">02</span>
+    <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">建議溫習次序</h2>
+  </div>
+
+  <p class="mb-4 max-w-(--container-reading) text-base leading-[1.75] text-ink-2">
+    先到 <a href="/regulations" class="text-red underline underline-offset-[3px]">則例</a> 看完 15 章核心規則，
+    再到 <a href="/fares" class="text-red underline underline-offset-[3px]">收費</a> 熟記三地收費門檻。
+    地點題用 <a href="/places" class="text-red underline underline-offset-[3px]">地方</a> 搜尋功能快速複習，
+    路線題則到 <a href="/routes" class="text-red underline underline-offset-[3px]">路線</a> 按三大幹道原則記憶。
+    每溫完一段，就到 <a href="/quiz" class="text-red underline underline-offset-[3px]">測驗</a> 隨機抽題自我檢測。
+  </p>
+</BaseLayout>

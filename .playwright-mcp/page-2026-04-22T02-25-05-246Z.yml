@@ -1,0 +1,286 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "返回首頁 · 的士筆試備考手冊" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+        - generic [ref=e8]: 的士筆試・備考手冊
+      - generic [ref=e9]: 整合自 運輸署《的士營運小冊子》・《道路使用者守則》
+    - tablist [ref=e11]:
+      - tab "01 總覽" [ref=e12] [cursor=pointer]:
+        - generic [ref=e13]: "01"
+        - text: 總覽
+      - tab "02 則例" [ref=e14] [cursor=pointer]:
+        - generic [ref=e15]: "02"
+        - text: 則例
+      - tab "03 收費" [selected] [ref=e16] [cursor=pointer]:
+        - generic [ref=e17]: "03"
+        - text: 收費
+      - tab "04 地方" [ref=e19] [cursor=pointer]:
+        - generic [ref=e20]: "04"
+        - text: 地方
+      - tab "05 路線" [ref=e21] [cursor=pointer]:
+        - generic [ref=e22]: "05"
+        - text: 路線
+      - tab "06 道路守則" [ref=e23] [cursor=pointer]:
+        - generic [ref=e24]: "06"
+        - text: 道路守則
+      - tab "07 測驗" [ref=e25] [cursor=pointer]:
+        - generic [ref=e26]: "07"
+        - text: 測驗
+      - tab "08 模擬試" [ref=e27] [cursor=pointer]:
+        - generic [ref=e28]: "08"
+        - text: 模擬試
+      - tab "09 龍虎榜" [ref=e29] [cursor=pointer]:
+        - generic [ref=e30]: "09"
+        - text: 龍虎榜
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - generic [ref=e33]: "03"
+      - heading "的士收費・三區對照" [level=2] [ref=e34]
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e38]: 市區的士
+        - generic [ref=e40]:
+          - generic [ref=e41]: 首 2 公里
+          - generic [ref=e42]:
+            - generic [ref=e43]: $
+            - generic [ref=e44]: "29"
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: 其後每 200m／分鐘
+            - strong [ref=e48]: $2.1
+          - generic [ref=e49]:
+            - generic [ref=e50]: 達 $102.5 後
+            - strong [ref=e51]: $1.4
+      - generic [ref=e52]:
+        - generic [ref=e53]: 新界的士
+        - generic [ref=e55]:
+          - generic [ref=e56]: 首 2 公里
+          - generic [ref=e57]:
+            - generic [ref=e58]: $
+            - generic [ref=e59]: "25.5"
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]: 其後每 200m／分鐘
+            - strong [ref=e63]: $1.9
+          - generic [ref=e64]:
+            - generic [ref=e65]: 達 $82.5 後
+            - strong [ref=e66]: $1.4
+      - generic [ref=e67]:
+        - generic [ref=e68]: 大嶼山的士
+        - generic [ref=e70]:
+          - generic [ref=e71]: 首 2 公里
+          - generic [ref=e72]:
+            - generic [ref=e73]: $
+            - generic [ref=e74]: "24"
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]: 其後每 200m／分鐘
+            - strong [ref=e78]: $1.9
+          - generic [ref=e79]:
+            - generic [ref=e80]: 達 $195 後
+            - strong [ref=e81]: $1.6
+    - generic [ref=e82]:
+      - generic [ref=e83]: "03.1"
+      - heading "其他附加費" [level=2] [ref=e84]
+    - table [ref=e85]:
+      - rowgroup [ref=e86]:
+        - row "項目 市區 新界 大嶼山" [ref=e87]:
+          - columnheader "項目" [ref=e88]
+          - columnheader "市區" [ref=e89]
+          - columnheader "新界" [ref=e90]
+          - columnheader "大嶼山" [ref=e91]
+      - rowgroup [ref=e92]:
+        - row "每件行李（車廂內輕便除外） $6 $6 $6" [ref=e93]:
+          - cell "每件行李（車廂內輕便除外）" [ref=e94]
+          - cell "$6" [ref=e95]
+          - cell "$6" [ref=e96]
+          - cell "$6" [ref=e97]
+        - row "每隻動物／雀鳥 $5 $5 $5" [ref=e98]:
+          - cell "每隻動物／雀鳥" [ref=e99]
+          - cell "$5" [ref=e100]
+          - cell "$5" [ref=e101]
+          - cell "$5" [ref=e102]
+        - row "每程電召預約 $5 $5 $5" [ref=e103]:
+          - cell "每程電召預約" [ref=e104]
+          - cell "$5" [ref=e105]
+          - cell "$5" [ref=e106]
+          - cell "$5" [ref=e107]
+        - row "殘疾乘客輪椅／拐杖 免費 免費 免費" [ref=e108]:
+          - cell "殘疾乘客輪椅／拐杖" [ref=e109]
+          - cell "免費" [ref=e110]
+          - cell "免費" [ref=e111]
+          - cell "免費" [ref=e112]
+    - generic [ref=e113]:
+      - generic [ref=e114]: "03.2"
+      - heading "隧道附加費" [level=2] [ref=e115]
+    - table [ref=e116]:
+      - rowgroup [ref=e117]:
+        - row "隧道／道路 收費" [ref=e118]:
+          - columnheader "隧道／道路" [ref=e119]
+          - columnheader "收費" [ref=e120]
+      - rowgroup [ref=e121]:
+        - row "紅隧 / 東隧 / 西隧 $25 (隧道費) + $25 (回程費)" [ref=e122]:
+          - cell "紅隧 / 東隧 / 西隧" [ref=e123]
+          - cell "$25 (隧道費) + $25 (回程費)" [ref=e124]
+        - row "大欖隧道 司機所付的隧道費" [ref=e125]:
+          - cell "大欖隧道" [ref=e126]
+          - cell "司機所付的隧道費" [ref=e127]
+        - row "其他收費隧道／道路／區 按使用費" [ref=e128]:
+          - cell "其他收費隧道／道路／區" [ref=e129]
+          - cell "按使用費" [ref=e130]
+    - generic [ref=e131]:
+      - strong [ref=e132]: 免回程費
+      - list [ref=e133]:
+        - listitem [ref=e134]: 在過海的士站上車 → 免回程費
+        - listitem [ref=e135]: 最終目的地非位於海港另一方 → 免回程費
+    - generic [ref=e136]:
+      - generic [ref=e137]: "03.3"
+      - heading "附加費明細" [level=2] [ref=e138]
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - generic [ref=e141]: 行李費（每件）
+        - generic [ref=e142]:
+          - strong [ref=e143]: $6
+          - generic [ref=e144]: 擺放於車尾行李廂之行李；擺放在乘客車廂內之輕便手提行李除外
+      - generic [ref=e145]:
+        - generic [ref=e146]: 動物或雀鳥費（每隻）
+        - generic [ref=e147]:
+          - strong [ref=e148]: $5
+          - generic [ref=e149]: 隨行之動物或雀鳥；是否接載由司機酌情決定
+      - generic [ref=e150]:
+        - generic [ref=e151]: 電召預約費（每程）
+        - generic [ref=e152]:
+          - strong [ref=e153]: $5
+          - generic [ref=e154]: 市區／新界／大嶼山三區劃一 $5
+      - generic [ref=e155]:
+        - generic [ref=e156]: 輪椅、拐杖及輔助行動物件
+        - generic [ref=e157]:
+          - strong [ref=e158]: 免費
+          - generic [ref=e159]: 傷殘乘客攜帶之輪椅、拐杖或其他輔助行動物件，不論大小及擺放位置
+      - generic [ref=e160]:
+        - generic [ref=e161]: 輕便手提行李
+        - generic [ref=e162]:
+          - strong [ref=e163]: 免費
+          - generic [ref=e164]: 擺放於乘客車廂內，每件長、闊、高總和不超過 140 厘米
+    - generic [ref=e165]:
+      - generic [ref=e166]: "03.4"
+      - heading "隧道與收費道路" [level=2] [ref=e167]
+    - table [ref=e168]:
+      - rowgroup [ref=e169]:
+        - row "項目 收費 適用範圍" [ref=e170]:
+          - columnheader "項目" [ref=e171]
+          - columnheader "收費" [ref=e172]
+          - columnheader "適用範圍" [ref=e173]
+      - rowgroup [ref=e174]:
+        - row "海底隧道（紅隧） 隧道費 + $25 回程費 市區、新界、大嶼山" [ref=e175]:
+          - cell "海底隧道（紅隧）" [ref=e176]
+          - cell "隧道費 + $25 回程費" [ref=e177]
+          - cell "市區、新界、大嶼山" [ref=e178]
+        - row "東區海底隧道 隧道費 + $25 回程費 市區、新界、大嶼山" [ref=e179]:
+          - cell "東區海底隧道" [ref=e180]
+          - cell "隧道費 + $25 回程費" [ref=e181]
+          - cell "市區、新界、大嶼山" [ref=e182]
+        - row "西區海底隧道 隧道費 + $25 回程費 市區、新界、大嶼山" [ref=e183]:
+          - cell "西區海底隧道" [ref=e184]
+          - cell "隧道費 + $25 回程費" [ref=e185]
+          - cell "市區、新界、大嶼山" [ref=e186]
+        - row "大欖隧道 司機所付的隧道費 市區、新界" [ref=e187]:
+          - cell "大欖隧道" [ref=e188]
+          - cell "司機所付的隧道費" [ref=e189]
+          - cell "市區、新界" [ref=e190]
+        - row "其他收費隧道／道路／區 按使用費 市區、新界、大嶼山" [ref=e191]:
+          - cell "其他收費隧道／道路／區" [ref=e192]
+          - cell "按使用費" [ref=e193]
+          - cell "市區、新界、大嶼山" [ref=e194]
+    - generic [ref=e195]:
+      - strong [ref=e196]: 回程費豁免
+      - list [ref=e197]:
+        - listitem [ref=e198]: 在過海的士站上車 → 免回程費
+        - listitem [ref=e199]: 最終目的地非位於海港另一方 → 免回程費
+    - generic [ref=e200]:
+      - generic [ref=e201]: "03.5"
+      - heading "收費相關規則" [level=2] [ref=e202]
+    - generic [ref=e203]:
+      - generic [ref=e204]:
+        - generic [ref=e205]: 跳錶起計時點
+        - generic [ref=e206]: 由啟程的時候起計算，或由指定的時間及地點以供租用人使用的時候起計算。
+      - generic [ref=e207]:
+        - generic [ref=e208]: 咪錶顯示規格
+        - generic [ref=e209]: 錶面須顯示法定最低收費及遞增附加費；車費與附加費數字高度不少於 10 毫米。
+      - generic [ref=e210]:
+        - generic [ref=e211]: 車內須展示收費表
+        - generic [ref=e212]: 的士可供出租期間，須讓乘客清楚看到中英對照收費表；設計、構造及位置須符合署長規定。
+      - generic [ref=e213]:
+        - generic [ref=e214]: 輔幣規定（最低數值）
+        - generic [ref=e215]: 司機須備 $10 面額鈔票或 $2 或以上面額硬幣達 $90；$1 或以下面額硬幣達 $10。
+      - generic [ref=e216]:
+        - generic [ref=e217]: 電子支付（2026/4/1 起）
+        - generic [ref=e218]: 必須容許透過至少一種二維碼電子繳費媒介及至少一種非二維碼電子繳費媒介繳付車費。
+      - generic [ref=e219]:
+        - generic [ref=e220]: 過海的士站候客司機
+        - generic [ref=e221]: 在過海的士站候客之司機，可拒絕接載非經由海底隧道、東隧或西隧而到達目的地之乘客。
+      - generic [ref=e222]:
+        - generic [ref=e223]: 運載貨物限制
+        - generic [ref=e224]: 的士不得運載個人手提行李以外的貨物；不得接載危險或厭惡性質、或未經牢固包裝之貨物。
+      - generic [ref=e225]:
+        - generic [ref=e226]: 車費收據格式
+        - generic [ref=e227]: 收據須符合署長指明格式（附錄甲），列明車號、上落車時間、總公里、收費公里及分鐘、附加費、總車費；若打印設備故障，須以附錄乙樣本手寫。
+      - generic [ref=e228]:
+        - generic [ref=e229]: 乘客不繫安全帶
+        - generic [ref=e230]: 乘客如拒絕或沒有佩帶安全帶，司機可拒絕租賃或駕駛；乘客須下車並支付咪錶已錄之法定車資。
+      - generic [ref=e231]:
+        - generic [ref=e232]: 車隊的士自訂車費
+        - generic [ref=e233]: 車隊持牌人可就預約行程自訂車費（咪錶車費外加預約費，或行程前協定整筆車費）；街頭截乘仍須按法定收費表。
+    - generic [ref=e234]:
+      - generic [ref=e235]: "03.6"
+      - heading "收費相關違例記分" [level=2] [ref=e236]
+    - table [ref=e237]:
+      - rowgroup [ref=e238]:
+        - row "罪行 被記分數" [ref=e239]:
+          - columnheader "罪行" [ref=e240]
+          - columnheader "被記分數" [ref=e241]
+      - rowgroup [ref=e242]:
+        - row "濫收車費 10 分" [ref=e243]:
+          - cell "濫收車費" [ref=e244]
+          - cell "10 分" [ref=e245]
+        - row "故意拒絕或忽略接受租用 10 分" [ref=e246]:
+          - cell "故意拒絕或忽略接受租用" [ref=e247]
+          - cell "10 分" [ref=e248]
+        - row "拒絕或忽略駕駛的士至租用人指示的地方 10 分" [ref=e249]:
+          - cell "拒絕或忽略駕駛的士至租用人指示的地方" [ref=e250]
+          - cell "10 分" [ref=e251]
+        - row "毀損、損壞或更改的士計程錶 10 分" [ref=e252]:
+          - cell "毀損、損壞或更改的士計程錶" [ref=e253]
+          - cell "10 分" [ref=e254]
+        - row "兜客 5 分" [ref=e255]:
+          - cell "兜客" [ref=e256]
+          - cell "5 分" [ref=e257]
+        - row "沒有採用最直接而切實可行的路綫駛往目的地（兜路） 5 分" [ref=e258]:
+          - cell "沒有採用最直接而切實可行的路綫駛往目的地（兜路）" [ref=e259]
+          - cell "5 分" [ref=e260]
+        - row "未經租用人同意容許他人登上的士（釣泥鯭） 5 分" [ref=e261]:
+          - cell "未經租用人同意容許他人登上的士（釣泥鯭）" [ref=e262]
+          - cell "5 分" [ref=e263]
+        - row "欺騙或拒絕知會乘客適當的收費及路綫 5 分" [ref=e264]:
+          - cell "欺騙或拒絕知會乘客適當的收費及路綫" [ref=e265]
+          - cell "5 分" [ref=e266]
+        - row "拒絕或忽略運載租用人要求數目的乘客 5 分" [ref=e267]:
+          - cell "拒絕或忽略運載租用人要求數目的乘客" [ref=e268]
+          - cell "5 分" [ref=e269]
+        - row "拒絕或忽略發出收據 3 分" [ref=e270]:
+          - cell "拒絕或忽略發出收據" [ref=e271]
+          - cell "3 分" [ref=e272]
+        - row "沒有將的士計程錶設定於記錄位置 3 分" [ref=e273]:
+          - cell "沒有將的士計程錶設定於記錄位置" [ref=e274]
+          - cell "3 分" [ref=e275]
+    - paragraph [ref=e276]: 註：以上收費僅供參考，以憲報最新公布為準。來源：運輸署《的士營運小冊子》(2026 年 3 月修訂) 附錄丙、附錄己。
+  - contentinfo [ref=e277]:
+    - generic [ref=e278]: 本應用整理自運輸署公開資料，僅供溫習用途。一切收費、規則、罰則以憲報及運輸署最新公布為準。
+    - generic [ref=e279]:
+      - text: 原文 PDF
+      - link "的士營運小冊子 (2026/03)" [ref=e280] [cursor=pointer]:
+        - /url: https://www.td.gov.hk/filemanager/tc/publication/taxi%20operation%20booklet_tc_20260320_revised.pdf
+      - link "道路使用者守則" [ref=e281] [cursor=pointer]:
+        - /url: https://www.td.gov.hk/filemanager/tc/content_172/road_users_code_2020_chi.pdf

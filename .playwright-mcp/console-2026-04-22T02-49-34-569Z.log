@@ -1,0 +1,31 @@
+[     136ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[     139ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=81dd334a:20102
+[   29257ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[   29260ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=81dd334a:20102
+[   31453ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=81dd334a:20102
+[   31508ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[  203221ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[  203271ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=81dd334a:20102
+[  233259ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[  233260ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=81dd334a:20102
+[  242192ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=81dd334a:20102
+[  242210ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[  242901ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:4321/@vite/client:1596
+[  244212ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=96507cd4:20102
+[  244313ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[  244546ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[  244557ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=91d7d601:20102
+[  263011ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[  263021ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=91d7d601:20102
+[  293099ms] [ERROR] WebSocket connection to 'ws://localhost:4321/?token=dWJnD4cqeMdA' failed:  @ http://localhost:4321/@vite/client:1476
+[  293099ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:4321/@vite/client:1596
+[  388151ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=59275b39:20102
+[  388189ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[  430278ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[  430323ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=5e33e20a:20102
+[  495831ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0
+[  495832ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=5e33e20a:20102
+[ 1107243ms] [ERROR] WebSocket connection to 'ws://localhost:4321/?token=L12b-btYiiCR' failed:  @ http://localhost:4321/@vite/client:1476
+[ 1107243ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:4321/@vite/client:1596
+[ 1180870ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:4321/node_modules/.vite/deps/chunk-COG5TVXY.js?v=92d53198:20102
+[ 1180907ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:4321/places:0

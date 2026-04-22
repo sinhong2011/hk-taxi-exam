@@ -1,0 +1,114 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: 的士筆試・備考手冊
+      - generic [ref=e7]: 整合自 運輸署《的士營運小冊子》・《道路使用者守則》
+    - tablist [ref=e9]:
+      - tab "總覽" [selected] [ref=e10] [cursor=pointer]: 總覽
+      - tab "則例" [ref=e12] [cursor=pointer]
+      - tab "收費" [ref=e13] [cursor=pointer]
+      - tab "地方" [ref=e14] [cursor=pointer]
+      - tab "路線" [ref=e15] [cursor=pointer]
+      - tab "道路守則" [ref=e16] [cursor=pointer]
+      - tab "測驗" [ref=e17] [cursor=pointer]
+      - tab "模擬試" [ref=e18] [cursor=pointer]
+      - tab "龍虎榜" [ref=e19] [cursor=pointer]
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]: 備考手冊 ・ 2026 年 4 月版
+      - generic [ref=e23]:
+        - heading "把《的士營運小冊子》與《道路使用者守則》讀得 像一本熟悉的書。" [level=1] [ref=e24]:
+          - text: 把《的士營運小冊子》與《道路使用者守則》讀得
+          - text: 像一本
+          - emphasis [ref=e25]: 熟悉的書
+          - text: 。
+        - complementary [ref=e26]: 記憶原則：不是把條文背死，而是建立場景連結——把數字、顏色、位置與日常經驗扣在一起，筆試便自然通過。
+      - list [ref=e27]:
+        - listitem [ref=e28]:
+          - generic [ref=e29]: "15"
+          - generic [ref=e30]: 則例章節
+        - listitem [ref=e31]:
+          - generic [ref=e32]: "3"
+          - generic [ref=e33]: 的士種類收費
+        - listitem [ref=e34]:
+          - generic [ref=e35]: "230"
+          - generic [ref=e36]: 地點位置題
+        - listitem [ref=e37]:
+          - generic [ref=e38]: "15"
+          - generic [ref=e39]: 路線題
+        - listitem [ref=e40]:
+          - generic [ref=e41]: "12"
+          - generic [ref=e42]: 道路守則
+    - generic [ref=e43]:
+      - generic [ref=e44]: "01"
+      - heading "最後衝刺・高頻考點十項" [level=2] [ref=e45]
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e48]: "01"
+        - generic [ref=e49]: 三種首 2 公里收費
+        - generic [ref=e50]: 市區 $29 ／ 新界 $25.5 ／ 大嶼山 $24
+      - generic [ref=e51]:
+        - generic [ref=e52]: "02"
+        - generic [ref=e53]: 跨越收費門檻
+        - generic [ref=e54]: 市區 $102.5 ／ 新界 $82.5 ／ 大嶼山 $195
+      - generic [ref=e55]:
+        - generic [ref=e56]: "03"
+        - generic [ref=e57]: 過海免回程費
+        - generic [ref=e58]: 在過海的士站上車，或最終目的地不在海港另一方 → 免 $25 回程費
+      - generic [ref=e59]:
+        - generic [ref=e60]: "04"
+        - generic [ref=e61]: 10 分嚴重罪 4 宗
+        - generic [ref=e62]: 濫收車費・拒絕租用・拒駛指定地點・毀損計程錶（重犯升至 $25,000 + 12 個月）
+      - generic [ref=e63]:
+        - generic [ref=e64]: "05"
+        - generic [ref=e65]: 電子支付（2026/4/1 起）
+        - generic [ref=e66]: 必須接受 ≥ 1 種二維碼 + ≥ 1 種非二維碼媒介
+      - generic [ref=e67]:
+        - generic [ref=e68]: "06"
+        - generic [ref=e69]: 輔幣規定
+        - generic [ref=e70]: $90（$10 鈔或 $2 以上硬幣）＋ $10（$1 以下硬幣）
+      - generic [ref=e71]:
+        - generic [ref=e72]: "07"
+        - generic [ref=e73]: 車隊識別牌顏色
+        - generic [ref=e74]: 市區紅 ／ 新界綠 ／ 大嶼山藍
+      - generic [ref=e75]:
+        - generic [ref=e76]: "08"
+        - generic [ref=e77]: 違規停入車隊專位
+        - generic [ref=e78]: 一般的士駛入車隊停車處 → 定額罰款 $600
+      - generic [ref=e79]:
+        - generic [ref=e80]: "09"
+        - generic [ref=e81]: 失物處理
+        - generic [ref=e82]: 6 小時內送警署；物主當場認領並能證明身分 → 可直接交還
+      - generic [ref=e83]:
+        - generic [ref=e84]: "10"
+        - generic [ref=e85]: 記分與停牌
+        - generic [ref=e86]: 2 年內累積 15 分 → 首次停牌 3 個月，其後每次 6 個月
+    - separator [ref=e87]
+    - generic [ref=e88]:
+      - generic [ref=e89]: "02"
+      - heading "建議溫習次序" [level=2] [ref=e90]
+    - paragraph [ref=e91]:
+      - text: 先到
+      - link "則例" [ref=e92] [cursor=pointer]:
+        - /url: /regulations
+      - text: 看完 15 章核心規則， 再到
+      - link "收費" [ref=e93] [cursor=pointer]:
+        - /url: /fares
+      - text: 熟記三地收費門檻。 地點題用
+      - link "地方" [ref=e94] [cursor=pointer]:
+        - /url: /places
+      - text: 搜尋功能快速複習， 路線題則到
+      - link "路線" [ref=e95] [cursor=pointer]:
+        - /url: /routes
+      - text: 按三大幹道原則記憶。 每溫完一段，就到
+      - link "測驗" [ref=e96] [cursor=pointer]:
+        - /url: /quiz
+      - text: 隨機抽題自我檢測。
+  - contentinfo [ref=e97]:
+    - generic [ref=e98]: 本應用整理自運輸署公開資料，僅供溫習用途。一切收費、規則、罰則以憲報及運輸署最新公布為準。
+    - generic [ref=e99]:
+      - text: 原文 PDF
+      - link "的士營運小冊子 (2026/03)" [ref=e100] [cursor=pointer]:
+        - /url: https://www.td.gov.hk/filemanager/tc/publication/taxi%20operation%20booklet_tc_20260320_revised.pdf
+      - link "道路使用者守則" [ref=e101] [cursor=pointer]:
+        - /url: https://www.td.gov.hk/filemanager/tc/content_172/road_users_code_2020_chi.pdf

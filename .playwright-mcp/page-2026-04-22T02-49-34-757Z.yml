@@ -1,0 +1,2132 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "返回首頁 · 的士筆試備考手冊" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e7]: 的士筆試
+      - tablist [ref=e9]:
+        - tab "01 總覽" [ref=e10] [cursor=pointer]:
+          - generic [ref=e11]: "01"
+          - text: 總覽
+        - tab "02 則例" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: "02"
+          - text: 則例
+        - tab "03 收費" [ref=e14] [cursor=pointer]:
+          - generic [ref=e15]: "03"
+          - text: 收費
+        - tab "04 地方" [selected] [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: "04"
+          - text: 地方
+        - tab "05 路線" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: "05"
+          - text: 路線
+        - tab "06 道路守則" [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: "06"
+          - text: 道路守則
+        - tab "07 測驗" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: "07"
+          - text: 測驗
+        - tab "08 模擬試" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]: "08"
+          - text: 模擬試
+        - tab "09 龍虎榜" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]: "09"
+          - text: 龍虎榜
+  - main [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]: "04"
+      - heading "地方位置・目錄" [level=2] [ref=e32]
+    - paragraph [ref=e33]: 共 230 個考試題目，按類別瀏覽或直接輸入地方／街道名搜尋。 點擊名稱或位置可於 Google Maps 開啟搜尋。
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - searchbox "搜尋地方名或位置…" [ref=e36]
+        - generic [ref=e37]:
+          - button "全部230" [ref=e38] [cursor=pointer]
+          - button "醫院50" [ref=e39] [cursor=pointer]
+          - button "旅遊景點35" [ref=e40] [cursor=pointer]
+          - button "酒店44" [ref=e41] [cursor=pointer]
+          - button "政府樓宇46" [ref=e42] [cursor=pointer]
+          - button "商業大廈14" [ref=e43] [cursor=pointer]
+          - button "購物商場12" [ref=e44] [cursor=pointer]
+          - button "住宅樓宇17" [ref=e45] [cursor=pointer]
+          - button "大專院校12" [ref=e46] [cursor=pointer]
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]: "001"
+          - link "在 Google Maps 搜尋 瑪麗醫院（薄扶林）" [ref=e50] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%91%AA%E9%BA%97%E9%86%AB%E9%99%A2%20%E8%96%84%E6%89%B6%E6%9E%97%20%E9%A6%99%E6%B8%AF
+            - text: 瑪麗醫院
+          - link "在 Google Maps 搜尋區域：薄扶林" [ref=e51] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%96%84%E6%89%B6%E6%9E%97%20%E9%A6%99%E6%B8%AF
+            - text: 薄扶林
+          - generic [ref=e52]: 醫院
+        - generic [ref=e53]:
+          - generic [ref=e54]: "002"
+          - link "在 Google Maps 搜尋 威爾斯親王醫院（沙田）" [ref=e55] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A8%81%E7%88%BE%E6%96%AF%E8%A6%AA%E7%8E%8B%E9%86%AB%E9%99%A2%20%E6%B2%99%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 威爾斯親王醫院
+          - link "在 Google Maps 搜尋區域：沙田" [ref=e56] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 沙田
+          - generic [ref=e57]: 醫院
+        - generic [ref=e58]:
+          - generic [ref=e59]: "003"
+          - link "在 Google Maps 搜尋 贊育醫院（西營盤）" [ref=e60] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%B4%8A%E8%82%B2%E9%86%AB%E9%99%A2%20%E8%A5%BF%E7%87%9F%E7%9B%A4%20%E9%A6%99%E6%B8%AF
+            - text: 贊育醫院
+          - link "在 Google Maps 搜尋區域：西營盤" [ref=e61] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E7%87%9F%E7%9B%A4%20%E9%A6%99%E6%B8%AF
+            - text: 西營盤
+          - generic [ref=e62]: 醫院
+        - generic [ref=e63]:
+          - generic [ref=e64]: "004"
+          - link "在 Google Maps 搜尋 東華醫院（上環）" [ref=e65] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E8%8F%AF%E9%86%AB%E9%99%A2%20%E4%B8%8A%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 東華醫院
+          - link "在 Google Maps 搜尋區域：上環" [ref=e66] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 上環
+          - generic [ref=e67]: 醫院
+        - generic [ref=e68]:
+          - generic [ref=e69]: "005"
+          - link "在 Google Maps 搜尋 東華三院馮堯敬醫院（薄扶林）" [ref=e70] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E8%8F%AF%E4%B8%89%E9%99%A2%E9%A6%AE%E5%A0%AF%E6%95%AC%E9%86%AB%E9%99%A2%20%E8%96%84%E6%89%B6%E6%9E%97%20%E9%A6%99%E6%B8%AF
+            - text: 東華三院馮堯敬醫院
+          - link "在 Google Maps 搜尋區域：薄扶林" [ref=e71] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%96%84%E6%89%B6%E6%9E%97%20%E9%A6%99%E6%B8%AF
+            - text: 薄扶林
+          - generic [ref=e72]: 醫院
+        - generic [ref=e73]:
+          - generic [ref=e74]: "006"
+          - link "在 Google Maps 搜尋 葛量洪醫院（黃竹坑）" [ref=e75] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%91%9B%E9%87%8F%E6%B4%AA%E9%86%AB%E9%99%A2%20%E9%BB%83%E7%AB%B9%E5%9D%91%20%E9%A6%99%E6%B8%AF
+            - text: 葛量洪醫院
+          - link "在 Google Maps 搜尋區域：黃竹坑" [ref=e76] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%BB%83%E7%AB%B9%E5%9D%91%20%E9%A6%99%E6%B8%AF
+            - text: 黃竹坑
+          - generic [ref=e77]: 醫院
+        - generic [ref=e78]:
+          - generic [ref=e79]: "007"
+          - link "在 Google Maps 搜尋 東區尤德夫人那打素醫院（柴灣）" [ref=e80] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E5%8D%80%E5%B0%A4%E5%BE%B7%E5%A4%AB%E4%BA%BA%E9%82%A3%E6%89%93%E7%B4%A0%E9%86%AB%E9%99%A2%20%E6%9F%B4%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 東區尤德夫人那打素醫院
+          - link "在 Google Maps 搜尋區域：柴灣" [ref=e81] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9F%B4%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 柴灣
+          - generic [ref=e82]: 醫院
+        - generic [ref=e83]:
+          - generic [ref=e84]: "008"
+          - link "在 Google Maps 搜尋 東華東院（大坑）" [ref=e85] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E8%8F%AF%E6%9D%B1%E9%99%A2%20%E5%A4%A7%E5%9D%91%20%E9%A6%99%E6%B8%AF
+            - text: 東華東院
+          - link "在 Google Maps 搜尋區域：大坑" [ref=e86] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%9D%91%20%E9%A6%99%E6%B8%AF
+            - text: 大坑
+          - generic [ref=e87]: 醫院
+        - generic [ref=e88]:
+          - generic [ref=e89]: "009"
+          - link "在 Google Maps 搜尋 鄧肇堅醫院（灣仔）" [ref=e90] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%84%A7%E8%82%87%E5%A0%85%E9%86%AB%E9%99%A2%20%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 鄧肇堅醫院
+          - link "在 Google Maps 搜尋區域：灣仔" [ref=e91] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 灣仔
+          - generic [ref=e92]: 醫院
+        - generic [ref=e93]:
+          - generic [ref=e94]: "010"
+          - link "在 Google Maps 搜尋 律敦治醫院（灣仔）" [ref=e95] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%BE%8B%E6%95%A6%E6%B2%BB%E9%86%AB%E9%99%A2%20%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 律敦治醫院
+          - link "在 Google Maps 搜尋區域：灣仔" [ref=e96] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 灣仔
+          - generic [ref=e97]: 醫院
+        - generic [ref=e98]:
+          - generic [ref=e99]: "011"
+          - link "在 Google Maps 搜尋 黃竹坑醫院（黃竹坑徑）" [ref=e100] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%BB%83%E7%AB%B9%E5%9D%91%E9%86%AB%E9%99%A2%20%E9%BB%83%E7%AB%B9%E5%9D%91%E5%BE%91%20%E9%A6%99%E6%B8%AF
+            - text: 黃竹坑醫院
+          - link "在 Google Maps 搜尋區域：黃竹坑徑" [ref=e101] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%BB%83%E7%AB%B9%E5%9D%91%E5%BE%91%20%E9%A6%99%E6%B8%AF
+            - text: 黃竹坑徑
+          - generic [ref=e102]: 醫院
+        - generic [ref=e103]:
+          - generic [ref=e104]: "012"
+          - link "在 Google Maps 搜尋 伊利沙伯醫院（油麻地）" [ref=e105] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E5%88%A9%E6%B2%99%E4%BC%AF%E9%86%AB%E9%99%A2%20%E6%B2%B9%E9%BA%BB%E5%9C%B0%20%E9%A6%99%E6%B8%AF
+            - text: 伊利沙伯醫院
+          - link "在 Google Maps 搜尋區域：油麻地" [ref=e106] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%B9%E9%BA%BB%E5%9C%B0%20%E9%A6%99%E6%B8%AF
+            - text: 油麻地
+          - generic [ref=e107]: 醫院
+        - generic [ref=e108]:
+          - generic [ref=e109]: "013"
+          - link "在 Google Maps 搜尋 九龍醫院（九龍城）" [ref=e110] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E9%86%AB%E9%99%A2%20%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 九龍醫院
+          - link "在 Google Maps 搜尋區域：九龍城" [ref=e111] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 九龍城
+          - generic [ref=e112]: 醫院
+        - generic [ref=e113]:
+          - generic [ref=e114]: "014"
+          - link "在 Google Maps 搜尋 香港佛教醫院（樂富）" [ref=e115] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E4%BD%9B%E6%95%99%E9%86%AB%E9%99%A2%20%E6%A8%82%E5%AF%8C%20%E9%A6%99%E6%B8%AF
+            - text: 香港佛教醫院
+          - link "在 Google Maps 搜尋區域：樂富" [ref=e116] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%A8%82%E5%AF%8C%20%E9%A6%99%E6%B8%AF
+            - text: 樂富
+          - generic [ref=e117]: 醫院
+        - generic [ref=e118]:
+          - generic [ref=e119]: "015"
+          - link "在 Google Maps 搜尋 香港眼科醫院（九龍城）" [ref=e120] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E7%9C%BC%E7%A7%91%E9%86%AB%E9%99%A2%20%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 香港眼科醫院
+          - link "在 Google Maps 搜尋區域：九龍城" [ref=e121] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 九龍城
+          - generic [ref=e122]: 醫院
+        - generic [ref=e123]:
+          - generic [ref=e124]: "016"
+          - link "在 Google Maps 搜尋 東華三院黃大仙醫院（沙田坳道）" [ref=e125] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E8%8F%AF%E4%B8%89%E9%99%A2%E9%BB%83%E5%A4%A7%E4%BB%99%E9%86%AB%E9%99%A2%20%E6%B2%99%E7%94%B0%E5%9D%B3%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 東華三院黃大仙醫院
+          - link "在 Google Maps 搜尋區域：沙田坳道" [ref=e126] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%E5%9D%B3%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 沙田坳道
+          - generic [ref=e127]: 醫院
+        - generic [ref=e128]:
+          - generic [ref=e129]: "017"
+          - link "在 Google Maps 搜尋 聖母醫院（黃大仙）" [ref=e130] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%81%96%E6%AF%8D%E9%86%AB%E9%99%A2%20%E9%BB%83%E5%A4%A7%E4%BB%99%20%E9%A6%99%E6%B8%AF
+            - text: 聖母醫院
+          - link "在 Google Maps 搜尋區域：黃大仙" [ref=e131] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%BB%83%E5%A4%A7%E4%BB%99%20%E9%A6%99%E6%B8%AF
+            - text: 黃大仙
+          - generic [ref=e132]: 醫院
+        - generic [ref=e133]:
+          - generic [ref=e134]: "018"
+          - link "在 Google Maps 搜尋 廣華醫院（油麻地）" [ref=e135] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%BB%A3%E8%8F%AF%E9%86%AB%E9%99%A2%20%E6%B2%B9%E9%BA%BB%E5%9C%B0%20%E9%A6%99%E6%B8%AF
+            - text: 廣華醫院
+          - link "在 Google Maps 搜尋區域：油麻地" [ref=e136] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%B9%E9%BA%BB%E5%9C%B0%20%E9%A6%99%E6%B8%AF
+            - text: 油麻地
+          - generic [ref=e137]: 醫院
+        - generic [ref=e138]:
+          - generic [ref=e139]: "019"
+          - link "在 Google Maps 搜尋 明愛醫院（長沙灣）" [ref=e140] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E6%84%9B%E9%86%AB%E9%99%A2%20%E9%95%B7%E6%B2%99%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 明愛醫院
+          - link "在 Google Maps 搜尋區域：長沙灣" [ref=e141] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E6%B2%99%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 長沙灣
+          - generic [ref=e142]: 醫院
+        - generic [ref=e143]:
+          - generic [ref=e144]: "020"
+          - link "在 Google Maps 搜尋 瑪嘉烈醫院（荔景）" [ref=e145] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%91%AA%E5%98%89%E7%83%88%E9%86%AB%E9%99%A2%20%E8%8D%94%E6%99%AF%20%E9%A6%99%E6%B8%AF
+            - text: 瑪嘉烈醫院
+          - link "在 Google Maps 搜尋區域：荔景" [ref=e146] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%94%E6%99%AF%20%E9%A6%99%E6%B8%AF
+            - text: 荔景
+          - generic [ref=e147]: 醫院
+        - generic [ref=e148]:
+          - generic [ref=e149]: "021"
+          - link "在 Google Maps 搜尋 葵涌醫院（荔景）" [ref=e150] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%91%B5%E6%B6%8C%E9%86%AB%E9%99%A2%20%E8%8D%94%E6%99%AF%20%E9%A6%99%E6%B8%AF
+            - text: 葵涌醫院
+          - link "在 Google Maps 搜尋區域：荔景" [ref=e151] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%94%E6%99%AF%20%E9%A6%99%E6%B8%AF
+            - text: 荔景
+          - generic [ref=e152]: 醫院
+        - generic [ref=e153]:
+          - generic [ref=e154]: "022"
+          - link "在 Google Maps 搜尋 仁濟醫院（荃灣）" [ref=e155] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%BB%81%E6%BF%9F%E9%86%AB%E9%99%A2%20%E8%8D%83%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 仁濟醫院
+          - link "在 Google Maps 搜尋區域：荃灣" [ref=e156] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%83%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 荃灣
+          - generic [ref=e157]: 醫院
+        - generic [ref=e158]:
+          - generic [ref=e159]: "023"
+          - link "在 Google Maps 搜尋 基督教聯合醫院（秀茂坪）" [ref=e160] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%9F%BA%E7%9D%A3%E6%95%99%E8%81%AF%E5%90%88%E9%86%AB%E9%99%A2%20%E7%A7%80%E8%8C%82%E5%9D%AA%20%E9%A6%99%E6%B8%AF
+            - text: 基督教聯合醫院
+          - link "在 Google Maps 搜尋區域：秀茂坪" [ref=e161] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%A7%80%E8%8C%82%E5%9D%AA%20%E9%A6%99%E6%B8%AF
+            - text: 秀茂坪
+          - generic [ref=e162]: 醫院
+        - generic [ref=e163]:
+          - generic [ref=e164]: "024"
+          - link "在 Google Maps 搜尋 靈實醫院（將軍澳）" [ref=e165] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%9D%88%E5%AF%A6%E9%86%AB%E9%99%A2%20%E5%B0%87%E8%BB%8D%E6%BE%B3%20%E9%A6%99%E6%B8%AF
+            - text: 靈實醫院
+          - link "在 Google Maps 搜尋區域：將軍澳" [ref=e166] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%87%E8%BB%8D%E6%BE%B3%20%E9%A6%99%E6%B8%AF
+            - text: 將軍澳
+          - generic [ref=e167]: 醫院
+        - generic [ref=e168]:
+          - generic [ref=e169]: "025"
+          - link "在 Google Maps 搜尋 將軍澳醫院（寶寧里）" [ref=e170] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%87%E8%BB%8D%E6%BE%B3%E9%86%AB%E9%99%A2%20%E5%AF%B6%E5%AF%A7%E9%87%8C%20%E9%A6%99%E6%B8%AF
+            - text: 將軍澳醫院
+          - link "在 Google Maps 搜尋區域：寶寧里" [ref=e171] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%AF%B6%E5%AF%A7%E9%87%8C%20%E9%A6%99%E6%B8%AF
+            - text: 寶寧里
+          - generic [ref=e172]: 醫院
+        - generic [ref=e173]:
+          - generic [ref=e174]: "026"
+          - link "在 Google Maps 搜尋 沙田醫院（亞公角街）" [ref=e175] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%E9%86%AB%E9%99%A2%20%E4%BA%9E%E5%85%AC%E8%A7%92%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 沙田醫院
+          - link "在 Google Maps 搜尋區域：亞公角街" [ref=e176] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%BA%9E%E5%85%AC%E8%A7%92%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 亞公角街
+          - generic [ref=e177]: 醫院
+        - generic [ref=e178]:
+          - generic [ref=e179]: "027"
+          - link "在 Google Maps 搜尋 雅麗氏何妙齡那打素醫院（大埔）" [ref=e180] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%9B%85%E9%BA%97%E6%B0%8F%E4%BD%95%E5%A6%99%E9%BD%A1%E9%82%A3%E6%89%93%E7%B4%A0%E9%86%AB%E9%99%A2%20%E5%A4%A7%E5%9F%94%20%E9%A6%99%E6%B8%AF
+            - text: 雅麗氏何妙齡那打素醫院
+          - link "在 Google Maps 搜尋區域：大埔" [ref=e181] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%9F%94%20%E9%A6%99%E6%B8%AF
+            - text: 大埔
+          - generic [ref=e182]: 醫院
+        - generic [ref=e183]:
+          - generic [ref=e184]: "028"
+          - link "在 Google Maps 搜尋 大埔醫院（全安路）" [ref=e185] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%9F%94%E9%86%AB%E9%99%A2%20%E5%85%A8%E5%AE%89%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 大埔醫院
+          - link "在 Google Maps 搜尋區域：全安路" [ref=e186] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%85%A8%E5%AE%89%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 全安路
+          - generic [ref=e187]: 醫院
+        - generic [ref=e188]:
+          - generic [ref=e189]: "029"
+          - link "在 Google Maps 搜尋 北區醫院（上水）" [ref=e190] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E5%8D%80%E9%86%AB%E9%99%A2%20%E4%B8%8A%E6%B0%B4%20%E9%A6%99%E6%B8%AF
+            - text: 北區醫院
+          - link "在 Google Maps 搜尋區域：上水" [ref=e191] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E6%B0%B4%20%E9%A6%99%E6%B8%AF
+            - text: 上水
+          - generic [ref=e192]: 醫院
+        - generic [ref=e193]:
+          - generic [ref=e194]: "030"
+          - link "在 Google Maps 搜尋 屯門醫院（青松觀路）" [ref=e195] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B1%AF%E9%96%80%E9%86%AB%E9%99%A2%20%E9%9D%92%E6%9D%BE%E8%A7%80%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 屯門醫院
+          - link "在 Google Maps 搜尋區域：青松觀路" [ref=e196] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E6%9D%BE%E8%A7%80%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 青松觀路
+          - generic [ref=e197]: 醫院
+        - generic [ref=e198]:
+          - generic [ref=e199]: "031"
+          - link "在 Google Maps 搜尋 博愛醫院（元朗）" [ref=e200] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E6%84%9B%E9%86%AB%E9%99%A2%20%E5%85%83%E6%9C%97%20%E9%A6%99%E6%B8%AF
+            - text: 博愛醫院
+          - link "在 Google Maps 搜尋區域：元朗" [ref=e201] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%85%83%E6%9C%97%20%E9%A6%99%E6%B8%AF
+            - text: 元朗
+          - generic [ref=e202]: 醫院
+        - generic [ref=e203]:
+          - generic [ref=e204]: "032"
+          - link "在 Google Maps 搜尋 嘉諾撒醫院（半山）" [ref=e205] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%98%89%E8%AB%BE%E6%92%92%E9%86%AB%E9%99%A2%20%E5%8D%8A%E5%B1%B1%20%E9%A6%99%E6%B8%AF
+            - text: 嘉諾撒醫院
+          - link "在 Google Maps 搜尋區域：半山" [ref=e206] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8D%8A%E5%B1%B1%20%E9%A6%99%E6%B8%AF
+            - text: 半山
+          - generic [ref=e207]: 醫院
+        - generic [ref=e208]:
+          - generic [ref=e209]: "033"
+          - link "在 Google Maps 搜尋 明德國際醫院（山頂）" [ref=e210] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E5%BE%B7%E5%9C%8B%E9%9A%9B%E9%86%AB%E9%99%A2%20%E5%B1%B1%E9%A0%82%20%E9%A6%99%E6%B8%AF
+            - text: 明德國際醫院
+          - link "在 Google Maps 搜尋區域：山頂" [ref=e211] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E9%A0%82%20%E9%A6%99%E6%B8%AF
+            - text: 山頂
+          - generic [ref=e212]: 醫院
+        - generic [ref=e213]:
+          - generic [ref=e214]: "034"
+          - link "在 Google Maps 搜尋 香港港安醫院（跑馬地）" [ref=e215] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%B8%AF%E5%AE%89%E9%86%AB%E9%99%A2%20%E8%B7%91%E9%A6%AC%E5%9C%B0%20%E9%A6%99%E6%B8%AF
+            - text: 香港港安醫院
+          - link "在 Google Maps 搜尋區域：跑馬地" [ref=e216] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%B7%91%E9%A6%AC%E5%9C%B0%20%E9%A6%99%E6%B8%AF
+            - text: 跑馬地
+          - generic [ref=e217]: 醫院
+        - generic [ref=e218]:
+          - generic [ref=e219]: "035"
+          - link "在 Google Maps 搜尋 聖保祿醫院（東院道）" [ref=e220] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%81%96%E4%BF%9D%E7%A5%BF%E9%86%AB%E9%99%A2%20%E6%9D%B1%E9%99%A2%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 聖保祿醫院
+          - link "在 Google Maps 搜尋區域：東院道" [ref=e221] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E9%99%A2%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 東院道
+          - generic [ref=e222]: 醫院
+        - generic [ref=e223]:
+          - generic [ref=e224]: "036"
+          - link "在 Google Maps 搜尋 養和醫院（跑馬地）" [ref=e225] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A4%8A%E5%92%8C%E9%86%AB%E9%99%A2%20%E8%B7%91%E9%A6%AC%E5%9C%B0%20%E9%A6%99%E6%B8%AF
+            - text: 養和醫院
+          - link "在 Google Maps 搜尋區域：跑馬地" [ref=e226] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%B7%91%E9%A6%AC%E5%9C%B0%20%E9%A6%99%E6%B8%AF
+            - text: 跑馬地
+          - generic [ref=e227]: 醫院
+        - generic [ref=e228]:
+          - generic [ref=e229]: "037"
+          - link "在 Google Maps 搜尋 寶血醫院（明愛）（深水埗）" [ref=e230] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%AF%B6%E8%A1%80%E9%86%AB%E9%99%A2%EF%BC%88%E6%98%8E%E6%84%9B%EF%BC%89%20%E6%B7%B1%E6%B0%B4%E5%9F%97%20%E9%A6%99%E6%B8%AF
+            - text: 寶血醫院（明愛）
+          - link "在 Google Maps 搜尋區域：深水埗" [ref=e231] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B7%B1%E6%B0%B4%E5%9F%97%20%E9%A6%99%E6%B8%AF
+            - text: 深水埗
+          - generic [ref=e232]: 醫院
+        - generic [ref=e233]:
+          - generic [ref=e234]: "038"
+          - link "在 Google Maps 搜尋 播道醫院（九龍城）" [ref=e235] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%92%AD%E9%81%93%E9%86%AB%E9%99%A2%20%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 播道醫院
+          - link "在 Google Maps 搜尋區域：九龍城" [ref=e236] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 九龍城
+          - generic [ref=e237]: 醫院
+        - generic [ref=e238]:
+          - generic [ref=e239]: "039"
+          - link "在 Google Maps 搜尋 聖德肋撒醫院（九龍城）" [ref=e240] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%81%96%E5%BE%B7%E8%82%8B%E6%92%92%E9%86%AB%E9%99%A2%20%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 聖德肋撒醫院
+          - link "在 Google Maps 搜尋區域：九龍城" [ref=e241] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 九龍城
+          - generic [ref=e242]: 醫院
+        - generic [ref=e243]:
+          - generic [ref=e244]: "040"
+          - link "在 Google Maps 搜尋 香港浸信會醫院（九龍塘）" [ref=e245] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%B5%B8%E4%BF%A1%E6%9C%83%E9%86%AB%E9%99%A2%20%E4%B9%9D%E9%BE%8D%E5%A1%98%20%E9%A6%99%E6%B8%AF
+            - text: 香港浸信會醫院
+          - link "在 Google Maps 搜尋區域：九龍塘" [ref=e246] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%A1%98%20%E9%A6%99%E6%B8%AF
+            - text: 九龍塘
+          - generic [ref=e247]: 醫院
+        - generic [ref=e248]:
+          - generic [ref=e249]: "041"
+          - link "在 Google Maps 搜尋 荃灣港安醫院（荃景圍）" [ref=e250] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%83%E7%81%A3%E6%B8%AF%E5%AE%89%E9%86%AB%E9%99%A2%20%E8%8D%83%E6%99%AF%E5%9C%8D%20%E9%A6%99%E6%B8%AF
+            - text: 荃灣港安醫院
+          - link "在 Google Maps 搜尋區域：荃景圍" [ref=e251] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%83%E6%99%AF%E5%9C%8D%20%E9%A6%99%E6%B8%AF
+            - text: 荃景圍
+          - generic [ref=e252]: 醫院
+        - generic [ref=e253]:
+          - generic [ref=e254]: "042"
+          - link "在 Google Maps 搜尋 沙田國際醫務中心仁安醫院（富健街）" [ref=e255] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%E5%9C%8B%E9%9A%9B%E9%86%AB%E5%8B%99%E4%B8%AD%E5%BF%83%E4%BB%81%E5%AE%89%E9%86%AB%E9%99%A2%20%E5%AF%8C%E5%81%A5%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 沙田國際醫務中心仁安醫院
+          - link "在 Google Maps 搜尋區域：富健街" [ref=e256] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E5%81%A5%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 富健街
+          - generic [ref=e257]: 醫院
+        - generic [ref=e258]:
+          - generic [ref=e259]: "043"
+          - link "在 Google Maps 搜尋 青山醫院（屯門）" [ref=e260] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E5%B1%B1%E9%86%AB%E9%99%A2%20%E5%B1%AF%E9%96%80%20%E9%A6%99%E6%B8%AF
+            - text: 青山醫院
+          - link "在 Google Maps 搜尋區域：屯門" [ref=e261] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B1%AF%E9%96%80%20%E9%A6%99%E6%B8%AF
+            - text: 屯門
+          - generic [ref=e262]: 醫院
+        - generic [ref=e263]:
+          - generic [ref=e264]: "044"
+          - link "在 Google Maps 搜尋 小欖醫院（青松觀路）" [ref=e265] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%AC%96%E9%86%AB%E9%99%A2%20%E9%9D%92%E6%9D%BE%E8%A7%80%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 小欖醫院
+          - link "在 Google Maps 搜尋區域：青松觀路" [ref=e266] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E6%9D%BE%E8%A7%80%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 青松觀路
+          - generic [ref=e267]: 醫院
+        - generic [ref=e268]:
+          - generic [ref=e269]: "045"
+          - link "在 Google Maps 搜尋 大口環根德公爵夫人兒童醫院（薄扶林）" [ref=e270] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%8F%A3%E7%92%B0%E6%A0%B9%E5%BE%B7%E5%85%AC%E7%88%B5%E5%A4%AB%E4%BA%BA%E5%85%92%E7%AB%A5%E9%86%AB%E9%99%A2%20%E8%96%84%E6%89%B6%E6%9E%97%20%E9%A6%99%E6%B8%AF
+            - text: 大口環根德公爵夫人兒童醫院
+          - link "在 Google Maps 搜尋區域：薄扶林" [ref=e271] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%96%84%E6%89%B6%E6%9E%97%20%E9%A6%99%E6%B8%AF
+            - text: 薄扶林
+          - generic [ref=e272]: 醫院
+        - generic [ref=e273]:
+          - generic [ref=e274]: "046"
+          - link "在 Google Maps 搜尋 北大嶼山醫院（松仁路）" [ref=e275] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E5%A4%A7%E5%B6%BC%E5%B1%B1%E9%86%AB%E9%99%A2%20%E6%9D%BE%E4%BB%81%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 北大嶼山醫院
+          - link "在 Google Maps 搜尋區域：松仁路" [ref=e276] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E4%BB%81%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 松仁路
+          - generic [ref=e277]: 醫院
+        - generic [ref=e278]:
+          - generic [ref=e279]: "047"
+          - link "在 Google Maps 搜尋 天水圍醫院（天壇街）" [ref=e280] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%B0%B4%E5%9C%8D%E9%86%AB%E9%99%A2%20%E5%A4%A9%E5%A3%87%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 天水圍醫院
+          - link "在 Google Maps 搜尋區域：天壇街" [ref=e281] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E5%A3%87%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 天壇街
+          - generic [ref=e282]: 醫院
+        - generic [ref=e283]:
+          - generic [ref=e284]: "048"
+          - link "在 Google Maps 搜尋 港怡醫院（黃竹坑）" [ref=e285] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B8%AF%E6%80%A1%E9%86%AB%E9%99%A2%20%E9%BB%83%E7%AB%B9%E5%9D%91%20%E9%A6%99%E6%B8%AF
+            - text: 港怡醫院
+          - link "在 Google Maps 搜尋區域：黃竹坑" [ref=e286] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%BB%83%E7%AB%B9%E5%9D%91%20%E9%A6%99%E6%B8%AF
+            - text: 黃竹坑
+          - generic [ref=e287]: 醫院
+        - generic [ref=e288]:
+          - generic [ref=e289]: "049"
+          - link "在 Google Maps 搜尋 香港兒童醫院（九龍灣）" [ref=e290] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E5%85%92%E7%AB%A5%E9%86%AB%E9%99%A2%20%E4%B9%9D%E9%BE%8D%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 香港兒童醫院
+          - link "在 Google Maps 搜尋區域：九龍灣" [ref=e291] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 九龍灣
+          - generic [ref=e292]: 醫院
+        - generic [ref=e293]:
+          - generic [ref=e294]: "050"
+          - link "在 Google Maps 搜尋 香港中文大學醫院（澤祥街）" [ref=e295] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E4%B8%AD%E6%96%87%E5%A4%A7%E5%AD%B8%E9%86%AB%E9%99%A2%20%E6%BE%A4%E7%A5%A5%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 香港中文大學醫院
+          - link "在 Google Maps 搜尋區域：澤祥街" [ref=e296] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%BE%A4%E7%A5%A5%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 澤祥街
+          - generic [ref=e297]: 醫院
+        - generic [ref=e298]:
+          - generic [ref=e299]: "051"
+          - link "在 Google Maps 搜尋 星光大道（尖沙咀）" [ref=e300] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%98%9F%E5%85%89%E5%A4%A7%E9%81%93%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 星光大道
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e301] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e302]: 旅遊景點
+        - generic [ref=e303]:
+          - generic [ref=e304]: "052"
+          - link "在 Google Maps 搜尋 金紫荊廣場（灣仔）" [ref=e305] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%87%91%E7%B4%AB%E8%8D%8A%E5%BB%A3%E5%A0%B4%20%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 金紫荊廣場
+          - link "在 Google Maps 搜尋區域：灣仔" [ref=e306] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 灣仔
+          - generic [ref=e307]: 旅遊景點
+        - generic [ref=e308]:
+          - generic [ref=e309]: "053"
+          - link "在 Google Maps 搜尋 香港迪士尼樂園（竹篙灣）" [ref=e310] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E8%BF%AA%E5%A3%AB%E5%B0%BC%E6%A8%82%E5%9C%92%20%E7%AB%B9%E7%AF%99%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 香港迪士尼樂園
+          - link "在 Google Maps 搜尋區域：竹篙灣" [ref=e311] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%AB%B9%E7%AF%99%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 竹篙灣
+          - generic [ref=e312]: 旅遊景點
+        - generic [ref=e313]:
+          - generic [ref=e314]: "054"
+          - link "在 Google Maps 搜尋 香港濕地公園（天水圍）" [ref=e315] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%BF%95%E5%9C%B0%E5%85%AC%E5%9C%92%20%E5%A4%A9%E6%B0%B4%E5%9C%8D%20%E9%A6%99%E6%B8%AF
+            - text: 香港濕地公園
+          - link "在 Google Maps 搜尋區域：天水圍" [ref=e316] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%B0%B4%E5%9C%8D%20%E9%A6%99%E6%B8%AF
+            - text: 天水圍
+          - generic [ref=e317]: 旅遊景點
+        - generic [ref=e318]:
+          - generic [ref=e319]: "055"
+          - link "在 Google Maps 搜尋 玉器市場（油麻地）" [ref=e320] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%8E%89%E5%99%A8%E5%B8%82%E5%A0%B4%20%E6%B2%B9%E9%BA%BB%E5%9C%B0%20%E9%A6%99%E6%B8%AF
+            - text: 玉器市場
+          - link "在 Google Maps 搜尋區域：油麻地" [ref=e321] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%B9%E9%BA%BB%E5%9C%B0%20%E9%A6%99%E6%B8%AF
+            - text: 油麻地
+          - generic [ref=e322]: 旅遊景點
+        - generic [ref=e323]:
+          - generic [ref=e324]: "056"
+          - link "在 Google Maps 搜尋 九龍寨城公園（九龍城）" [ref=e325] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%AF%A8%E5%9F%8E%E5%85%AC%E5%9C%92%20%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 九龍寨城公園
+          - link "在 Google Maps 搜尋區域：九龍城" [ref=e326] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 九龍城
+          - generic [ref=e327]: 旅遊景點
+        - generic [ref=e328]:
+          - generic [ref=e329]: "057"
+          - link "在 Google Maps 搜尋 昂坪纜車 - 東涌纜車站（達東路）" [ref=e330] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%98%82%E5%9D%AA%E7%BA%9C%E8%BB%8A%20-%20%E6%9D%B1%E6%B6%8C%E7%BA%9C%E8%BB%8A%E7%AB%99%20%E9%81%94%E6%9D%B1%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 昂坪纜車 - 東涌纜車站
+          - link "在 Google Maps 搜尋區域：達東路" [ref=e331] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%81%94%E6%9D%B1%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 達東路
+          - generic [ref=e332]: 旅遊景點
+        - generic [ref=e333]:
+          - generic [ref=e334]: "058"
+          - link "在 Google Maps 搜尋 香港海洋公園（黃竹坑）" [ref=e335] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%B5%B7%E6%B4%8B%E5%85%AC%E5%9C%92%20%E9%BB%83%E7%AB%B9%E5%9D%91%20%E9%A6%99%E6%B8%AF
+            - text: 香港海洋公園
+          - link "在 Google Maps 搜尋區域：黃竹坑" [ref=e336] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%BB%83%E7%AB%B9%E5%9D%91%20%E9%A6%99%E6%B8%AF
+            - text: 黃竹坑
+          - generic [ref=e337]: 旅遊景點
+        - generic [ref=e338]:
+          - generic [ref=e339]: "059"
+          - link "在 Google Maps 搜尋 寶蓮禪寺（昂坪）" [ref=e340] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%AF%B6%E8%93%AE%E7%A6%AA%E5%AF%BA%20%E6%98%82%E5%9D%AA%20%E9%A6%99%E6%B8%AF
+            - text: 寶蓮禪寺
+          - link "在 Google Maps 搜尋區域：昂坪" [ref=e341] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%98%82%E5%9D%AA%20%E9%A6%99%E6%B8%AF
+            - text: 昂坪
+          - generic [ref=e342]: 旅遊景點
+        - generic [ref=e343]:
+          - generic [ref=e344]: "060"
+          - link "在 Google Maps 搜尋 凌霄閣（山頂道）" [ref=e345] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%87%8C%E9%9C%84%E9%96%A3%20%E5%B1%B1%E9%A0%82%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 凌霄閣
+          - link "在 Google Maps 搜尋區域：山頂道" [ref=e346] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B1%B1%E9%A0%82%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 山頂道
+          - generic [ref=e347]: 旅遊景點
+        - generic [ref=e348]:
+          - generic [ref=e349]: "061"
+          - link "在 Google Maps 搜尋 亞洲國際博覽館（赤鱲角）" [ref=e350] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%BA%9E%E6%B4%B2%E5%9C%8B%E9%9A%9B%E5%8D%9A%E8%A6%BD%E9%A4%A8%20%E8%B5%A4%E9%B1%B2%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 亞洲國際博覽館
+          - link "在 Google Maps 搜尋區域：赤鱲角" [ref=e351] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E9%B1%B2%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 赤鱲角
+          - generic [ref=e352]: 旅遊景點
+        - generic [ref=e353]:
+          - generic [ref=e354]: "062"
+          - link "在 Google Maps 搜尋 屏山文物徑（元朗）" [ref=e355] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B1%8F%E5%B1%B1%E6%96%87%E7%89%A9%E5%BE%91%20%E5%85%83%E6%9C%97%20%E9%A6%99%E6%B8%AF
+            - text: 屏山文物徑
+          - link "在 Google Maps 搜尋區域：元朗" [ref=e356] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%85%83%E6%9C%97%20%E9%A6%99%E6%B8%AF
+            - text: 元朗
+          - generic [ref=e357]: 旅遊景點
+        - generic [ref=e358]:
+          - generic [ref=e359]: "063"
+          - link "在 Google Maps 搜尋 香港會議展覽中心（灣仔）" [ref=e360] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%9C%83%E8%AD%B0%E5%B1%95%E8%A6%BD%E4%B8%AD%E5%BF%83%20%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 香港會議展覽中心
+          - link "在 Google Maps 搜尋區域：灣仔" [ref=e361] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 灣仔
+          - generic [ref=e362]: 旅遊景點
+        - generic [ref=e363]:
+          - generic [ref=e364]: "064"
+          - link "在 Google Maps 搜尋 香港文化博物館（沙田）" [ref=e365] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%96%87%E5%8C%96%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E6%B2%99%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 香港文化博物館
+          - link "在 Google Maps 搜尋區域：沙田" [ref=e366] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 沙田
+          - generic [ref=e367]: 旅遊景點
+        - generic [ref=e368]:
+          - generic [ref=e369]: "065"
+          - link "在 Google Maps 搜尋 香港歷史博物館（尖沙咀）" [ref=e370] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%AD%B7%E5%8F%B2%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 香港歷史博物館
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e371] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e372]: 旅遊景點
+        - generic [ref=e373]:
+          - generic [ref=e374]: "066"
+          - link "在 Google Maps 搜尋 香港科學館（尖沙咀）" [ref=e375] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E7%A7%91%E5%AD%B8%E9%A4%A8%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 香港科學館
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e376] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e377]: 旅遊景點
+        - generic [ref=e378]:
+          - generic [ref=e379]: "067"
+          - link "在 Google Maps 搜尋 香港太空館（尖沙咀）" [ref=e380] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E5%A4%AA%E7%A9%BA%E9%A4%A8%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 香港太空館
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e381] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e382]: 旅遊景點
+        - generic [ref=e383]:
+          - generic [ref=e384]: "068"
+          - link "在 Google Maps 搜尋 香港大會堂（中環）" [ref=e385] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E5%A4%A7%E6%9C%83%E5%A0%82%20%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 香港大會堂
+          - link "在 Google Maps 搜尋區域：中環" [ref=e386] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 中環
+          - generic [ref=e387]: 旅遊景點
+        - generic [ref=e388]:
+          - generic [ref=e389]: "069"
+          - link "在 Google Maps 搜尋 香港體育館（紅磡）" [ref=e390] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E9%AB%94%E8%82%B2%E9%A4%A8%20%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 香港體育館
+          - link "在 Google Maps 搜尋區域：紅磡" [ref=e391] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 紅磡
+          - generic [ref=e392]: 旅遊景點
+        - generic [ref=e393]:
+          - generic [ref=e394]: "070"
+          - link "在 Google Maps 搜尋 香港文化中心（尖沙咀）" [ref=e395] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%96%87%E5%8C%96%E4%B8%AD%E5%BF%83%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 香港文化中心
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e396] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e397]: 旅遊景點
+        - generic [ref=e398]:
+          - generic [ref=e399]: "071"
+          - link "在 Google Maps 搜尋 伊利沙伯體育館（灣仔）" [ref=e400] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%BC%8A%E5%88%A9%E6%B2%99%E4%BC%AF%E9%AB%94%E8%82%B2%E9%A4%A8%20%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 伊利沙伯體育館
+          - link "在 Google Maps 搜尋區域：灣仔" [ref=e401] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 灣仔
+          - generic [ref=e402]: 旅遊景點
+        - generic [ref=e403]:
+          - generic [ref=e404]: "072"
+          - link "在 Google Maps 搜尋 沙田大會堂（源禾路）" [ref=e405] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%E5%A4%A7%E6%9C%83%E5%A0%82%20%E6%BA%90%E7%A6%BE%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 沙田大會堂
+          - link "在 Google Maps 搜尋區域：源禾路" [ref=e406] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%BA%90%E7%A6%BE%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 源禾路
+          - generic [ref=e407]: 旅遊景點
+        - generic [ref=e408]:
+          - generic [ref=e409]: "073"
+          - link "在 Google Maps 搜尋 尖沙咀天星碼頭（尖沙咀）" [ref=e410] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%E5%A4%A9%E6%98%9F%E7%A2%BC%E9%A0%AD%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀天星碼頭
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e411] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e412]: 旅遊景點
+        - generic [ref=e413]:
+          - generic [ref=e414]: "074"
+          - link "在 Google Maps 搜尋 1881（廣東道）" [ref=e415] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=1881%20%E5%BB%A3%E6%9D%B1%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: "1881"
+          - link "在 Google Maps 搜尋區域：廣東道" [ref=e416] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%BB%A3%E6%9D%B1%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 廣東道
+          - generic [ref=e417]: 旅遊景點
+        - generic [ref=e418]:
+          - generic [ref=e419]: "075"
+          - link "在 Google Maps 搜尋 沙田車公廟（大圍）" [ref=e420] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%E8%BB%8A%E5%85%AC%E5%BB%9F%20%E5%A4%A7%E5%9C%8D%20%E9%A6%99%E6%B8%AF
+            - text: 沙田車公廟
+          - link "在 Google Maps 搜尋區域：大圍" [ref=e421] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%9C%8D%20%E9%A6%99%E6%B8%AF
+            - text: 大圍
+          - generic [ref=e422]: 旅遊景點
+        - generic [ref=e423]:
+          - generic [ref=e424]: "076"
+          - link "在 Google Maps 搜尋 文武廟（上環）" [ref=e425] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%96%87%E6%AD%A6%E5%BB%9F%20%E4%B8%8A%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 文武廟
+          - link "在 Google Maps 搜尋區域：上環" [ref=e426] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 上環
+          - generic [ref=e427]: 旅遊景點
+        - generic [ref=e428]:
+          - generic [ref=e429]: "077"
+          - link "在 Google Maps 搜尋 林村許願廣場（大埔）" [ref=e430] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9E%97%E6%9D%91%E8%A8%B1%E9%A1%98%E5%BB%A3%E5%A0%B4%20%E5%A4%A7%E5%9F%94%20%E9%A6%99%E6%B8%AF
+            - text: 林村許願廣場
+          - link "在 Google Maps 搜尋區域：大埔" [ref=e431] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%9F%94%20%E9%A6%99%E6%B8%AF
+            - text: 大埔
+          - generic [ref=e432]: 旅遊景點
+        - generic [ref=e433]:
+          - generic [ref=e434]: "078"
+          - link "在 Google Maps 搜尋 龍躍頭文物徑（粉嶺）" [ref=e435] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%BE%8D%E8%BA%8D%E9%A0%AD%E6%96%87%E7%89%A9%E5%BE%91%20%E7%B2%89%E5%B6%BA%20%E9%A6%99%E6%B8%AF
+            - text: 龍躍頭文物徑
+          - link "在 Google Maps 搜尋區域：粉嶺" [ref=e436] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%B2%89%E5%B6%BA%20%E9%A6%99%E6%B8%AF
+            - text: 粉嶺
+          - generic [ref=e437]: 旅遊景點
+        - generic [ref=e438]:
+          - generic [ref=e439]: "079"
+          - link "在 Google Maps 搜尋 美利樓（赤柱）" [ref=e440] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E5%88%A9%E6%A8%93%20%E8%B5%A4%E6%9F%B1%20%E9%A6%99%E6%B8%AF
+            - text: 美利樓
+          - link "在 Google Maps 搜尋區域：赤柱" [ref=e441] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E6%9F%B1%20%E9%A6%99%E6%B8%AF
+            - text: 赤柱
+          - generic [ref=e442]: 旅遊景點
+        - generic [ref=e443]:
+          - generic [ref=e444]: "080"
+          - link "在 Google Maps 搜尋 和昌大押（莊士敦道）" [ref=e445] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E6%98%8C%E5%A4%A7%E6%8A%BC%20%E8%8E%8A%E5%A3%AB%E6%95%A6%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 和昌大押
+          - link "在 Google Maps 搜尋區域：莊士敦道" [ref=e446] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8E%8A%E5%A3%AB%E6%95%A6%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 莊士敦道
+          - generic [ref=e447]: 旅遊景點
+        - generic [ref=e448]:
+          - generic [ref=e449]: "081"
+          - link "在 Google Maps 搜尋 大館（荷李活道）" [ref=e450] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%A4%A8%20%E8%8D%B7%E6%9D%8E%E6%B4%BB%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 大館
+          - link "在 Google Maps 搜尋區域：荷李活道" [ref=e451] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%B7%E6%9D%8E%E6%B4%BB%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 荷李活道
+          - generic [ref=e452]: 旅遊景點
+        - generic [ref=e453]:
+          - generic [ref=e454]: "082"
+          - link "在 Google Maps 搜尋 香港藝術館（尖沙咀）" [ref=e455] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E8%97%9D%E8%A1%93%E9%A4%A8%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 香港藝術館
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e456] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e457]: 旅遊景點
+        - generic [ref=e458]:
+          - generic [ref=e459]: "083"
+          - link "在 Google Maps 搜尋 香港故宮文化博物館（博物館道）" [ref=e460] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%95%85%E5%AE%AE%E6%96%87%E5%8C%96%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E5%8D%9A%E7%89%A9%E9%A4%A8%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 香港故宮文化博物館
+          - link "在 Google Maps 搜尋區域：博物館道" [ref=e461] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E7%89%A9%E9%A4%A8%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 博物館道
+          - generic [ref=e462]: 旅遊景點
+        - generic [ref=e463]:
+          - generic [ref=e464]: "084"
+          - link "在 Google Maps 搜尋 戲曲中心（柯士甸道西）" [ref=e465] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%88%B2%E6%9B%B2%E4%B8%AD%E5%BF%83%20%E6%9F%AF%E5%A3%AB%E7%94%B8%E9%81%93%E8%A5%BF%20%E9%A6%99%E6%B8%AF
+            - text: 戲曲中心
+          - link "在 Google Maps 搜尋區域：柯士甸道西" [ref=e466] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9F%AF%E5%A3%AB%E7%94%B8%E9%81%93%E8%A5%BF%20%E9%A6%99%E6%B8%AF
+            - text: 柯士甸道西
+          - generic [ref=e467]: 旅遊景點
+        - generic [ref=e468]:
+          - generic [ref=e469]: "085"
+          - link "在 Google Maps 搜尋 啟德體育園（承啟道）" [ref=e470] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%95%9F%E5%BE%B7%E9%AB%94%E8%82%B2%E5%9C%92%20%E6%89%BF%E5%95%9F%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 啟德體育園
+          - link "在 Google Maps 搜尋區域：承啟道" [ref=e471] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%89%BF%E5%95%9F%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 承啟道
+          - generic [ref=e472]: 旅遊景點
+        - generic [ref=e473]:
+          - generic [ref=e474]: "086"
+          - link "在 Google Maps 搜尋 8 度海逸酒店（土瓜灣）" [ref=e475] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=8%20%E5%BA%A6%E6%B5%B7%E9%80%B8%E9%85%92%E5%BA%97%20%E5%9C%9F%E7%93%9C%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 8 度海逸酒店
+          - link "在 Google Maps 搜尋區域：土瓜灣" [ref=e476] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%9C%9F%E7%93%9C%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 土瓜灣
+          - generic [ref=e477]: 酒店
+        - generic [ref=e478]:
+          - generic [ref=e479]: "087"
+          - link "在 Google Maps 搜尋 九龍海逸君綽酒店（紅磡）" [ref=e480] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E6%B5%B7%E9%80%B8%E5%90%9B%E7%B6%BD%E9%85%92%E5%BA%97%20%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 九龍海逸君綽酒店
+          - link "在 Google Maps 搜尋區域：紅磡" [ref=e481] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 紅磡
+          - generic [ref=e482]: 酒店
+        - generic [ref=e483]:
+          - generic [ref=e484]: "088"
+          - link "在 Google Maps 搜尋 九龍香格里拉大酒店（尖沙咀）" [ref=e485] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E9%A6%99%E6%A0%BC%E9%87%8C%E6%8B%89%E5%A4%A7%E9%85%92%E5%BA%97%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 九龍香格里拉大酒店
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e486] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e487]: 酒店
+        - generic [ref=e488]:
+          - generic [ref=e489]: "089"
+          - link "在 Google Maps 搜尋 六國酒店（灣仔）" [ref=e490] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%85%AD%E5%9C%8B%E9%85%92%E5%BA%97%20%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 六國酒店
+          - link "在 Google Maps 搜尋區域：灣仔" [ref=e491] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 灣仔
+          - generic [ref=e492]: 酒店
+        - generic [ref=e493]:
+          - generic [ref=e494]: "090"
+          - link "在 Google Maps 搜尋 北角海逸酒店（英皇道）" [ref=e495] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E8%A7%92%E6%B5%B7%E9%80%B8%E9%85%92%E5%BA%97%20%E8%8B%B1%E7%9A%87%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 北角海逸酒店
+          - link "在 Google Maps 搜尋區域：英皇道" [ref=e496] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8B%B1%E7%9A%87%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 英皇道
+          - generic [ref=e497]: 酒店
+        - generic [ref=e498]:
+          - generic [ref=e499]: "091"
+          - link "在 Google Maps 搜尋 千禧新世界香港酒店（尖沙咀）" [ref=e500] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E7%A6%A7%E6%96%B0%E4%B8%96%E7%95%8C%E9%A6%99%E6%B8%AF%E9%85%92%E5%BA%97%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 千禧新世界香港酒店
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e501] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e502]: 酒店
+        - generic [ref=e503]:
+          - generic [ref=e504]: "092"
+          - link "在 Google Maps 搜尋 嘉湖海逸酒店（天水圍）" [ref=e505] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%98%89%E6%B9%96%E6%B5%B7%E9%80%B8%E9%85%92%E5%BA%97%20%E5%A4%A9%E6%B0%B4%E5%9C%8D%20%E9%A6%99%E6%B8%AF
+            - text: 嘉湖海逸酒店
+          - link "在 Google Maps 搜尋區域：天水圍" [ref=e506] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%B0%B4%E5%9C%8D%20%E9%A6%99%E6%B8%AF
+            - text: 天水圍
+          - generic [ref=e507]: 酒店
+        - generic [ref=e508]:
+          - generic [ref=e509]: "093"
+          - link "在 Google Maps 搜尋 富豪東方酒店（九龍城）" [ref=e510] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%B1%AA%E6%9D%B1%E6%96%B9%E9%85%92%E5%BA%97%20%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 富豪東方酒店
+          - link "在 Google Maps 搜尋區域：九龍城" [ref=e511] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 九龍城
+          - generic [ref=e512]: 酒店
+        - generic [ref=e513]:
+          - generic [ref=e514]: "094"
+          - link "在 Google Maps 搜尋 帝京酒店（旺角）" [ref=e515] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B8%9D%E4%BA%AC%E9%85%92%E5%BA%97%20%E6%97%BA%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 帝京酒店
+          - link "在 Google Maps 搜尋區域：旺角" [ref=e516] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%97%BA%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 旺角
+          - generic [ref=e517]: 酒店
+        - generic [ref=e518]:
+          - generic [ref=e519]: "095"
+          - link "在 Google Maps 搜尋 帝景酒店（汀九）" [ref=e520] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B8%9D%E6%99%AF%E9%85%92%E5%BA%97%20%E6%B1%80%E4%B9%9D%20%E9%A6%99%E6%B8%AF
+            - text: 帝景酒店
+          - link "在 Google Maps 搜尋區域：汀九" [ref=e521] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B1%80%E4%B9%9D%20%E9%A6%99%E6%B8%AF
+            - text: 汀九
+          - generic [ref=e522]: 酒店
+        - generic [ref=e523]:
+          - generic [ref=e524]: "096"
+          - link "在 Google Maps 搜尋 帝苑酒店（尖沙咀）" [ref=e525] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B8%9D%E8%8B%91%E9%85%92%E5%BA%97%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 帝苑酒店
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e526] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e527]: 酒店
+        - generic [ref=e528]:
+          - generic [ref=e529]: "097"
+          - link "在 Google Maps 搜尋 柏寧酒店（銅鑼灣）" [ref=e530] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9F%8F%E5%AF%A7%E9%85%92%E5%BA%97%20%E9%8A%85%E9%91%BC%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 柏寧酒店
+          - link "在 Google Maps 搜尋區域：銅鑼灣" [ref=e531] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%8A%85%E9%91%BC%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 銅鑼灣
+          - generic [ref=e532]: 酒店
+        - generic [ref=e533]:
+          - generic [ref=e534]: "098"
+          - link "在 Google Maps 搜尋 皇家太平洋酒店（尖沙咀）" [ref=e535] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%9A%87%E5%AE%B6%E5%A4%AA%E5%B9%B3%E6%B4%8B%E9%85%92%E5%BA%97%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 皇家太平洋酒店
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e536] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e537]: 酒店
+        - generic [ref=e538]:
+          - generic [ref=e539]: "099"
+          - link "在 Google Maps 搜尋 諾富特東薈城酒店（東涌）" [ref=e540] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%AB%BE%E5%AF%8C%E7%89%B9%E6%9D%B1%E8%96%88%E5%9F%8E%E9%85%92%E5%BA%97%20%E6%9D%B1%E6%B6%8C%20%E9%A6%99%E6%B8%AF
+            - text: 諾富特東薈城酒店
+          - link "在 Google Maps 搜尋區域：東涌" [ref=e541] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%B6%8C%20%E9%A6%99%E6%B8%AF
+            - text: 東涌
+          - generic [ref=e542]: 酒店
+        - generic [ref=e543]:
+          - generic [ref=e544]: "100"
+          - link "在 Google Maps 搜尋 都會海逸酒店（紅磡）" [ref=e545] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%83%BD%E6%9C%83%E6%B5%B7%E9%80%B8%E9%85%92%E5%BA%97%20%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 都會海逸酒店
+          - link "在 Google Maps 搜尋區域：紅磡" [ref=e546] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 紅磡
+          - generic [ref=e547]: 酒店
+        - generic [ref=e548]:
+          - generic [ref=e549]: "101"
+          - link "在 Google Maps 搜尋 香港半島酒店（尖沙咀）" [ref=e550] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E5%8D%8A%E5%B3%B6%E9%85%92%E5%BA%97%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 香港半島酒店
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e551] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e552]: 酒店
+        - generic [ref=e553]:
+          - generic [ref=e554]: "102"
+          - link "在 Google Maps 搜尋 香港喜來登酒店（尖沙咀）" [ref=e555] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E5%96%9C%E4%BE%86%E7%99%BB%E9%85%92%E5%BA%97%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 香港喜來登酒店
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e556] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e557]: 酒店
+        - generic [ref=e558]:
+          - generic [ref=e559]: "103"
+          - link "在 Google Maps 搜尋 香港天際萬豪酒店（赤鱲角）" [ref=e560] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E5%A4%A9%E9%9A%9B%E8%90%AC%E8%B1%AA%E9%85%92%E5%BA%97%20%E8%B5%A4%E9%B1%B2%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 香港天際萬豪酒店
+          - link "在 Google Maps 搜尋區域：赤鱲角" [ref=e561] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E9%B1%B2%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 赤鱲角
+          - generic [ref=e562]: 酒店
+        - generic [ref=e563]:
+          - generic [ref=e564]: "104"
+          - link "在 Google Maps 搜尋 香港文華東方酒店（中環）" [ref=e565] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%96%87%E8%8F%AF%E6%9D%B1%E6%96%B9%E9%85%92%E5%BA%97%20%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 香港文華東方酒店
+          - link "在 Google Maps 搜尋區域：中環" [ref=e566] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 中環
+          - generic [ref=e567]: 酒店
+        - generic [ref=e568]:
+          - generic [ref=e569]: "105"
+          - link "在 Google Maps 搜尋 香港灣仔帝盛酒店（皇后大道東）" [ref=e570] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E7%81%A3%E4%BB%94%E5%B8%9D%E7%9B%9B%E9%85%92%E5%BA%97%20%E7%9A%87%E5%90%8E%E5%A4%A7%E9%81%93%E6%9D%B1%20%E9%A6%99%E6%B8%AF
+            - text: 香港灣仔帝盛酒店
+          - link "在 Google Maps 搜尋區域：皇后大道東" [ref=e571] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%9A%87%E5%90%8E%E5%A4%A7%E9%81%93%E6%9D%B1%20%E9%A6%99%E6%B8%AF
+            - text: 皇后大道東
+          - generic [ref=e572]: 酒店
+        - generic [ref=e573]:
+          - generic [ref=e574]: "106"
+          - link "在 Google Maps 搜尋 香港百樂酒店（尖沙咀）" [ref=e575] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E7%99%BE%E6%A8%82%E9%85%92%E5%BA%97%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 香港百樂酒店
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e576] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e577]: 酒店
+        - generic [ref=e578]:
+          - generic [ref=e579]: "107"
+          - link "在 Google Maps 搜尋 香港萬麗海景酒店（灣仔）" [ref=e580] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E8%90%AC%E9%BA%97%E6%B5%B7%E6%99%AF%E9%85%92%E5%BA%97%20%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 香港萬麗海景酒店
+          - link "在 Google Maps 搜尋區域：灣仔" [ref=e581] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 灣仔
+          - generic [ref=e582]: 酒店
+        - generic [ref=e583]:
+          - generic [ref=e584]: "108"
+          - link "在 Google Maps 搜尋 香港金域假日酒店（尖沙咀）" [ref=e585] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E9%87%91%E5%9F%9F%E5%81%87%E6%97%A5%E9%85%92%E5%BA%97%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 香港金域假日酒店
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e586] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e587]: 酒店
+        - generic [ref=e588]:
+          - generic [ref=e589]: "109"
+          - link "在 Google Maps 搜尋 香港黃金海岸酒店（掃管笏）" [ref=e590] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E9%BB%83%E9%87%91%E6%B5%B7%E5%B2%B8%E9%85%92%E5%BA%97%20%E6%8E%83%E7%AE%A1%E7%AC%8F%20%E9%A6%99%E6%B8%AF
+            - text: 香港黃金海岸酒店
+          - link "在 Google Maps 搜尋區域：掃管笏" [ref=e591] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%8E%83%E7%AE%A1%E7%AC%8F%20%E9%A6%99%E6%B8%AF
+            - text: 掃管笏
+          - generic [ref=e592]: 酒店
+        - generic [ref=e593]:
+          - generic [ref=e594]: "110"
+          - link "在 Google Maps 搜尋 馬哥孛羅香港酒店（尖沙咀）" [ref=e595] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%AC%E5%93%A5%E5%AD%9B%E7%BE%85%E9%A6%99%E6%B8%AF%E9%85%92%E5%BA%97%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 馬哥孛羅香港酒店
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e596] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e597]: 酒店
+        - generic [ref=e598]:
+          - generic [ref=e599]: "111"
+          - link "在 Google Maps 搜尋 麗豪酒店（沙田）" [ref=e600] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%BA%97%E8%B1%AA%E9%85%92%E5%BA%97%20%E6%B2%99%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 麗豪酒店
+          - link "在 Google Maps 搜尋區域：沙田" [ref=e601] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 沙田
+          - generic [ref=e602]: 酒店
+        - generic [ref=e603]:
+          - generic [ref=e604]: "112"
+          - link "在 Google Maps 搜尋 奧華酒店 南岸（黃竹坑）" [ref=e605] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A5%A7%E8%8F%AF%E9%85%92%E5%BA%97%20%E5%8D%97%E5%B2%B8%20%E9%BB%83%E7%AB%B9%E5%9D%91%20%E9%A6%99%E6%B8%AF
+            - text: 奧華酒店 南岸
+          - link "在 Google Maps 搜尋區域：黃竹坑" [ref=e606] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%BB%83%E7%AB%B9%E5%9D%91%20%E9%A6%99%E6%B8%AF
+            - text: 黃竹坑
+          - generic [ref=e607]: 酒店
+        - generic [ref=e608]:
+          - generic [ref=e609]: "113"
+          - link "在 Google Maps 搜尋 南灣如心酒店（香港仔）" [ref=e610] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E7%81%A3%E5%A6%82%E5%BF%83%E9%85%92%E5%BA%97%20%E9%A6%99%E6%B8%AF%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 南灣如心酒店
+          - link "在 Google Maps 搜尋區域：香港仔" [ref=e611] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 香港仔
+          - generic [ref=e612]: 酒店
+        - generic [ref=e613]:
+          - generic [ref=e614]: "114"
+          - link "在 Google Maps 搜尋 荃灣西如心酒店（楊屋道）" [ref=e615] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%83%E7%81%A3%E8%A5%BF%E5%A6%82%E5%BF%83%E9%85%92%E5%BA%97%20%E6%A5%8A%E5%B1%8B%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 荃灣西如心酒店
+          - link "在 Google Maps 搜尋區域：楊屋道" [ref=e616] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%A5%8A%E5%B1%8B%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 楊屋道
+          - generic [ref=e617]: 酒店
+        - generic [ref=e618]:
+          - generic [ref=e619]: "115"
+          - link "在 Google Maps 搜尋 九龍東如心酒店（觀塘）" [ref=e620] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E6%9D%B1%E5%A6%82%E5%BF%83%E9%85%92%E5%BA%97%20%E8%A7%80%E5%A1%98%20%E9%A6%99%E6%B8%AF
+            - text: 九龍東如心酒店
+          - link "在 Google Maps 搜尋區域：觀塘" [ref=e621] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%A7%80%E5%A1%98%20%E9%A6%99%E6%B8%AF
+            - text: 觀塘
+          - generic [ref=e622]: 酒店
+        - generic [ref=e623]:
+          - generic [ref=e624]: "116"
+          - link "在 Google Maps 搜尋 富豪機場酒店會議中心（赤鱲角）" [ref=e625] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%AF%8C%E8%B1%AA%E6%A9%9F%E5%A0%B4%E9%85%92%E5%BA%97%E6%9C%83%E8%AD%B0%E4%B8%AD%E5%BF%83%20%E8%B5%A4%E9%B1%B2%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 富豪機場酒店會議中心
+          - link "在 Google Maps 搜尋區域：赤鱲角" [ref=e626] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E9%B1%B2%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 赤鱲角
+          - generic [ref=e627]: 酒店
+        - generic [ref=e628]:
+          - generic [ref=e629]: "117"
+          - link "在 Google Maps 搜尋 海景嘉福洲際酒店（尖沙咀）" [ref=e630] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E6%99%AF%E5%98%89%E7%A6%8F%E6%B4%B2%E9%9A%9B%E9%85%92%E5%BA%97%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 海景嘉福洲際酒店
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e631] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e632]: 酒店
+        - generic [ref=e633]:
+          - generic [ref=e634]: "118"
+          - link "在 Google Maps 搜尋 港威酒店（尖沙咀）" [ref=e635] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B8%AF%E5%A8%81%E9%85%92%E5%BA%97%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 港威酒店
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e636] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e637]: 酒店
+        - generic [ref=e638]:
+          - generic [ref=e639]: "119"
+          - link "在 Google Maps 搜尋 港島皇悅酒店（軒尼詩道）" [ref=e640] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B8%AF%E5%B3%B6%E7%9A%87%E6%82%85%E9%85%92%E5%BA%97%20%E8%BB%92%E5%B0%BC%E8%A9%A9%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 港島皇悅酒店
+          - link "在 Google Maps 搜尋區域：軒尼詩道" [ref=e641] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%BB%92%E5%B0%BC%E8%A9%A9%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 軒尼詩道
+          - generic [ref=e642]: 酒店
+        - generic [ref=e643]:
+          - generic [ref=e644]: "120"
+          - link "在 Google Maps 搜尋 美麗華酒店（尖沙咀）" [ref=e645] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E9%BA%97%E8%8F%AF%E9%85%92%E5%BA%97%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 美麗華酒店
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e646] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e647]: 酒店
+        - generic [ref=e648]:
+          - generic [ref=e649]: "121"
+          - link "在 Google Maps 搜尋 迪士尼好萊塢酒店（大嶼山）" [ref=e650] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%BF%AA%E5%A3%AB%E5%B0%BC%E5%A5%BD%E8%90%8A%E5%A1%A2%E9%85%92%E5%BA%97%20%E5%A4%A7%E5%B6%BC%E5%B1%B1%20%E9%A6%99%E6%B8%AF
+            - text: 迪士尼好萊塢酒店
+          - link "在 Google Maps 搜尋區域：大嶼山" [ref=e651] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B6%BC%E5%B1%B1%20%E9%A6%99%E6%B8%AF
+            - text: 大嶼山
+          - generic [ref=e652]: 酒店
+        - generic [ref=e653]:
+          - generic [ref=e654]: "122"
+          - link "在 Google Maps 搜尋 迪士尼探索家度假酒店（竹篙灣）" [ref=e655] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%BF%AA%E5%A3%AB%E5%B0%BC%E6%8E%A2%E7%B4%A2%E5%AE%B6%E5%BA%A6%E5%81%87%E9%85%92%E5%BA%97%20%E7%AB%B9%E7%AF%99%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 迪士尼探索家度假酒店
+          - link "在 Google Maps 搜尋區域：竹篙灣" [ref=e656] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%AB%B9%E7%AF%99%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 竹篙灣
+          - generic [ref=e657]: 酒店
+        - generic [ref=e658]:
+          - generic [ref=e659]: "123"
+          - link "在 Google Maps 搜尋 香港 W 酒店（柯士甸道西）" [ref=e660] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%20W%20%E9%85%92%E5%BA%97%20%E6%9F%AF%E5%A3%AB%E7%94%B8%E9%81%93%E8%A5%BF%20%E9%A6%99%E6%B8%AF
+            - text: 香港 W 酒店
+          - link "在 Google Maps 搜尋區域：柯士甸道西" [ref=e661] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9F%AF%E5%A3%AB%E7%94%B8%E9%81%93%E8%A5%BF%20%E9%A6%99%E6%B8%AF
+            - text: 柯士甸道西
+          - generic [ref=e662]: 酒店
+        - generic [ref=e663]:
+          - generic [ref=e664]: "124"
+          - link "在 Google Maps 搜尋 香港九龍東皇冠假日酒店（將軍澳）" [ref=e665] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E4%B9%9D%E9%BE%8D%E6%9D%B1%E7%9A%87%E5%86%A0%E5%81%87%E6%97%A5%E9%85%92%E5%BA%97%20%E5%B0%87%E8%BB%8D%E6%BE%B3%20%E9%A6%99%E6%B8%AF
+            - text: 香港九龍東皇冠假日酒店
+          - link "在 Google Maps 搜尋區域：將軍澳" [ref=e666] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%87%E8%BB%8D%E6%BE%B3%20%E9%A6%99%E6%B8%AF
+            - text: 將軍澳
+          - generic [ref=e667]: 酒店
+        - generic [ref=e668]:
+          - generic [ref=e669]: "125"
+          - link "在 Google Maps 搜尋 香港旺角帝盛酒店（大角咀）" [ref=e670] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%97%BA%E8%A7%92%E5%B8%9D%E7%9B%9B%E9%85%92%E5%BA%97%20%E5%A4%A7%E8%A7%92%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 香港旺角帝盛酒店
+          - link "在 Google Maps 搜尋區域：大角咀" [ref=e671] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%A7%92%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 大角咀
+          - generic [ref=e672]: 酒店
+        - generic [ref=e673]:
+          - generic [ref=e674]: "126"
+          - link "在 Google Maps 搜尋 香港瑰麗酒店（尖沙咀）" [ref=e675] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E7%91%B0%E9%BA%97%E9%85%92%E5%BA%97%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 香港瑰麗酒店
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e676] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e677]: 酒店
+        - generic [ref=e678]:
+          - generic [ref=e679]: "127"
+          - link "在 Google Maps 搜尋 香港迪士尼樂園酒店（竹篙灣）" [ref=e680] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E8%BF%AA%E5%A3%AB%E5%B0%BC%E6%A8%82%E5%9C%92%E9%85%92%E5%BA%97%20%E7%AB%B9%E7%AF%99%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 香港迪士尼樂園酒店
+          - link "在 Google Maps 搜尋區域：竹篙灣" [ref=e681] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%AB%B9%E7%AF%99%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 竹篙灣
+          - generic [ref=e682]: 酒店
+        - generic [ref=e683]:
+          - generic [ref=e684]: "128"
+          - link "在 Google Maps 搜尋 香港麗思卡爾頓酒店（柯士甸道西）" [ref=e685] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E9%BA%97%E6%80%9D%E5%8D%A1%E7%88%BE%E9%A0%93%E9%85%92%E5%BA%97%20%E6%9F%AF%E5%A3%AB%E7%94%B8%E9%81%93%E8%A5%BF%20%E9%A6%99%E6%B8%AF
+            - text: 香港麗思卡爾頓酒店
+          - link "在 Google Maps 搜尋區域：柯士甸道西" [ref=e686] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9F%AF%E5%A3%AB%E7%94%B8%E9%81%93%E8%A5%BF%20%E9%A6%99%E6%B8%AF
+            - text: 柯士甸道西
+          - generic [ref=e687]: 酒店
+        - generic [ref=e688]:
+          - generic [ref=e689]: "129"
+          - link "在 Google Maps 搜尋 麗豪航天城酒店（赤鱲角）" [ref=e690] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%BA%97%E8%B1%AA%E8%88%AA%E5%A4%A9%E5%9F%8E%E9%85%92%E5%BA%97%20%E8%B5%A4%E9%B1%B2%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 麗豪航天城酒店
+          - link "在 Google Maps 搜尋區域：赤鱲角" [ref=e691] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%B5%A4%E9%B1%B2%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 赤鱲角
+          - generic [ref=e692]: 酒店
+        - generic [ref=e693]:
+          - generic [ref=e694]: "130"
+          - link "在 Google Maps 搜尋 北角政府合署（渣華道）" [ref=e695] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E8%A7%92%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E6%B8%A3%E8%8F%AF%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 北角政府合署
+          - link "在 Google Maps 搜尋區域：渣華道" [ref=e696] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B8%A3%E8%8F%AF%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 渣華道
+          - generic [ref=e697]: 政府樓宇
+        - generic [ref=e698]:
+          - generic [ref=e699]: "131"
+          - link "在 Google Maps 搜尋 長沙灣政府合署（長沙灣道）" [ref=e700] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E6%B2%99%E7%81%A3%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E9%95%B7%E6%B2%99%E7%81%A3%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 長沙灣政府合署
+          - link "在 Google Maps 搜尋區域：長沙灣道" [ref=e701] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E6%B2%99%E7%81%A3%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 長沙灣道
+          - generic [ref=e702]: 政府樓宇
+        - generic [ref=e703]:
+          - generic [ref=e704]: "132"
+          - link "在 Google Maps 搜尋 何文田政府合署（忠孝街）" [ref=e705] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%BD%95%E6%96%87%E7%94%B0%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E5%BF%A0%E5%AD%9D%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 何文田政府合署
+          - link "在 Google Maps 搜尋區域：忠孝街" [ref=e706] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%BF%A0%E5%AD%9D%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 忠孝街
+          - generic [ref=e707]: 政府樓宇
+        - generic [ref=e708]:
+          - generic [ref=e709]: "133"
+          - link "在 Google Maps 搜尋 東九龍政府合署（觀塘）" [ref=e710] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%B9%9D%E9%BE%8D%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E8%A7%80%E5%A1%98%20%E9%A6%99%E6%B8%AF
+            - text: 東九龍政府合署
+          - link "在 Google Maps 搜尋區域：觀塘" [ref=e711] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%A7%80%E5%A1%98%20%E9%A6%99%E6%B8%AF
+            - text: 觀塘
+          - generic [ref=e712]: 政府樓宇
+        - generic [ref=e713]:
+          - generic [ref=e714]: "134"
+          - link "在 Google Maps 搜尋 九龍政府合署（油麻地）" [ref=e715] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E6%B2%B9%E9%BA%BB%E5%9C%B0%20%E9%A6%99%E6%B8%AF
+            - text: 九龍政府合署
+          - link "在 Google Maps 搜尋區域：油麻地" [ref=e716] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%B9%E9%BA%BB%E5%9C%B0%20%E9%A6%99%E6%B8%AF
+            - text: 油麻地
+          - generic [ref=e717]: 政府樓宇
+        - generic [ref=e718]:
+          - generic [ref=e719]: "135"
+          - link "在 Google Maps 搜尋 葵興政府合署（興芳路）" [ref=e720] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%91%B5%E8%88%88%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E8%88%88%E8%8A%B3%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 葵興政府合署
+          - link "在 Google Maps 搜尋區域：興芳路" [ref=e721] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%88%88%E8%8A%B3%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 興芳路
+          - generic [ref=e722]: 政府樓宇
+        - generic [ref=e723]:
+          - generic [ref=e724]: "136"
+          - link "在 Google Maps 搜尋 荔枝角政府合署（荔灣道）" [ref=e725] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%94%E6%9E%9D%E8%A7%92%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E8%8D%94%E7%81%A3%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 荔枝角政府合署
+          - link "在 Google Maps 搜尋區域：荔灣道" [ref=e726] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%94%E7%81%A3%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 荔灣道
+          - generic [ref=e727]: 政府樓宇
+        - generic [ref=e728]:
+          - generic [ref=e729]: "137"
+          - link "在 Google Maps 搜尋 馬頭角道政府合署（馬頭角道）" [ref=e730] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%AC%E9%A0%AD%E8%A7%92%E9%81%93%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E9%A6%AC%E9%A0%AD%E8%A7%92%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 馬頭角道政府合署
+          - link "在 Google Maps 搜尋區域：馬頭角道" [ref=e731] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%AC%E9%A0%AD%E8%A7%92%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 馬頭角道
+          - generic [ref=e732]: 政府樓宇
+        - generic [ref=e733]:
+          - generic [ref=e734]: "138"
+          - link "在 Google Maps 搜尋 旺角政府合署（聯運街）" [ref=e735] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%97%BA%E8%A7%92%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E8%81%AF%E9%81%8B%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 旺角政府合署
+          - link "在 Google Maps 搜尋區域：聯運街" [ref=e736] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%81%AF%E9%81%8B%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 聯運街
+          - generic [ref=e737]: 政府樓宇
+        - generic [ref=e738]:
+          - generic [ref=e739]: "139"
+          - link "在 Google Maps 搜尋 梅窩政府合署（銀鑛灣路）" [ref=e740] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E7%AA%A9%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E9%8A%80%E9%91%9B%E7%81%A3%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 梅窩政府合署
+          - link "在 Google Maps 搜尋區域：銀鑛灣路" [ref=e741] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%8A%80%E9%91%9B%E7%81%A3%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 銀鑛灣路
+          - generic [ref=e742]: 政府樓宇
+        - generic [ref=e743]:
+          - generic [ref=e744]: "140"
+          - link "在 Google Maps 搜尋 牛頭角政府合署（安華街）" [ref=e745] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%89%9B%E9%A0%AD%E8%A7%92%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E5%AE%89%E8%8F%AF%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 牛頭角政府合署
+          - link "在 Google Maps 搜尋區域：安華街" [ref=e746] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E8%8F%AF%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 安華街
+          - generic [ref=e747]: 政府樓宇
+        - generic [ref=e748]:
+          - generic [ref=e749]: "141"
+          - link "在 Google Maps 搜尋 北區政府合署（粉嶺）" [ref=e750] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E5%8D%80%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E7%B2%89%E5%B6%BA%20%E9%A6%99%E6%B8%AF
+            - text: 北區政府合署
+          - link "在 Google Maps 搜尋區域：粉嶺" [ref=e751] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%B2%89%E5%B6%BA%20%E9%A6%99%E6%B8%AF
+            - text: 粉嶺
+          - generic [ref=e752]: 政府樓宇
+        - generic [ref=e753]:
+          - generic [ref=e754]: "142"
+          - link "在 Google Maps 搜尋 培正道政府合署（何文田）" [ref=e755] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%9F%B9%E6%AD%A3%E9%81%93%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E4%BD%95%E6%96%87%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 培正道政府合署
+          - link "在 Google Maps 搜尋區域：何文田" [ref=e756] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%BD%95%E6%96%87%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 何文田
+          - generic [ref=e757]: 政府樓宇
+        - generic [ref=e758]:
+          - generic [ref=e759]: "143"
+          - link "在 Google Maps 搜尋 西貢政府合署（親民街）" [ref=e760] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E8%B2%A2%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E8%A6%AA%E6%B0%91%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 西貢政府合署
+          - link "在 Google Maps 搜尋區域：親民街" [ref=e761] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%A6%AA%E6%B0%91%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 親民街
+          - generic [ref=e762]: 政府樓宇
+        - generic [ref=e763]:
+          - generic [ref=e764]: "144"
+          - link "在 Google Maps 搜尋 沙田政府合署（上禾輋路）" [ref=e765] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E4%B8%8A%E7%A6%BE%E8%BC%8B%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 沙田政府合署
+          - link "在 Google Maps 搜尋區域：上禾輋路" [ref=e766] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E7%A6%BE%E8%BC%8B%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 上禾輋路
+          - generic [ref=e767]: 政府樓宇
+        - generic [ref=e768]:
+          - generic [ref=e769]: "145"
+          - link "在 Google Maps 搜尋 深水埗政府合署（元州街）" [ref=e770] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B7%B1%E6%B0%B4%E5%9F%97%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E5%85%83%E5%B7%9E%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 深水埗政府合署
+          - link "在 Google Maps 搜尋區域：元州街" [ref=e771] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%85%83%E5%B7%9E%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 元州街
+          - generic [ref=e772]: 政府樓宇
+        - generic [ref=e773]:
+          - generic [ref=e774]: "146"
+          - link "在 Google Maps 搜尋 大興政府合署（屯門）" [ref=e775] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E8%88%88%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E5%B1%AF%E9%96%80%20%E9%A6%99%E6%B8%AF
+            - text: 大興政府合署
+          - link "在 Google Maps 搜尋區域：屯門" [ref=e776] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B1%AF%E9%96%80%20%E9%A6%99%E6%B8%AF
+            - text: 屯門
+          - generic [ref=e777]: 政府樓宇
+        - generic [ref=e778]:
+          - generic [ref=e779]: "147"
+          - link "在 Google Maps 搜尋 大埔政府合署（汀角路）" [ref=e780] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%9F%94%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E6%B1%80%E8%A7%92%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 大埔政府合署
+          - link "在 Google Maps 搜尋區域：汀角路" [ref=e781] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B1%80%E8%A7%92%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 汀角路
+          - generic [ref=e782]: 政府樓宇
+        - generic [ref=e783]:
+          - generic [ref=e784]: "148"
+          - link "在 Google Maps 搜尋 土瓜灣政府合署（馬頭圍道）" [ref=e785] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%9C%9F%E7%93%9C%E7%81%A3%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E9%A6%AC%E9%A0%AD%E5%9C%8D%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 土瓜灣政府合署
+          - link "在 Google Maps 搜尋區域：馬頭圍道" [ref=e786] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%AC%E9%A0%AD%E5%9C%8D%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 馬頭圍道
+          - generic [ref=e787]: 政府樓宇
+        - generic [ref=e788]:
+          - generic [ref=e789]: "149"
+          - link "在 Google Maps 搜尋 荃灣政府合署（西樓角路）" [ref=e790] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%83%E7%81%A3%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E8%A5%BF%E6%A8%93%E8%A7%92%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 荃灣政府合署
+          - link "在 Google Maps 搜尋區域：西樓角路" [ref=e791] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E6%A8%93%E8%A7%92%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 西樓角路
+          - generic [ref=e792]: 政府樓宇
+        - generic [ref=e793]:
+          - generic [ref=e794]: "150"
+          - link "在 Google Maps 搜尋 屯門政府合署（屯喜路）" [ref=e795] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B1%AF%E9%96%80%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E5%B1%AF%E5%96%9C%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 屯門政府合署
+          - link "在 Google Maps 搜尋區域：屯喜路" [ref=e796] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B1%AF%E5%96%9C%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 屯喜路
+          - generic [ref=e797]: 政府樓宇
+        - generic [ref=e798]:
+          - generic [ref=e799]: "151"
+          - link "在 Google Maps 搜尋 元朗政府合署（橋樂坊）" [ref=e800] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%85%83%E6%9C%97%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E6%A9%8B%E6%A8%82%E5%9D%8A%20%E9%A6%99%E6%B8%AF
+            - text: 元朗政府合署
+          - link "在 Google Maps 搜尋區域：橋樂坊" [ref=e801] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%A9%8B%E6%A8%82%E5%9D%8A%20%E9%A6%99%E6%B8%AF
+            - text: 橋樂坊
+          - generic [ref=e802]: 政府樓宇
+        - generic [ref=e803]:
+          - generic [ref=e804]: "152"
+          - link "在 Google Maps 搜尋 觀塘區警署（鯉魚門道）" [ref=e805] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%A7%80%E5%A1%98%E5%8D%80%E8%AD%A6%E7%BD%B2%20%E9%AF%89%E9%AD%9A%E9%96%80%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 觀塘區警署
+          - link "在 Google Maps 搜尋區域：鯉魚門道" [ref=e806] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%AF%89%E9%AD%9A%E9%96%80%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 鯉魚門道
+          - generic [ref=e807]: 政府樓宇
+        - generic [ref=e808]:
+          - generic [ref=e809]: "153"
+          - link "在 Google Maps 搜尋 旺角區警署（太子道西）" [ref=e810] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%97%BA%E8%A7%92%E5%8D%80%E8%AD%A6%E7%BD%B2%20%E5%A4%AA%E5%AD%90%E9%81%93%E8%A5%BF%20%E9%A6%99%E6%B8%AF
+            - text: 旺角區警署
+          - link "在 Google Maps 搜尋區域：太子道西" [ref=e811] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E5%AD%90%E9%81%93%E8%A5%BF%20%E9%A6%99%E6%B8%AF
+            - text: 太子道西
+          - generic [ref=e812]: 政府樓宇
+        - generic [ref=e813]:
+          - generic [ref=e814]: "154"
+          - link "在 Google Maps 搜尋 將軍澳區警署（寶琳北路）" [ref=e815] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%87%E8%BB%8D%E6%BE%B3%E5%8D%80%E8%AD%A6%E7%BD%B2%20%E5%AF%B6%E7%90%B3%E5%8C%97%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 將軍澳區警署
+          - link "在 Google Maps 搜尋區域：寶琳北路" [ref=e816] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%AF%B6%E7%90%B3%E5%8C%97%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 寶琳北路
+          - generic [ref=e817]: 政府樓宇
+        - generic [ref=e818]:
+          - generic [ref=e819]: "155"
+          - link "在 Google Maps 搜尋 荃灣區警署（荃景圍）" [ref=e820] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%83%E7%81%A3%E5%8D%80%E8%AD%A6%E7%BD%B2%20%E8%8D%83%E6%99%AF%E5%9C%8D%20%E9%A6%99%E6%B8%AF
+            - text: 荃灣區警署
+          - link "在 Google Maps 搜尋區域：荃景圍" [ref=e821] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%83%E6%99%AF%E5%9C%8D%20%E9%A6%99%E6%B8%AF
+            - text: 荃景圍
+          - generic [ref=e822]: 政府樓宇
+        - generic [ref=e823]:
+          - generic [ref=e824]: "156"
+          - link "在 Google Maps 搜尋 中區警區總部（中港道）" [ref=e825] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%8D%80%E8%AD%A6%E5%8D%80%E7%B8%BD%E9%83%A8%20%E4%B8%AD%E6%B8%AF%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 中區警區總部
+          - link "在 Google Maps 搜尋區域：中港道" [ref=e826] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E6%B8%AF%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 中港道
+          - generic [ref=e827]: 政府樓宇
+        - generic [ref=e828]:
+          - generic [ref=e829]: "157"
+          - link "在 Google Maps 搜尋 東區法院大樓（西灣河）" [ref=e830] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E5%8D%80%E6%B3%95%E9%99%A2%E5%A4%A7%E6%A8%93%20%E8%A5%BF%E7%81%A3%E6%B2%B3%20%E9%A6%99%E6%B8%AF
+            - text: 東區法院大樓
+          - link "在 Google Maps 搜尋區域：西灣河" [ref=e831] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E7%81%A3%E6%B2%B3%20%E9%A6%99%E6%B8%AF
+            - text: 西灣河
+          - generic [ref=e832]: 政府樓宇
+        - generic [ref=e833]:
+          - generic [ref=e834]: "158"
+          - link "在 Google Maps 搜尋 終審法院（中環）" [ref=e835] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%B5%82%E5%AF%A9%E6%B3%95%E9%99%A2%20%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 終審法院
+          - link "在 Google Maps 搜尋區域：中環" [ref=e836] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 中環
+          - generic [ref=e837]: 政府樓宇
+        - generic [ref=e838]:
+          - generic [ref=e839]: "159"
+          - link "在 Google Maps 搜尋 立法會綜合大樓（金鐘）" [ref=e840] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E6%B3%95%E6%9C%83%E7%B6%9C%E5%90%88%E5%A4%A7%E6%A8%93%20%E9%87%91%E9%90%98%20%E9%A6%99%E6%B8%AF
+            - text: 立法會綜合大樓
+          - link "在 Google Maps 搜尋區域：金鐘" [ref=e841] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%90%98%20%E9%A6%99%E6%B8%AF
+            - text: 金鐘
+          - generic [ref=e842]: 政府樓宇
+        - generic [ref=e843]:
+          - generic [ref=e844]: "160"
+          - link "在 Google Maps 搜尋 香港禮賓府（中環）" [ref=e845] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E7%A6%AE%E8%B3%93%E5%BA%9C%20%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 香港禮賓府
+          - link "在 Google Maps 搜尋區域：中環" [ref=e846] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 中環
+          - generic [ref=e847]: 政府樓宇
+        - generic [ref=e848]:
+          - generic [ref=e849]: "161"
+          - link "在 Google Maps 搜尋 香港中央圖書館（銅鑼灣）" [ref=e850] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E4%B8%AD%E5%A4%AE%E5%9C%96%E6%9B%B8%E9%A4%A8%20%E9%8A%85%E9%91%BC%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 香港中央圖書館
+          - link "在 Google Maps 搜尋區域：銅鑼灣" [ref=e851] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%8A%85%E9%91%BC%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 銅鑼灣
+          - generic [ref=e852]: 政府樓宇
+        - generic [ref=e853]:
+          - generic [ref=e854]: "162"
+          - link "在 Google Maps 搜尋 醫院管理局大樓（九龍城）" [ref=e855] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%86%AB%E9%99%A2%E7%AE%A1%E7%90%86%E5%B1%80%E5%A4%A7%E6%A8%93%20%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 醫院管理局大樓
+          - link "在 Google Maps 搜尋區域：九龍城" [ref=e856] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%9F%8E%20%E9%A6%99%E6%B8%AF
+            - text: 九龍城
+          - generic [ref=e857]: 政府樓宇
+        - generic [ref=e858]:
+          - generic [ref=e859]: "163"
+          - link "在 Google Maps 搜尋 九龍城法院大樓（亞皆老街）" [ref=e860] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%9F%8E%E6%B3%95%E9%99%A2%E5%A4%A7%E6%A8%93%20%E4%BA%9E%E7%9A%86%E8%80%81%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 九龍城法院大樓
+          - link "在 Google Maps 搜尋區域：亞皆老街" [ref=e861] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%BA%9E%E7%9A%86%E8%80%81%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 亞皆老街
+          - generic [ref=e862]: 政府樓宇
+        - generic [ref=e863]:
+          - generic [ref=e864]: "164"
+          - link "在 Google Maps 搜尋 觀塘法院大樓（鯉魚門道）" [ref=e865] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%A7%80%E5%A1%98%E6%B3%95%E9%99%A2%E5%A4%A7%E6%A8%93%20%E9%AF%89%E9%AD%9A%E9%96%80%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 觀塘法院大樓
+          - link "在 Google Maps 搜尋區域：鯉魚門道" [ref=e866] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%AF%89%E9%AD%9A%E9%96%80%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 鯉魚門道
+          - generic [ref=e867]: 政府樓宇
+        - generic [ref=e868]:
+          - generic [ref=e869]: "165"
+          - link "在 Google Maps 搜尋 粉嶺法院大樓（璧峰路）" [ref=e870] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%B2%89%E5%B6%BA%E6%B3%95%E9%99%A2%E5%A4%A7%E6%A8%93%20%E7%92%A7%E5%B3%B0%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 粉嶺法院大樓
+          - link "在 Google Maps 搜尋區域：璧峰路" [ref=e871] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%92%A7%E5%B3%B0%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 璧峰路
+          - generic [ref=e872]: 政府樓宇
+        - generic [ref=e873]:
+          - generic [ref=e874]: "166"
+          - link "在 Google Maps 搜尋 沙田法院大樓（宜正里）" [ref=e875] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%E6%B3%95%E9%99%A2%E5%A4%A7%E6%A8%93%20%E5%AE%9C%E6%AD%A3%E9%87%8C%20%E9%A6%99%E6%B8%AF
+            - text: 沙田法院大樓
+          - link "在 Google Maps 搜尋區域：宜正里" [ref=e876] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%AE%9C%E6%AD%A3%E9%87%8C%20%E9%A6%99%E6%B8%AF
+            - text: 宜正里
+          - generic [ref=e877]: 政府樓宇
+        - generic [ref=e878]:
+          - generic [ref=e879]: "167"
+          - link "在 Google Maps 搜尋 屯門法院大樓（屯喜路）" [ref=e880] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B1%AF%E9%96%80%E6%B3%95%E9%99%A2%E5%A4%A7%E6%A8%93%20%E5%B1%AF%E5%96%9C%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 屯門法院大樓
+          - link "在 Google Maps 搜尋區域：屯喜路" [ref=e881] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B1%AF%E5%96%9C%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 屯喜路
+          - generic [ref=e882]: 政府樓宇
+        - generic [ref=e883]:
+          - generic [ref=e884]: "168"
+          - link "在 Google Maps 搜尋 西九龍法院大樓（通州街）" [ref=e885] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E4%B9%9D%E9%BE%8D%E6%B3%95%E9%99%A2%E5%A4%A7%E6%A8%93%20%E9%80%9A%E5%B7%9E%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 西九龍法院大樓
+          - link "在 Google Maps 搜尋區域：通州街" [ref=e886] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%80%9A%E5%B7%9E%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 通州街
+          - generic [ref=e887]: 政府樓宇
+        - generic [ref=e888]:
+          - generic [ref=e889]: "169"
+          - link "在 Google Maps 搜尋 高等法院（金鐘道）" [ref=e890] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%AB%98%E7%AD%89%E6%B3%95%E9%99%A2%20%E9%87%91%E9%90%98%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 高等法院
+          - link "在 Google Maps 搜尋區域：金鐘道" [ref=e891] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%90%98%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 金鐘道
+          - generic [ref=e892]: 政府樓宇
+        - generic [ref=e893]:
+          - generic [ref=e894]: "170"
+          - link "在 Google Maps 搜尋 勞資審裁處（加士居道）" [ref=e895] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8B%9E%E8%B3%87%E5%AF%A9%E8%A3%81%E8%99%95%20%E5%8A%A0%E5%A3%AB%E5%B1%85%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 勞資審裁處
+          - link "在 Google Maps 搜尋區域：加士居道" [ref=e896] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8A%A0%E5%A3%AB%E5%B1%85%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 加士居道
+          - generic [ref=e897]: 政府樓宇
+        - generic [ref=e898]:
+          - generic [ref=e899]: "171"
+          - link "在 Google Maps 搜尋 土地審裁處（加士居道）" [ref=e900] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%9C%9F%E5%9C%B0%E5%AF%A9%E8%A3%81%E8%99%95%20%E5%8A%A0%E5%A3%AB%E5%B1%85%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 土地審裁處
+          - link "在 Google Maps 搜尋區域：加士居道" [ref=e901] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8A%A0%E5%A3%AB%E5%B1%85%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 加士居道
+          - generic [ref=e902]: 政府樓宇
+        - generic [ref=e903]:
+          - generic [ref=e904]: "172"
+          - link "在 Google Maps 搜尋 區域法院（港灣道）" [ref=e905] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8D%80%E5%9F%9F%E6%B3%95%E9%99%A2%20%E6%B8%AF%E7%81%A3%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 區域法院
+          - link "在 Google Maps 搜尋區域：港灣道" [ref=e906] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B8%AF%E7%81%A3%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 港灣道
+          - generic [ref=e907]: 政府樓宇
+        - generic [ref=e908]:
+          - generic [ref=e909]: "173"
+          - link "在 Google Maps 搜尋 西九龍政府合署（海庭道）" [ref=e910] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E4%B9%9D%E9%BE%8D%E6%94%BF%E5%BA%9C%E5%90%88%E7%BD%B2%20%E6%B5%B7%E5%BA%AD%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 西九龍政府合署
+          - link "在 Google Maps 搜尋區域：海庭道" [ref=e911] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E5%BA%AD%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 海庭道
+          - generic [ref=e912]: 政府樓宇
+        - generic [ref=e913]:
+          - generic [ref=e914]: "174"
+          - link "在 Google Maps 搜尋 入境事務處總部（將軍澳）" [ref=e915] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%85%A5%E5%A2%83%E4%BA%8B%E5%8B%99%E8%99%95%E7%B8%BD%E9%83%A8%20%E5%B0%87%E8%BB%8D%E6%BE%B3%20%E9%A6%99%E6%B8%AF
+            - text: 入境事務處總部
+          - link "在 Google Maps 搜尋區域：將軍澳" [ref=e916] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%87%E8%BB%8D%E6%BE%B3%20%E9%A6%99%E6%B8%AF
+            - text: 將軍澳
+          - generic [ref=e917]: 政府樓宇
+        - generic [ref=e918]:
+          - generic [ref=e919]: "175"
+          - link "在 Google Maps 搜尋 機電工程署總部大樓（啟成街）" [ref=e920] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%A9%9F%E9%9B%BB%E5%B7%A5%E7%A8%8B%E7%BD%B2%E7%B8%BD%E9%83%A8%E5%A4%A7%E6%A8%93%20%E5%95%9F%E6%88%90%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 機電工程署總部大樓
+          - link "在 Google Maps 搜尋區域：啟成街" [ref=e921] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%95%9F%E6%88%90%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 啟成街
+          - generic [ref=e922]: 政府樓宇
+        - generic [ref=e923]:
+          - generic [ref=e924]: "176"
+          - link "在 Google Maps 搜尋 如心廣場（荃灣）" [ref=e925] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A6%82%E5%BF%83%E5%BB%A3%E5%A0%B4%20%E8%8D%83%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 如心廣場
+          - link "在 Google Maps 搜尋區域：荃灣" [ref=e926] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%83%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 荃灣
+          - generic [ref=e927]: 商業大廈
+        - generic [ref=e928]:
+          - generic [ref=e929]: "177"
+          - link "在 Google Maps 搜尋 長江集團中心（中環）" [ref=e930] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%95%B7%E6%B1%9F%E9%9B%86%E5%9C%98%E4%B8%AD%E5%BF%83%20%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 長江集團中心
+          - link "在 Google Maps 搜尋區域：中環" [ref=e931] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 中環
+          - generic [ref=e932]: 商業大廈
+        - generic [ref=e933]:
+          - generic [ref=e934]: "178"
+          - link "在 Google Maps 搜尋 利園（銅鑼灣）" [ref=e935] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%88%A9%E5%9C%92%20%E9%8A%85%E9%91%BC%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 利園
+          - link "在 Google Maps 搜尋區域：銅鑼灣" [ref=e936] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%8A%85%E9%91%BC%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 銅鑼灣
+          - generic [ref=e937]: 商業大廈
+        - generic [ref=e938]:
+          - generic [ref=e939]: "179"
+          - link "在 Google Maps 搜尋 力寶中心（金鐘）" [ref=e940] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8A%9B%E5%AF%B6%E4%B8%AD%E5%BF%83%20%E9%87%91%E9%90%98%20%E9%A6%99%E6%B8%AF
+            - text: 力寶中心
+          - link "在 Google Maps 搜尋區域：金鐘" [ref=e941] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%90%98%20%E9%A6%99%E6%B8%AF
+            - text: 金鐘
+          - generic [ref=e942]: 商業大廈
+        - generic [ref=e943]:
+          - generic [ref=e944]: "180"
+          - link "在 Google Maps 搜尋 美麗華廣場（尖沙咀）" [ref=e945] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E9%BA%97%E8%8F%AF%E5%BB%A3%E5%A0%B4%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 美麗華廣場
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e946] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e947]: 商業大廈
+        - generic [ref=e948]:
+          - generic [ref=e949]: "181"
+          - link "在 Google Maps 搜尋 電視廣播有限公司電視廣播城（將軍澳）" [ref=e950] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%9B%BB%E8%A6%96%E5%BB%A3%E6%92%AD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E9%9B%BB%E8%A6%96%E5%BB%A3%E6%92%AD%E5%9F%8E%20%E5%B0%87%E8%BB%8D%E6%BE%B3%20%E9%A6%99%E6%B8%AF
+            - text: 電視廣播有限公司電視廣播城
+          - link "在 Google Maps 搜尋區域：將軍澳" [ref=e951] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%87%E8%BB%8D%E6%BE%B3%20%E9%A6%99%E6%B8%AF
+            - text: 將軍澳
+          - generic [ref=e952]: 商業大廈
+        - generic [ref=e953]:
+          - generic [ref=e954]: "182"
+          - link "在 Google Maps 搜尋 港威大廈（尖沙咀）" [ref=e955] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B8%AF%E5%A8%81%E5%A4%A7%E5%BB%88%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 港威大廈
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e956] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e957]: 商業大廈
+        - generic [ref=e958]:
+          - generic [ref=e959]: "183"
+          - link "在 Google Maps 搜尋 統一中心（金鐘）" [ref=e960] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%B5%B1%E4%B8%80%E4%B8%AD%E5%BF%83%20%E9%87%91%E9%90%98%20%E9%A6%99%E6%B8%AF
+            - text: 統一中心
+          - link "在 Google Maps 搜尋區域：金鐘" [ref=e961] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%87%91%E9%90%98%20%E9%A6%99%E6%B8%AF
+            - text: 金鐘
+          - generic [ref=e962]: 商業大廈
+        - generic [ref=e963]:
+          - generic [ref=e964]: "184"
+          - link "在 Google Maps 搜尋 環球大廈（中環）" [ref=e965] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%92%B0%E7%90%83%E5%A4%A7%E5%BB%88%20%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 環球大廈
+          - link "在 Google Maps 搜尋區域：中環" [ref=e966] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 中環
+          - generic [ref=e967]: 商業大廈
+        - generic [ref=e968]:
+          - generic [ref=e969]: "185"
+          - link "在 Google Maps 搜尋 中遠大廈（皇后大道中）" [ref=e970] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E9%81%A0%E5%A4%A7%E5%BB%88%20%E7%9A%87%E5%90%8E%E5%A4%A7%E9%81%93%E4%B8%AD%20%E9%A6%99%E6%B8%AF
+            - text: 中遠大廈
+          - link "在 Google Maps 搜尋區域：皇后大道中" [ref=e971] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%9A%87%E5%90%8E%E5%A4%A7%E9%81%93%E4%B8%AD%20%E9%A6%99%E6%B8%AF
+            - text: 皇后大道中
+          - generic [ref=e972]: 商業大廈
+        - generic [ref=e973]:
+          - generic [ref=e974]: "186"
+          - link "在 Google Maps 搜尋 怡和大廈（中環）" [ref=e975] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%80%A1%E5%92%8C%E5%A4%A7%E5%BB%88%20%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 怡和大廈
+          - link "在 Google Maps 搜尋區域：中環" [ref=e976] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 中環
+          - generic [ref=e977]: 商業大廈
+        - generic [ref=e978]:
+          - generic [ref=e979]: "187"
+          - link "在 Google Maps 搜尋 永安集團大廈（德輔道中）" [ref=e980] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B0%B8%E5%AE%89%E9%9B%86%E5%9C%98%E5%A4%A7%E5%BB%88%20%E5%BE%B7%E8%BC%94%E9%81%93%E4%B8%AD%20%E9%A6%99%E6%B8%AF
+            - text: 永安集團大廈
+          - link "在 Google Maps 搜尋區域：德輔道中" [ref=e981] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%BE%B7%E8%BC%94%E9%81%93%E4%B8%AD%20%E9%A6%99%E6%B8%AF
+            - text: 德輔道中
+          - generic [ref=e982]: 商業大廈
+        - generic [ref=e983]:
+          - generic [ref=e984]: "188"
+          - link "在 Google Maps 搜尋 香港滙豐總行大廈（中環）" [ref=e985] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%BB%99%E8%B1%90%E7%B8%BD%E8%A1%8C%E5%A4%A7%E5%BB%88%20%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 香港滙豐總行大廈
+          - link "在 Google Maps 搜尋區域：中環" [ref=e986] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E7%92%B0%20%E9%A6%99%E6%B8%AF
+            - text: 中環
+          - generic [ref=e987]: 商業大廈
+        - generic [ref=e988]:
+          - generic [ref=e989]: "189"
+          - link "在 Google Maps 搜尋 合和中心（灣仔）" [ref=e990] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%90%88%E5%92%8C%E4%B8%AD%E5%BF%83%20%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 合和中心
+          - link "在 Google Maps 搜尋區域：灣仔" [ref=e991] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%81%A3%E4%BB%94%20%E9%A6%99%E6%B8%AF
+            - text: 灣仔
+          - generic [ref=e992]: 商業大廈
+        - generic [ref=e993]:
+          - generic [ref=e994]: "190"
+          - link "在 Google Maps 搜尋 又一城（達之路）" [ref=e995] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8F%88%E4%B8%80%E5%9F%8E%20%E9%81%94%E4%B9%8B%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 又一城
+          - link "在 Google Maps 搜尋區域：達之路" [ref=e996] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%81%94%E4%B9%8B%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 達之路
+          - generic [ref=e997]: 購物商場
+        - generic [ref=e998]:
+          - generic [ref=e999]: "191"
+          - link "在 Google Maps 搜尋 海港城（尖沙咀）" [ref=e1000] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E6%B8%AF%E5%9F%8E%20%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 海港城
+          - link "在 Google Maps 搜尋區域：尖沙咀" [ref=e1001] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E6%B2%99%E5%92%80%20%E9%A6%99%E6%B8%AF
+            - text: 尖沙咀
+          - generic [ref=e1002]: 購物商場
+        - generic [ref=e1003]:
+          - generic [ref=e1004]: "192"
+          - link "在 Google Maps 搜尋 朗豪坊（旺角）" [ref=e1005] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9C%97%E8%B1%AA%E5%9D%8A%20%E6%97%BA%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 朗豪坊
+          - link "在 Google Maps 搜尋區域：旺角" [ref=e1006] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%97%BA%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 旺角
+          - generic [ref=e1007]: 購物商場
+        - generic [ref=e1008]:
+          - generic [ref=e1009]: "193"
+          - link "在 Google Maps 搜尋 荷里活廣場（鑽石山）" [ref=e1010] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%B7%E9%87%8C%E6%B4%BB%E5%BB%A3%E5%A0%B4%20%E9%91%BD%E7%9F%B3%E5%B1%B1%20%E9%A6%99%E6%B8%AF
+            - text: 荷里活廣場
+          - link "在 Google Maps 搜尋區域：鑽石山" [ref=e1011] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%91%BD%E7%9F%B3%E5%B1%B1%20%E9%A6%99%E6%B8%AF
+            - text: 鑽石山
+          - generic [ref=e1012]: 購物商場
+        - generic [ref=e1013]:
+          - generic [ref=e1014]: "194"
+          - link "在 Google Maps 搜尋 時代廣場（銅鑼灣）" [ref=e1015] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%99%82%E4%BB%A3%E5%BB%A3%E5%A0%B4%20%E9%8A%85%E9%91%BC%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 時代廣場
+          - link "在 Google Maps 搜尋區域：銅鑼灣" [ref=e1016] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%8A%85%E9%91%BC%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 銅鑼灣
+          - generic [ref=e1017]: 購物商場
+        - generic [ref=e1018]:
+          - generic [ref=e1019]: "195"
+          - link "在 Google Maps 搜尋 黃埔新天地（紅磡）" [ref=e1020] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%BB%83%E5%9F%94%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 黃埔新天地
+          - link "在 Google Maps 搜尋區域：紅磡" [ref=e1021] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 紅磡
+          - generic [ref=e1022]: 購物商場
+        - generic [ref=e1023]:
+          - generic [ref=e1024]: "196"
+          - link "在 Google Maps 搜尋 新城市廣場（沙田）" [ref=e1025] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%9F%8E%E5%B8%82%E5%BB%A3%E5%A0%B4%20%E6%B2%99%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 新城市廣場
+          - link "在 Google Maps 搜尋區域：沙田" [ref=e1026] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 沙田
+          - generic [ref=e1027]: 購物商場
+        - generic [ref=e1028]:
+          - generic [ref=e1029]: "197"
+          - link "在 Google Maps 搜尋 東薈城名店倉（東涌）" [ref=e1030] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E8%96%88%E5%9F%8E%E5%90%8D%E5%BA%97%E5%80%89%20%E6%9D%B1%E6%B6%8C%20%E9%A6%99%E6%B8%AF
+            - text: 東薈城名店倉
+          - link "在 Google Maps 搜尋區域：東涌" [ref=e1031] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%B6%8C%20%E9%A6%99%E6%B8%AF
+            - text: 東涌
+          - generic [ref=e1032]: 購物商場
+        - generic [ref=e1033]:
+          - generic [ref=e1034]: "198"
+          - link "在 Google Maps 搜尋 利舞臺（銅鑼灣）" [ref=e1035] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%88%A9%E8%88%9E%E8%87%BA%20%E9%8A%85%E9%91%BC%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 利舞臺
+          - link "在 Google Maps 搜尋區域：銅鑼灣" [ref=e1036] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%8A%85%E9%91%BC%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 銅鑼灣
+          - generic [ref=e1037]: 購物商場
+        - generic [ref=e1038]:
+          - generic [ref=e1039]: "199"
+          - link "在 Google Maps 搜尋 裕民坊（觀塘）" [ref=e1040] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%A3%95%E6%B0%91%E5%9D%8A%20%E8%A7%80%E5%A1%98%20%E9%A6%99%E6%B8%AF
+            - text: 裕民坊
+          - link "在 Google Maps 搜尋區域：觀塘" [ref=e1041] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%A7%80%E5%A1%98%20%E9%A6%99%E6%B8%AF
+            - text: 觀塘
+          - generic [ref=e1042]: 購物商場
+        - generic [ref=e1043]:
+          - generic [ref=e1044]: "200"
+          - link "在 Google Maps 搜尋 AIRSIDE（啟德）" [ref=e1045] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=AIRSIDE%20%E5%95%9F%E5%BE%B7%20%E9%A6%99%E6%B8%AF
+            - text: AIRSIDE
+          - link "在 Google Maps 搜尋區域：啟德" [ref=e1046] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%95%9F%E5%BE%B7%20%E9%A6%99%E6%B8%AF
+            - text: 啟德
+          - generic [ref=e1047]: 購物商場
+        - generic [ref=e1048]:
+          - generic [ref=e1049]: "201"
+          - link "在 Google Maps 搜尋 圍方（車公廟路）" [ref=e1050] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%9C%8D%E6%96%B9%20%E8%BB%8A%E5%85%AC%E5%BB%9F%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 圍方
+          - link "在 Google Maps 搜尋區域：車公廟路" [ref=e1051] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%BB%8A%E5%85%AC%E5%BB%9F%E8%B7%AF%20%E9%A6%99%E6%B8%AF
+            - text: 車公廟路
+          - generic [ref=e1052]: 購物商場
+        - generic [ref=e1053]:
+          - generic [ref=e1054]: "202"
+          - link "在 Google Maps 搜尋 德福花園（偉業街）" [ref=e1055] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%BE%B7%E7%A6%8F%E8%8A%B1%E5%9C%92%20%E5%81%89%E6%A5%AD%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 德福花園
+          - link "在 Google Maps 搜尋區域：偉業街" [ref=e1056] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%81%89%E6%A5%AD%E8%A1%97%20%E9%A6%99%E6%B8%AF
+            - text: 偉業街
+          - generic [ref=e1057]: 住宅樓宇
+        - generic [ref=e1058]:
+          - generic [ref=e1059]: "203"
+          - link "在 Google Maps 搜尋 淘大花園（九龍灣）" [ref=e1060] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B7%98%E5%A4%A7%E8%8A%B1%E5%9C%92%20%E4%B9%9D%E9%BE%8D%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 淘大花園
+          - link "在 Google Maps 搜尋區域：九龍灣" [ref=e1061] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 九龍灣
+          - generic [ref=e1062]: 住宅樓宇
+        - generic [ref=e1063]:
+          - generic [ref=e1064]: "204"
+          - link "在 Google Maps 搜尋 綠楊新邨（荃灣）" [ref=e1065] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%B6%A0%E6%A5%8A%E6%96%B0%E9%82%A8%20%E8%8D%83%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 綠楊新邨
+          - link "在 Google Maps 搜尋區域：荃灣" [ref=e1066] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%83%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 荃灣
+          - generic [ref=e1067]: 住宅樓宇
+        - generic [ref=e1068]:
+          - generic [ref=e1069]: "205"
+          - link "在 Google Maps 搜尋 盈翠半島（青衣）" [ref=e1070] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%9B%88%E7%BF%A0%E5%8D%8A%E5%B3%B6%20%E9%9D%92%E8%A1%A3%20%E9%A6%99%E6%B8%AF
+            - text: 盈翠半島
+          - link "在 Google Maps 搜尋區域：青衣" [ref=e1071] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E8%A1%A3%20%E9%A6%99%E6%B8%AF
+            - text: 青衣
+          - generic [ref=e1072]: 住宅樓宇
+        - generic [ref=e1073]:
+          - generic [ref=e1074]: "206"
+          - link "在 Google Maps 搜尋 錦綉花園（元朗）" [ref=e1075] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%8C%A6%E7%B6%89%E8%8A%B1%E5%9C%92%20%E5%85%83%E6%9C%97%20%E9%A6%99%E6%B8%AF
+            - text: 錦綉花園
+          - link "在 Google Maps 搜尋區域：元朗" [ref=e1076] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%85%83%E6%9C%97%20%E9%A6%99%E6%B8%AF
+            - text: 元朗
+          - generic [ref=e1077]: 住宅樓宇
+        - generic [ref=e1078]:
+          - generic [ref=e1079]: "207"
+          - link "在 Google Maps 搜尋 嘉湖山莊（天水圍）" [ref=e1080] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%98%89%E6%B9%96%E5%B1%B1%E8%8E%8A%20%E5%A4%A9%E6%B0%B4%E5%9C%8D%20%E9%A6%99%E6%B8%AF
+            - text: 嘉湖山莊
+          - link "在 Google Maps 搜尋區域：天水圍" [ref=e1081] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%B0%B4%E5%9C%8D%20%E9%A6%99%E6%B8%AF
+            - text: 天水圍
+          - generic [ref=e1082]: 住宅樓宇
+        - generic [ref=e1083]:
+          - generic [ref=e1084]: "208"
+          - link "在 Google Maps 搜尋 美孚新邨（荔枝角）" [ref=e1085] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E5%AD%9A%E6%96%B0%E9%82%A8%20%E8%8D%94%E6%9E%9D%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 美孚新邨
+          - link "在 Google Maps 搜尋區域：荔枝角" [ref=e1086] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%94%E6%9E%9D%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 荔枝角
+          - generic [ref=e1087]: 住宅樓宇
+        - generic [ref=e1088]:
+          - generic [ref=e1089]: "209"
+          - link "在 Google Maps 搜尋 太古城（鰂魚涌）" [ref=e1090] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E5%8F%A4%E5%9F%8E%20%E9%B0%82%E9%AD%9A%E6%B6%8C%20%E9%A6%99%E6%B8%AF
+            - text: 太古城
+          - link "在 Google Maps 搜尋區域：鰂魚涌" [ref=e1091] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%B0%82%E9%AD%9A%E6%B6%8C%20%E9%A6%99%E6%B8%AF
+            - text: 鰂魚涌
+          - generic [ref=e1092]: 住宅樓宇
+        - generic [ref=e1093]:
+          - generic [ref=e1094]: "210"
+          - link "在 Google Maps 搜尋 黃埔花園（紅磡）" [ref=e1095] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%BB%83%E5%9F%94%E8%8A%B1%E5%9C%92%20%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 黃埔花園
+          - link "在 Google Maps 搜尋區域：紅磡" [ref=e1096] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 紅磡
+          - generic [ref=e1097]: 住宅樓宇
+        - generic [ref=e1098]:
+          - generic [ref=e1099]: "211"
+          - link "在 Google Maps 搜尋 海怡半島（鴨脷洲）" [ref=e1100] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E6%80%A1%E5%8D%8A%E5%B3%B6%20%E9%B4%A8%E8%84%B7%E6%B4%B2%20%E9%A6%99%E6%B8%AF
+            - text: 海怡半島
+          - link "在 Google Maps 搜尋區域：鴨脷洲" [ref=e1101] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%B4%A8%E8%84%B7%E6%B4%B2%20%E9%A6%99%E6%B8%AF
+            - text: 鴨脷洲
+          - generic [ref=e1102]: 住宅樓宇
+        - generic [ref=e1103]:
+          - generic [ref=e1104]: "212"
+          - link "在 Google Maps 搜尋 愉景灣（大嶼山）" [ref=e1105] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%84%89%E6%99%AF%E7%81%A3%20%E5%A4%A7%E5%B6%BC%E5%B1%B1%20%E9%A6%99%E6%B8%AF
+            - text: 愉景灣
+          - link "在 Google Maps 搜尋區域：大嶼山" [ref=e1106] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%B6%BC%E5%B1%B1%20%E9%A6%99%E6%B8%AF
+            - text: 大嶼山
+          - generic [ref=e1107]: 住宅樓宇
+        - generic [ref=e1108]:
+          - generic [ref=e1109]: "213"
+          - link "在 Google Maps 搜尋 杏花邨（柴灣）" [ref=e1110] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%8F%E8%8A%B1%E9%82%A8%20%E6%9F%B4%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 杏花邨
+          - link "在 Google Maps 搜尋區域：柴灣" [ref=e1111] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9F%B4%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 柴灣
+          - generic [ref=e1112]: 住宅樓宇
+        - generic [ref=e1113]:
+          - generic [ref=e1114]: "214"
+          - link "在 Google Maps 搜尋 麗城花園（荃灣）" [ref=e1115] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%BA%97%E5%9F%8E%E8%8A%B1%E5%9C%92%20%E8%8D%83%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 麗城花園
+          - link "在 Google Maps 搜尋區域：荃灣" [ref=e1116] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%8D%83%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 荃灣
+          - generic [ref=e1117]: 住宅樓宇
+        - generic [ref=e1118]:
+          - generic [ref=e1119]: "215"
+          - link "在 Google Maps 搜尋 珀麗灣（馬灣）" [ref=e1120] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%8F%80%E9%BA%97%E7%81%A3%20%E9%A6%AC%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 珀麗灣
+          - link "在 Google Maps 搜尋區域：馬灣" [ref=e1121] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%AC%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 馬灣
+          - generic [ref=e1122]: 住宅樓宇
+        - generic [ref=e1123]:
+          - generic [ref=e1124]: "216"
+          - link "在 Google Maps 搜尋 海逸豪園（紅磡）" [ref=e1125] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E9%80%B8%E8%B1%AA%E5%9C%92%20%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 海逸豪園
+          - link "在 Google Maps 搜尋區域：紅磡" [ref=e1126] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 紅磡
+          - generic [ref=e1127]: 住宅樓宇
+        - generic [ref=e1128]:
+          - generic [ref=e1129]: "217"
+          - link "在 Google Maps 搜尋 東堤灣畔（東涌）" [ref=e1130] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E5%A0%A4%E7%81%A3%E7%95%94%20%E6%9D%B1%E6%B6%8C%20%E9%A6%99%E6%B8%AF
+            - text: 東堤灣畔
+          - link "在 Google Maps 搜尋區域：東涌" [ref=e1131] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%B6%8C%20%E9%A6%99%E6%B8%AF
+            - text: 東涌
+          - generic [ref=e1132]: 住宅樓宇
+        - generic [ref=e1133]:
+          - generic [ref=e1134]: "218"
+          - link "在 Google Maps 搜尋 新港城（馬鞍山）" [ref=e1135] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E6%B8%AF%E5%9F%8E%20%E9%A6%AC%E9%9E%8D%E5%B1%B1%20%E9%A6%99%E6%B8%AF
+            - text: 新港城
+          - link "在 Google Maps 搜尋區域：馬鞍山" [ref=e1136] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%AC%E9%9E%8D%E5%B1%B1%20%E9%A6%99%E6%B8%AF
+            - text: 馬鞍山
+          - generic [ref=e1137]: 住宅樓宇
+        - generic [ref=e1138]:
+          - generic [ref=e1139]: "219"
+          - link "在 Google Maps 搜尋 香港恒生大學（小瀝源）" [ref=e1140] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%81%92%E7%94%9F%E5%A4%A7%E5%AD%B8%20%E5%B0%8F%E7%80%9D%E6%BA%90%20%E9%A6%99%E6%B8%AF
+            - text: 香港恒生大學
+          - link "在 Google Maps 搜尋區域：小瀝源" [ref=e1141] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E7%80%9D%E6%BA%90%20%E9%A6%99%E6%B8%AF
+            - text: 小瀝源
+          - generic [ref=e1142]: 大專院校
+        - generic [ref=e1143]:
+          - generic [ref=e1144]: "220"
+          - link "在 Google Maps 搜尋 香港城市大學（九龍塘）" [ref=e1145] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E5%9F%8E%E5%B8%82%E5%A4%A7%E5%AD%B8%20%E4%B9%9D%E9%BE%8D%E5%A1%98%20%E9%A6%99%E6%B8%AF
+            - text: 香港城市大學
+          - link "在 Google Maps 搜尋區域：九龍塘" [ref=e1146] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%A1%98%20%E9%A6%99%E6%B8%AF
+            - text: 九龍塘
+          - generic [ref=e1147]: 大專院校
+        - generic [ref=e1148]:
+          - generic [ref=e1149]: "221"
+          - link "在 Google Maps 搜尋 香港浸會大學（九龍塘）" [ref=e1150] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%B5%B8%E6%9C%83%E5%A4%A7%E5%AD%B8%20%E4%B9%9D%E9%BE%8D%E5%A1%98%20%E9%A6%99%E6%B8%AF
+            - text: 香港浸會大學
+          - link "在 Google Maps 搜尋區域：九龍塘" [ref=e1151] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E9%BE%8D%E5%A1%98%20%E9%A6%99%E6%B8%AF
+            - text: 九龍塘
+          - generic [ref=e1152]: 大專院校
+        - generic [ref=e1153]:
+          - generic [ref=e1154]: "222"
+          - link "在 Google Maps 搜尋 香港樹仁大學（北角）" [ref=e1155] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%A8%B9%E4%BB%81%E5%A4%A7%E5%AD%B8%20%E5%8C%97%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 香港樹仁大學
+          - link "在 Google Maps 搜尋區域：北角" [ref=e1156] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E8%A7%92%20%E9%A6%99%E6%B8%AF
+            - text: 北角
+          - generic [ref=e1157]: 大專院校
+        - generic [ref=e1158]:
+          - generic [ref=e1159]: "223"
+          - link "在 Google Maps 搜尋 嶺南大學（屯門）" [ref=e1160] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B6%BA%E5%8D%97%E5%A4%A7%E5%AD%B8%20%E5%B1%AF%E9%96%80%20%E9%A6%99%E6%B8%AF
+            - text: 嶺南大學
+          - link "在 Google Maps 搜尋區域：屯門" [ref=e1161] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%B1%AF%E9%96%80%20%E9%A6%99%E6%B8%AF
+            - text: 屯門
+          - generic [ref=e1162]: 大專院校
+        - generic [ref=e1163]:
+          - generic [ref=e1164]: "224"
+          - link "在 Google Maps 搜尋 香港中文大學（沙田）" [ref=e1165] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E4%B8%AD%E6%96%87%E5%A4%A7%E5%AD%B8%20%E6%B2%99%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 香港中文大學
+          - link "在 Google Maps 搜尋區域：沙田" [ref=e1166] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B2%99%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 沙田
+          - generic [ref=e1167]: 大專院校
+        - generic [ref=e1168]:
+          - generic [ref=e1169]: "225"
+          - link "在 Google Maps 搜尋 香港教育大學（大埔）" [ref=e1170] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E6%95%99%E8%82%B2%E5%A4%A7%E5%AD%B8%20%E5%A4%A7%E5%9F%94%20%E9%A6%99%E6%B8%AF
+            - text: 香港教育大學
+          - link "在 Google Maps 搜尋區域：大埔" [ref=e1171] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%9F%94%20%E9%A6%99%E6%B8%AF
+            - text: 大埔
+          - generic [ref=e1172]: 大專院校
+        - generic [ref=e1173]:
+          - generic [ref=e1174]: "226"
+          - link "在 Google Maps 搜尋 香港理工大學（紅磡）" [ref=e1175] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%B8%20%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 香港理工大學
+          - link "在 Google Maps 搜尋區域：紅磡" [ref=e1176] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%B4%85%E7%A3%A1%20%E9%A6%99%E6%B8%AF
+            - text: 紅磡
+          - generic [ref=e1177]: 大專院校
+        - generic [ref=e1178]:
+          - generic [ref=e1179]: "227"
+          - link "在 Google Maps 搜尋 香港科技大學（清水灣）" [ref=e1180] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8%20%E6%B8%85%E6%B0%B4%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 香港科技大學
+          - link "在 Google Maps 搜尋區域：清水灣" [ref=e1181] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E6%B8%85%E6%B0%B4%E7%81%A3%20%E9%A6%99%E6%B8%AF
+            - text: 清水灣
+          - generic [ref=e1182]: 大專院校
+        - generic [ref=e1183]:
+          - generic [ref=e1184]: "228"
+          - link "在 Google Maps 搜尋 香港都會大學（何文田）" [ref=e1185] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E9%83%BD%E6%9C%83%E5%A4%A7%E5%AD%B8%20%E4%BD%95%E6%96%87%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 香港都會大學
+          - link "在 Google Maps 搜尋區域：何文田" [ref=e1186] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E4%BD%95%E6%96%87%E7%94%B0%20%E9%A6%99%E6%B8%AF
+            - text: 何文田
+          - generic [ref=e1187]: 大專院校
+        - generic [ref=e1188]:
+          - generic [ref=e1189]: "229"
+          - link "在 Google Maps 搜尋 香港大學本部大樓（般咸道）" [ref=e1190] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%B8%AF%E5%A4%A7%E5%AD%B8%E6%9C%AC%E9%83%A8%E5%A4%A7%E6%A8%93%20%E8%88%AC%E5%92%B8%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 香港大學本部大樓
+          - link "在 Google Maps 搜尋區域：般咸道" [ref=e1191] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%88%AC%E5%92%B8%E9%81%93%20%E9%A6%99%E6%B8%AF
+            - text: 般咸道
+          - generic [ref=e1192]: 大專院校
+        - generic [ref=e1193]:
+          - generic [ref=e1194]: "230"
+          - link "在 Google Maps 搜尋 聖方濟各大學（翠嶺里）" [ref=e1195] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E8%81%96%E6%96%B9%E6%BF%9F%E5%90%84%E5%A4%A7%E5%AD%B8%20%E7%BF%A0%E5%B6%BA%E9%87%8C%20%E9%A6%99%E6%B8%AF
+            - text: 聖方濟各大學
+          - link "在 Google Maps 搜尋區域：翠嶺里" [ref=e1196] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=%E7%BF%A0%E5%B6%BA%E9%87%8C%20%E9%A6%99%E6%B8%AF
+            - text: 翠嶺里
+          - generic [ref=e1197]: 大專院校
+  - contentinfo [ref=e1198]:
+    - generic [ref=e1199]: 本應用整理自運輸署公開資料，僅供溫習用途。一切收費、規則、罰則以憲報及運輸署最新公布為準。
+    - generic [ref=e1200]:
+      - text: 原文 PDF
+      - link "的士營運小冊子 (2026/03)" [ref=e1201] [cursor=pointer]:
+        - /url: https://www.td.gov.hk/filemanager/tc/publication/taxi%20operation%20booklet_tc_20260320_revised.pdf
+      - link "道路使用者守則" [ref=e1202] [cursor=pointer]:
+        - /url: https://www.td.gov.hk/filemanager/tc/content_172/road_users_code_2020_chi.pdf

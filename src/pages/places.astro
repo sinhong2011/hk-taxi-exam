@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PlacesSearch from "../islands/PlacesSearch";
+import { places } from "../data/places";
+---
+
+<BaseLayout activeTab="places" title="地方・的士筆試">
+  <div class="mb-8 flex items-baseline gap-4">
+    <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">04</span>
+    <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">地方位置・目錄</h2>
+  </div>
+
+  <p class="mb-6 max-w-(--container-reading) text-base leading-[1.75] text-ink-2">
+    共 {places.length} 個考試題目，按類別瀏覽或直接輸入地方／街道名搜尋。
+    點擊名稱或位置可於 Google Maps 開啟搜尋。
+  </p>
+
+  <PlacesSearch client:load />
+</BaseLayout>

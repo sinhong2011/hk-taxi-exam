@@ -1,0 +1,59 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { regulations } from "../data/regulations";
+---
+
+<BaseLayout activeTab="regulations" title="則例・的士筆試">
+  <div class="mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+    <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">02</span>
+    <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">的士則例・十五章</h2>
+  </div>
+
+  <p class="mb-2 max-w-(--container-reading) text-base leading-[1.75] text-ink-2">
+    以下各章節摘自《的士營運小冊子》(2026 年 3 月修訂)，每章配以口訣與要點，
+    紅點標示嚴重違例與重犯加重罰則。
+  </p>
+
+  <div class="flex flex-col">
+    {regulations.map((r, i) => (
+      <section class="grid grid-cols-[100px_minmax(0,1fr)] gap-8 border-t border-line py-12 last:border-b last:border-line max-tablet:grid-cols-[60px_minmax(0,1fr)] max-tablet:gap-5 max-tablet:py-9">
+        <div>
+          <div class="font-serif text-[56px] leading-none font-normal tracking-[-0.03em] text-red tabular-nums max-tablet:text-[40px]">
+            {String(i + 1).padStart(2, "0")}
+          </div>
+          <div class="mt-2 text-[11px] tracking-[0.14em] text-muted uppercase">
+            {i < 7 ? "核心規則" : i < 12 ? "營運要點" : "違例與罰則"}
+          </div>
+        </div>
+        <div>
+          <h3 class="mb-2.5 font-serif text-[26px] leading-[1.25] font-medium tracking-[-0.01em] max-tablet:text-[22px]">
+            {r.title}
+          </h3>
+          <p class="mb-4 text-[15px] leading-[1.7] text-ink-2">{r.summary}</p>
+          {r.mnemonic && (
+            <div class="mb-5 border-l-2 border-red bg-red-soft px-4 py-3 text-[13.5px] leading-[1.65] text-ink-2 [&_b]:font-serif [&_b]:tracking-[0.01em] [&_b]:text-red-deep">
+              <b>口訣</b>　{r.mnemonic}
+            </div>
+          )}
+          <div class="grid grid-cols-3 border-t border-line max-tablet:grid-cols-1">
+            {r.rules.map((rule) => (
+              <div class="relative flex min-h-[70px] flex-col gap-1 border-r border-b border-line px-5 py-4 nth-[3n]:border-r-0 max-tablet:border-r-0">
+                <div class:list={[
+                  "text-[12.5px] font-medium tracking-[0.02em] text-muted",
+                  rule.hot && "after:ml-2 after:inline-block after:size-[5px] after:-translate-y-[4px] after:rounded-full after:bg-red after:content-['']"
+                ]}>
+                  {rule.label}
+                </div>
+                {rule.value && (
+                  <div class="text-[14.5px] leading-[1.55] text-ink [font-feature-settings:'tnum'_1]">
+                    {rule.value}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    ))}
+  </div>
+</BaseLayout>

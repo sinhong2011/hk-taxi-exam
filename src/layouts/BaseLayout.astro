@@ -1,0 +1,127 @@
+---
+import "../styles/global.css";
+import Nav from "../components/Nav.astro";
+import BottomNav from "../components/BottomNav.astro";
+import { ClientRouter } from "astro:transitions";
+
+interface Props {
+  title?: string;
+  activeTab: string;
+}
+
+const { title = "的士筆試・備考手冊", activeTab } = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-HK">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0f1013" />
+    <meta name="description" content="的士筆試備考手冊——整合運輸署《的士營運小冊子》與《道路使用者守則》的溫習工具。" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="的士筆試" />
+
+    <title>{title}</title>
+    <ClientRouter />
+  </head>
+  <body>
+    <div class="flex min-h-dvh flex-col">
+      <header
+        class="sticky top-0 z-20"
+        style="background: color-mix(in srgb, var(--color-paper) 86%, transparent); backdrop-filter: saturate(1.2) blur(14px);"
+      >
+        <div class="mx-auto grid w-full max-w-(--container-content) grid-cols-[1fr_auto_1fr] items-center gap-6 px-8 py-4 max-tablet:px-5 max-tablet:py-3 max-sm:px-3">
+          <a
+            href="/"
+            class="flex shrink-0 items-center gap-3 justify-self-start font-serif text-[22px] font-semibold tracking-[-0.01em] text-ink no-underline max-[520px]:gap-2.5 max-[520px]:text-[18px]"
+            aria-label="返回首頁 · 的士筆試備考手冊"
+          >
+            <img
+              src="/favicon.svg"
+              alt=""
+              width="30"
+              height="30"
+              class="size-[30px] rounded-lg max-[520px]:size-6"
+              aria-hidden="true"
+            />
+            <span>的士筆試</span>
+          </a>
+          <Nav activeTab={activeTab} />
+          <div aria-hidden="true"></div>
+        </div>
+      </header>
+
+      <main
+        class="mx-auto w-full max-w-(--container-content) flex-1 px-8 pt-14 pb-30 max-tablet:px-5 max-tablet:pt-10 max-tablet:pb-20 max-sm:pt-8 max-sm:pb-[calc(76px+env(safe-area-inset-bottom))]"
+      >
+        <slot />
+      </main>
+
+      <BottomNav activeTab={activeTab} />
+
+      <footer
+        class="mx-auto w-full max-w-(--container-content) border-t border-line px-8 pt-8 pb-10 text-xs leading-7 text-muted max-tablet:px-5 max-tablet:pt-6 max-tablet:pb-8"
+      >
+        <div>本應用整理自運輸署公開資料，僅供溫習用途。一切收費、規則、罰則以憲報及運輸署最新公布為準。</div>
+        <div class="mt-3.5">
+          <span class="text-[11px] tracking-[0.12em] text-ink-3 uppercase">原文 PDF　</span>
+          <a
+            href="https://www.td.gov.hk/filemanager/tc/publication/taxi%20operation%20booklet_tc_20260320_revised.pdf"
+            target="_blank"
+            rel="noopener"
+            class="mr-4 text-ink-2 underline decoration-line-strong underline-offset-[3px]"
+          >
+            的士營運小冊子 (2026/03)
+          </a>
+          <a
+            href="https://www.td.gov.hk/filemanager/tc/content_172/road_users_code_2020_chi.pdf"
+            target="_blank"
+            rel="noopener"
+            class="text-ink-2 underline decoration-line-strong underline-offset-[3px]"
+          >
+            道路使用者守則
+          </a>
+        </div>
+      </footer>
+    </div>
+
+    <script is:inline>
+      // Service worker: register on production hosts only. On any local host,
+      // proactively unregister + purge caches in case a stale SW was registered
+      // during a previous non-localhost session (e.g. 127.0.0.1 or a deploy).
+      // Stale SWs serve outdated React-island bundles and cause "content flashes
+      // empty" symptoms on client:load islands.
+      (function () {
+        if (!("serviceWorker" in navigator)) return;
+        var host = location.hostname;
+        var isLocal =
+          host === "localhost" ||
+          host === "127.0.0.1" ||
+          host === "0.0.0.0" ||
+          host.endsWith(".localhost");
+        if (isLocal) {
+          navigator.serviceWorker
+            .getRegistrations()
+            .then(function (regs) { regs.forEach(function (r) { r.unregister(); }); })
+            .catch(function () {});
+          if (window.caches && caches.keys) {
+            caches.keys().then(function (keys) {
+              keys.forEach(function (k) { caches.delete(k); });
+            }).catch(function () {});
+          }
+          return;
+        }
+        window.addEventListener("load", function () {
+          navigator.serviceWorker.register("/sw.js").catch(function () {});
+        });
+      })();
+    </script>
+  </body>
+</html>

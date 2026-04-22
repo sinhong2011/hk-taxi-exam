@@ -1,0 +1,44 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "返回首頁 · 的士筆試備考手冊" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e7]: 的士筆試
+      - tablist [ref=e9]:
+        - tab "01 總覽" [ref=e10] [cursor=pointer]:
+          - generic [ref=e11]: "01"
+          - text: 總覽
+        - tab "02 則例" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: "02"
+          - text: 則例
+        - tab "03 收費" [ref=e14] [cursor=pointer]:
+          - generic [ref=e15]: "03"
+          - text: 收費
+        - tab "04 地方" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: "04"
+          - text: 地方
+        - tab "05 路線" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: "05"
+          - text: 路線
+        - tab "06 道路守則" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: "06"
+          - text: 道路守則
+        - tab "07 測驗" [selected] [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: "07"
+          - text: 測驗
+        - tab "08 模擬試" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]: "08"
+          - text: 模擬試
+        - tab "09 龍虎榜" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]: "09"
+          - text: 龍虎榜
+  - main [ref=e29]
+  - contentinfo [ref=e30]:
+    - generic [ref=e31]: 本應用整理自運輸署公開資料，僅供溫習用途。一切收費、規則、罰則以憲報及運輸署最新公布為準。
+    - generic [ref=e32]:
+      - text: 原文 PDF
+      - link "的士營運小冊子 (2026/03)" [ref=e33] [cursor=pointer]:
+        - /url: https://www.td.gov.hk/filemanager/tc/publication/taxi%20operation%20booklet_tc_20260320_revised.pdf
+      - link "道路使用者守則" [ref=e34] [cursor=pointer]:
+        - /url: https://www.td.gov.hk/filemanager/tc/content_172/road_users_code_2020_chi.pdf

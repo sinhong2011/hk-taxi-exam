@@ -1,0 +1,17 @@
+{
+  "name": "的士筆試・備考手冊",
+  "short_name": "的士筆試",
+  "description": "整合運輸署《的士營運小冊子》與《道路使用者守則》的備考溫習工具。",
+  "lang": "zh-HK",
+  "theme_color": "#0f1013",
+  "background_color": "#0f1013",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,71 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { routes } from "../data/routes";
+
+// Google Maps deep-link helpers — single search vs driving directions.
+// Append 香港 so the geocoder resolves HK-specific place names reliably.
+function mapsSearchUrl(place: string): string {
+  const q = encodeURIComponent(`${place} 香港`);
+  return `https://www.google.com/maps/search/?api=1&query=${q}`;
+}
+function mapsDirectionsUrl(from: string, to: string): string {
+  const origin = encodeURIComponent(`${from} 香港`);
+  const destination = encodeURIComponent(`${to} 香港`);
+  return `https://www.google.com/maps/dir/?api=1&origin=${origin}&destination=${destination}&travelmode=driving`;
+}
+---
+
+<BaseLayout activeTab="routes" title="路線・的士筆試">
+  <div class="mb-8 flex items-baseline gap-4">
+    <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">05</span>
+    <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">路線・最直接可行</h2>
+  </div>
+
+  <div class="mb-10 border-l-2 border-l-red pl-6 py-1 text-sm leading-[1.7] text-ink-2 [&_strong]:mb-2 [&_strong]:block [&_strong]:font-serif [&_strong]:text-[15px] [&_strong]:font-medium [&_strong]:tracking-[-0.005em] [&_strong]:text-ink [&_ul]:mt-1.5 [&_ul]:ml-4 [&_li]:mb-1 [&_em]:text-ink [&_em]:not-italic">
+    <strong>記憶法・三大原則</strong>
+    <ul>
+      <li><em>過海</em>——起終點分處港島／九龍，三選一：紅隧、東隧、西隧</li>
+      <li><em>過山</em>——新界↔市區：獅子山、大老山、尖山（青沙公路）、啟德隧道</li>
+      <li><em>新界長距</em>——大欖隧道、青朗公路、粉嶺公路、林錦公路</li>
+    </ul>
+  </div>
+
+  <p class="mb-6 text-[12.5px] leading-[1.6] text-muted">
+    點擊任何地點可於 Google Maps 開啟搜尋；點擊「路線」可開啟 Google Maps 駕駛路線。
+  </p>
+
+  <div class="flex flex-col gap-1">
+    {routes.map((r) => (
+      <div class="grid grid-cols-[60px_minmax(0,1fr)_minmax(0,1.2fr)] items-baseline gap-6 py-4 max-tablet:grid-cols-[40px_1fr] max-tablet:gap-3.5">
+        <div class="font-serif text-[15px] text-muted tabular-nums">{String(r.id).padStart(3, "0")}</div>
+        <div class="flex flex-col gap-1.5">
+          <div class="flex items-baseline gap-2 leading-[1.4]">
+            <span class="min-w-6 text-[10px] tracking-[0.16em] text-muted uppercase">起</span>
+            <a
+              href={mapsSearchUrl(r.from)}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-[15px] font-medium text-ink underline decoration-line-strong underline-offset-[3px] transition-colors hover:text-red hover:decoration-red"
+            >{r.from}</a>
+          </div>
+          <div class="flex items-baseline gap-2 leading-[1.4]">
+            <span class="min-w-6 text-[10px] tracking-[0.16em] text-muted uppercase">迄</span>
+            <a
+              href={mapsSearchUrl(r.to)}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-[15px] font-medium text-ink underline decoration-line-strong underline-offset-[3px] transition-colors hover:text-red hover:decoration-red"
+            >{r.to}</a>
+          </div>
+        </div>
+        <a
+          href={mapsDirectionsUrl(r.from, r.to)}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="font-serif text-[15.5px] leading-[1.45] font-medium text-red underline decoration-red/40 underline-offset-[3px] transition-colors hover:decoration-red max-tablet:col-[2/-1] max-tablet:mt-1 max-tablet:pl-0"
+          aria-label={`在 Google Maps 開啟 ${r.from} 到 ${r.to} 的駕駛路線`}
+        >{r.via} ↗</a>
+      </div>
+    ))}
+  </div>
+</BaseLayout>
