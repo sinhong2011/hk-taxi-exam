@@ -470,7 +470,7 @@ function StartScreen({
   return (
     <div className="mx-auto max-w-[640px]">
       {inProgress && (
-        <div className="mb-8 border border-l-2 border-line border-l-olive px-6 py-5">
+        <div className="mb-8 border-l-2 border-l-olive px-6 py-5">
           <div className="mb-2 text-xs font-medium tracking-[0.12em] text-olive uppercase">
             進行中嘅練習
           </div>
@@ -503,7 +503,7 @@ function StartScreen({
       <div className="mb-3 text-[11px] font-semibold tracking-[0.14em] text-red uppercase">實戰模擬</div>
       <h1 className="mb-6 font-serif text-[clamp(32px,5vw,48px)] leading-[1.15] font-medium tracking-[-0.02em] text-ink">模擬試</h1>
 
-      <div className="mb-8 border border-l-2 border-line border-l-red px-6 py-5 text-sm leading-[1.7] text-ink-2">
+      <div className="mb-8 border-l-2 border-l-red px-6 py-5 text-sm leading-[1.7] text-ink-2">
         <div className="mb-1.5">
           <b className="text-ink">Part A</b>　40 題　·　及格標準 34
         </div>
@@ -516,7 +516,7 @@ function StartScreen({
       </div>
 
       {blocked && (
-        <div className="mb-6 border border-red bg-red-soft px-[18px] py-3.5 text-[13.5px] text-ink">
+        <div className="mb-6 border-l-2 border-red bg-red-soft px-[18px] py-3.5 text-[13.5px] text-ink">
           <div className="mb-1.5 font-semibold text-red-deep">題庫不足</div>
           {shortages.map((msg, i) => (
             <div key={i} className="text-ink-2">{msg}</div>
@@ -524,7 +524,7 @@ function StartScreen({
         </div>
       )}
       {partBShort && (
-        <div className="mb-6 border border-l-2 border-line border-l-navy px-[18px] py-3 text-[13.5px] text-ink-2">
+        <div className="mb-6 border-l-2 border-l-navy px-[18px] py-3 text-[13.5px] text-ink-2">
           Part B 題庫只有 {partBSize} 題，將以 {partBSize} 題計分。
         </div>
       )}
@@ -543,7 +543,7 @@ function StartScreen({
               return (
                 <div
                   key={i}
-                  className="border-b border-line pb-1.5 text-[13.5px] text-ink-2 tabular-nums"
+                  className="pb-1.5 text-[13.5px] text-ink-2 tabular-nums"
                 >
                   {formatTs(r.ts)}　·　Part A {r.partA.correct}/{r.partA.total}
                   {!isSample && ` ${aPass ? "✓" : "✗"}`}　·　Part B {r.partB.correct}/{r.partB.total}
@@ -746,7 +746,7 @@ function PartRunnerRanked({
 
   return (
     <div className="mx-auto max-w-[640px]">
-      <div className="mb-8 flex items-baseline justify-between border-b border-line pb-5 text-xs tracking-[0.08em] text-muted uppercase">
+      <div className="mb-8 flex items-baseline justify-between pb-5 text-xs tracking-[0.08em] text-muted uppercase">
         <span>{label}　·　第 {currentIdx + 1} 題 / {total}</span>
         <span
           className={`font-serif text-lg tracking-normal normal-case tabular-nums ${lowTime ? "text-red" : "text-ink"}`}
@@ -764,7 +764,7 @@ function PartRunnerRanked({
           showExplain={answered}
         />
 
-        <div className="mt-2 flex justify-end gap-5 border-t border-line pt-5">
+        <div className="mt-2 flex justify-end gap-5 pt-5">
           <button className="py-2 text-[13px] font-semibold tracking-[0.05em] text-muted uppercase transition-colors hover:text-ink" onClick={next}>
             {answered ? "" : "跳過"}
           </button>
@@ -821,7 +821,7 @@ function PartRunnerPractice({
 
   return (
     <div className="mx-auto max-w-[640px]">
-      <div className="mb-8 flex items-baseline justify-between border-b border-line pb-5 text-xs tracking-[0.08em] text-muted uppercase">
+      <div className="mb-8 flex items-baseline justify-between pb-5 text-xs tracking-[0.08em] text-muted uppercase">
         <span>{label}　·　第 {currentIdx + 1} 題 / {total}</span>
         <span className={`font-sans text-xs tracking-[0.08em] uppercase tabular-nums ${mode === "sample" ? "text-olive" : "text-muted"}`}>
           {mode === "sample" ? "官方樣本・唔計時" : "練習中・唔計時"}
@@ -836,7 +836,7 @@ function PartRunnerPractice({
           showExplain={answered}
         />
 
-        <div className="mt-2 flex justify-end gap-5 border-t border-line pt-5">
+        <div className="mt-2 flex justify-end gap-5 pt-5">
           <button className="py-2 text-[13px] font-semibold tracking-[0.05em] text-muted uppercase transition-colors hover:text-ink" onClick={next}>
             {answered ? "" : "跳過"}
           </button>
@@ -873,7 +873,7 @@ function Interstitial({
   return (
     <div className="mx-auto max-w-[640px] pt-10 text-center">
       {showTimer && (
-        <div className="mb-4 flex justify-end border-b border-line pb-5 text-xs tracking-[0.08em] text-muted uppercase">
+        <div className="mb-4 flex justify-end pb-5 text-xs tracking-[0.08em] text-muted uppercase">
           <span
             className={`font-serif text-lg tracking-normal normal-case tabular-nums ${lowTime ? "text-red" : "text-ink"}`}
             aria-live="polite"
@@ -1152,7 +1152,7 @@ function ResultScreen({
           <div className="mb-8 max-w-[58ch] text-base leading-[1.75] text-ink-2">
             呢十條題目全部來自運輸署《的士筆試指引》(2026 年 4 月版)，每條都附原文頁數。
           </div>
-          <div className="mb-8 border border-l-2 border-line border-l-olive px-6 py-5">
+          <div className="mb-8 border-l-2 border-l-olive px-6 py-5">
             <div className="mb-2.5 text-[11px] font-semibold tracking-[0.14em] text-olive uppercase">
               點樣睇呢個分數
             </div>
@@ -1181,7 +1181,7 @@ function ResultScreen({
           </div>
 
           {/* 粵語周星馳-style 評語 */}
-          <div className="mb-8 border border-l-2 border-line border-l-red bg-red-soft px-6 py-5">
+          <div className="mb-8 border-l-2 border-l-red bg-red-soft px-6 py-5">
             <div className="mb-2.5 text-[11px] font-semibold tracking-[0.14em] text-red uppercase">評語</div>
             <div className="mb-2.5 font-serif text-[clamp(22px,3.2vw,28px)] leading-[1.25] tracking-[-0.01em] text-ink">
               「{verdict.title}」
@@ -1193,7 +1193,7 @@ function ResultScreen({
         </>
       )}
 
-      <div className="mb-8 border-t border-line">
+      <div className="mb-8">
         <PartLine
           label="Part A"
           correct={a.correct}
@@ -1247,7 +1247,7 @@ function ResultScreen({
               <a
                 key={r.topic}
                 href={topicToRoute[r.topic]}
-                className="border-b border-line py-2.5 text-left text-[15px] font-semibold text-red transition-colors hover:text-red-deep"
+                className="py-2.5 text-left text-[15px] font-semibold text-red transition-colors hover:text-red-deep"
               >
                 去修訂 · {topicLabels[r.topic]}　<span className="text-xs text-muted">（錯 {r.wrong}/{r.total}）</span>
               </a>
@@ -1260,7 +1260,7 @@ function ResultScreen({
         <div className="mb-8">
           <div className="mb-3 text-xs font-medium tracking-[0.12em] text-muted uppercase">錯題詳解</div>
           {Array.from(wrongByTopic.entries()).map(([topic, items]) => (
-            <details key={topic} className="border-b border-line py-3">
+            <details key={topic} className="py-3">
               <summary className="flex cursor-pointer list-none justify-between text-sm font-medium text-ink">
                 <span>{topicLabels[topic]}</span>
                 <span className="text-xs text-muted tabular-nums">{items.length} 題</span>
@@ -1274,7 +1274,7 @@ function ResultScreen({
                         dominate the text review list. White inner bg mirrors
                         the main QuestionCard image treatment. */}
                     {q.imageSrc && (
-                      <div className="mb-2 inline-flex rounded-[3px] border border-line bg-white p-1.5">
+                      <div className="mb-2 inline-flex rounded-[3px] bg-white p-1.5">
                         <img
                           src={q.imageSrc}
                           alt={q.imageAlt ?? "題目圖像"}
@@ -1300,7 +1300,7 @@ function ResultScreen({
                       // 官方樣本. Promote it to a prominent callout box
                       // instead of a muted footnote.
                       (isSample ? (
-                        <div className="mt-2.5 border border-l-2 border-line border-l-olive bg-red-soft px-3.5 py-2.5 font-serif text-[13.5px] leading-[1.7] text-ink">
+                        <div className="mt-2.5 border-l-2 border-l-olive bg-red-soft px-3.5 py-2.5 font-serif text-[13.5px] leading-[1.7] text-ink">
                           <div className="mb-1 text-[10.5px] font-semibold tracking-[0.14em] text-olive uppercase">
                             TD 官方來源
                           </div>
@@ -1321,13 +1321,13 @@ function ResultScreen({
           appears on the exported PNG header. Pure cosmetic: never persisted,
           never sent over the network. */}
       {!isSample && (
-        <div className="mb-2 flex flex-col gap-2 border-t border-line py-6">
+        <div className="mb-2 flex flex-col gap-2 py-6">
           <div className="text-xs font-medium tracking-[0.12em] text-muted uppercase">
             分享圖片署名（可留空）
           </div>
           <input
             type="text"
-            className="w-full border-0 border-b border-line-strong bg-transparent py-3 font-serif text-base tracking-[-0.01em] text-ink transition-colors placeholder:text-muted placeholder:italic focus:border-b-red focus:outline-none"
+            className="w-full rounded-md bg-paper-2 px-4 py-3 font-serif text-base tracking-[-0.01em] text-ink transition-colors outline-none placeholder:text-muted placeholder:italic focus:bg-paper-raised focus:ring-1 focus:ring-red/40"
             value={nickname}
             onChange={(e) => setNickname(e.target.value)}
             maxLength={20}
@@ -1339,7 +1339,7 @@ function ResultScreen({
         </div>
       )}
 
-      <div className="flex flex-wrap items-baseline justify-between gap-5 border-t border-line pt-5">
+      <div className="flex flex-wrap items-baseline justify-between gap-5 pt-5">
         {/* Share-card export buttons — hidden in sample mode. The offscreen
             ResultCard is designed around pass/fail against the 34/30 real-exam
             thresholds, which don't apply to 6+4 sample questions; exporting
@@ -1424,7 +1424,7 @@ function PartLine({
 }) {
   const pass = correct >= threshold;
   return (
-    <div className="flex items-baseline justify-between border-b border-line py-4">
+    <div className="flex items-baseline justify-between py-4">
       <div>
         <span className="font-serif text-base text-ink">{label}</span>
       </div>

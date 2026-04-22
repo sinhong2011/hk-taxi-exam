@@ -14,7 +14,7 @@ const signGrouped = signCategories.map((cat) => ({
 ---
 
 <BaseLayout activeTab="roadcode" title="道路守則・的士筆試">
-  <div class="mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+  <div class="mb-8 flex items-baseline gap-4">
     <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">06</span>
     <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">道路使用者守則・駕駛人篇</h2>
   </div>
@@ -26,7 +26,7 @@ const signGrouped = signCategories.map((cat) => ({
 
   <div class="flex flex-col">
     {roadSections.map((s, i) => (
-      <section class="grid grid-cols-[100px_minmax(0,1fr)] gap-8 border-t border-line py-12 last:border-b last:border-line max-tablet:grid-cols-[60px_minmax(0,1fr)] max-tablet:gap-5 max-tablet:py-9">
+      <section class="grid grid-cols-[100px_minmax(0,1fr)] gap-8 py-10 max-tablet:grid-cols-[60px_minmax(0,1fr)] max-tablet:gap-5 max-tablet:py-8">
         <div>
           <div class="font-serif text-[56px] leading-none font-normal tracking-[-0.03em] text-red tabular-nums max-tablet:text-[40px]">
             {String(i + 1).padStart(2, "0")}
@@ -37,9 +37,9 @@ const signGrouped = signCategories.map((cat) => ({
           <h3 class="mb-2.5 font-serif text-[26px] leading-[1.25] font-medium tracking-[-0.01em] max-tablet:text-[22px]">
             {s.title}
           </h3>
-          <div class="mt-2 grid grid-cols-3 border-t border-line max-tablet:grid-cols-1">
+          <div class="mt-2 grid grid-cols-3 gap-x-2 gap-y-3 max-tablet:grid-cols-1 max-tablet:gap-y-2">
             {s.tips.map((t) => (
-              <div class="relative flex min-h-[70px] flex-col gap-1 border-r border-b border-line px-5 py-4 nth-[3n]:border-r-0 max-tablet:border-r-0">
+              <div class="relative flex min-h-[70px] flex-col gap-1 px-4 py-3">
                 <div class:list={[
                   "text-[12.5px] font-medium tracking-[0.02em] text-muted",
                   t.hot && "after:ml-2 after:inline-block after:size-[5px] after:-translate-y-[4px] after:rounded-full after:bg-red after:content-['']"
@@ -53,7 +53,7 @@ const signGrouped = signCategories.map((cat) => ({
     ))}
   </div>
 
-  <div id="catalog-標誌圖鑑" class="mt-18 mb-8 flex items-baseline gap-4 border-b border-line pb-4">
+  <div id="catalog-標誌圖鑑" class="mt-18 mb-8 flex items-baseline gap-4">
     <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">07</span>
     <h2 class="font-serif text-[clamp(24px,4vw,32px)] leading-[1.2] font-medium tracking-[-0.015em]">交通標誌・原圖庫</h2>
   </div>
@@ -63,18 +63,18 @@ const signGrouped = signCategories.map((cat) => ({
     按類別分組瀏覽：紅圓＝禁制、紅三角＝警告、藍圓＝指令、藍方＝提示／方向。
   </p>
 
-  <nav class="mb-8 flex flex-wrap gap-[18px] border-b border-line pb-5 text-[13px]">
+  <nav class="mb-8 flex flex-wrap gap-[18px] text-[13px]">
     {signCategories.map((c) => (
       <a
         href={`#cat-${c}`}
-        class="border-b border-transparent py-0.5 tracking-[0.02em] text-muted transition-colors hover:border-red hover:text-red"
+        class="py-0.5 tracking-[0.02em] text-muted transition-colors hover:text-red"
       >{c}</a>
     ))}
   </nav>
 
   {signGrouped.map(({ cat, items }) => (
     <section id={`cat-${cat}`} class="mb-14 scroll-mt-[120px]">
-      <header class="mb-5 flex items-baseline justify-between border-b border-line-strong py-3">
+      <header class="mb-5 flex items-baseline justify-between py-3">
         <span class="font-mono text-[11px] tracking-[0.12em] text-muted uppercase">{cat}</span>
         <span class="font-serif text-[13px] text-muted tabular-nums">{items.length} 個</span>
       </header>
@@ -93,7 +93,7 @@ const signGrouped = signCategories.map((cat) => ({
             <figcaption class="min-h-[2.9em] px-0.5 text-center text-[12.5px] leading-[1.45] text-ink-2 max-[520px]:min-h-[2.6em] max-[520px]:text-[11.5px]">
               {e.caption || "（未提供標題）"}
             </figcaption>
-            <div class="flex items-center justify-between gap-2 border-t border-dashed border-line pt-1.5">
+            <div class="flex items-center justify-between gap-2 pt-1.5">
               <span class="font-mono text-[9.5px] tracking-[0.04em] text-muted uppercase">{e.category}</span>
               <span class="font-mono text-[9.5px] tracking-[0.02em] text-muted tabular-nums">{e.file.replace(/\.(gif|png|jpg)$/, "")}</span>
             </div>

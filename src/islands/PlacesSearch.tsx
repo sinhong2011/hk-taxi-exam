@@ -39,7 +39,7 @@ export default function PlacesSearch() {
           placeholder="搜尋地方名或位置…"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="w-full border-0 border-b border-line-strong bg-transparent py-3 font-serif text-lg tracking-[-0.01em] text-ink transition-colors placeholder:text-muted placeholder:italic focus:border-b-red focus:outline-none"
+          className="w-full rounded-md bg-paper-2 px-4 py-3 font-serif text-lg tracking-[-0.01em] text-ink transition-colors outline-none placeholder:text-muted placeholder:italic focus:bg-paper-raised focus:ring-1 focus:ring-red/40"
         />
         <div className="flex flex-wrap gap-[18px] text-[13px]">
           <button

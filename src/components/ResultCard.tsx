@@ -87,8 +87,7 @@ const ResultCard = forwardRef<HTMLDivElement, ResultCardProps>(function ResultCa
           display: "flex",
           justifyContent: "space-between",
           alignItems: "baseline",
-          paddingBottom: 24,
-          borderBottom: `1px solid ${TOK.line}`,
+          paddingBottom: 28,
         }}
       >
         <div style={{ display: "flex", alignItems: "baseline", gap: 14 }}>
@@ -204,11 +203,12 @@ const ResultCard = forwardRef<HTMLDivElement, ResultCardProps>(function ResultCa
           marginTop: 56,
           display: "grid",
           gridTemplateColumns: "1fr 1fr",
-          borderTop: `1px solid ${TOK.lineStrong}`,
-          borderBottom: `1px solid ${TOK.lineStrong}`,
+          gap: 16,
+          background: TOK.paper2,
+          borderRadius: 10,
         }}
       >
-        <ScoreCell label="Part A" correct={partA.correct} total={partA.total} pass={partA.pass} rightBorder />
+        <ScoreCell label="Part A" correct={partA.correct} total={partA.total} pass={partA.pass} />
         <ScoreCell label="Part B" correct={partB.correct} total={partB.total} pass={partB.pass} />
       </div>
 
@@ -285,9 +285,8 @@ const ResultCard = forwardRef<HTMLDivElement, ResultCardProps>(function ResultCa
       {/* 7. Footer */}
       <div
         style={{
-          marginTop: 32,
-          paddingTop: 20,
-          borderTop: `1px solid ${TOK.line}`,
+          marginTop: 36,
+          paddingTop: 8,
           display: "flex",
           justifyContent: "space-between",
           alignItems: "baseline",
@@ -310,19 +309,16 @@ function ScoreCell({
   correct,
   total,
   pass,
-  rightBorder,
 }: {
   label: string;
   correct: number;
   total: number;
   pass: boolean;
-  rightBorder?: boolean;
 }) {
   return (
     <div
       style={{
-        padding: "36px 28px",
-        borderRight: rightBorder ? `1px solid ${TOK.line}` : "none",
+        padding: "32px 28px",
         display: "flex",
         flexDirection: "column",
         gap: 10,
