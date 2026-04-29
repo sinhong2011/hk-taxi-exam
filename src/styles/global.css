@@ -35,9 +35,7 @@
   html, body { height: 100%; }
   body {
     font-family: var(--font-sans);
-    background:
-      radial-gradient(1200px 600px at 70% -10%, rgba(230, 65, 80, 0.05), transparent 60%),
-      var(--color-paper);
+    background: var(--color-paper);
     color: var(--color-ink);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -184,7 +182,8 @@
   position: fixed;
   inset: auto 0 0 0;
   z-index: 30;
-  background: color-mix(in srgb, var(--color-paper) 92%, transparent);
+  background: rgba(15, 16, 19, 0.92);
+  -webkit-backdrop-filter: saturate(1.2) blur(14px);
   backdrop-filter: saturate(1.2) blur(14px);
   padding-bottom: env(safe-area-inset-bottom);
 }
@@ -234,6 +233,7 @@
 .sheet[open] { animation: sheet-slide-in 0.24s cubic-bezier(0.2, 0.8, 0.2, 1); }
 .sheet::backdrop {
   background: rgba(0, 0, 0, 0.55);
+  -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
   animation: sheet-backdrop-in 0.2s ease-out;
 }

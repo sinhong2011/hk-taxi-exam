@@ -69,10 +69,7 @@ const ogImageHref = new URL(ogImage, Astro.site).href;
   </head>
   <body>
     <div class="flex min-h-dvh flex-col">
-      <header
-        class="sticky top-0 z-20"
-        style="background: color-mix(in srgb, var(--color-paper) 86%, transparent); backdrop-filter: saturate(1.2) blur(14px);"
-      >
+      <header class="sticky top-0 z-20 bg-paper">
         <div class="mx-auto grid w-full max-w-(--container-content) grid-cols-[1fr_auto_1fr] items-center gap-6 px-8 py-4 max-tablet:px-5 max-tablet:py-3 max-sm:px-3">
           <a
             href="/"

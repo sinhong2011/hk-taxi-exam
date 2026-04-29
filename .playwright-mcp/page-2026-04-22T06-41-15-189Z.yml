@@ -1,0 +1,142 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "返回首頁 · 的士筆試備考手冊" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img [ref=e6]
+        - generic [ref=e7]: 的士筆試
+      - tablist [ref=e9]:
+        - tab "01 總覽" [selected] [ref=e10] [cursor=pointer]:
+          - generic [ref=e11]: "01"
+          - text: 總覽
+        - tab "02 則例" [ref=e13] [cursor=pointer]:
+          - generic [ref=e14]: "02"
+          - text: 則例
+        - tab "03 收費" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: "03"
+          - text: 收費
+        - tab "04 地方" [ref=e17] [cursor=pointer]:
+          - generic [ref=e18]: "04"
+          - text: 地方
+        - tab "05 路線" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: "05"
+          - text: 路線
+        - tab "06 道路守則" [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: "06"
+          - text: 道路守則
+        - tab "07 測驗" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]: "07"
+          - text: 測驗
+        - tab "08 模擬試" [ref=e25] [cursor=pointer]:
+          - generic [ref=e26]: "08"
+          - text: 模擬試
+  - main [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e29]: 備考手冊 ・ 2026 年 4 月版
+      - generic [ref=e30]:
+        - heading "把《的士營運小冊子》與《道路使用者守則》讀得 像一本熟悉的書。" [level=1] [ref=e31]:
+          - text: 把《的士營運小冊子》與《道路使用者守則》讀得
+          - text: 像一本
+          - emphasis [ref=e32]: 熟悉的書
+          - text: 。
+        - complementary [ref=e33]: 記憶原則：不是把條文背死，而是建立場景連結——把數字、顏色、位置與日常經驗扣在一起，筆試便自然通過。
+      - list [ref=e34]:
+        - listitem [ref=e35]:
+          - generic [ref=e36]: "15"
+          - generic [ref=e37]: 則例章節
+        - listitem [ref=e38]:
+          - generic [ref=e39]: "3"
+          - generic [ref=e40]: 的士種類收費
+        - listitem [ref=e41]:
+          - generic [ref=e42]: "230"
+          - generic [ref=e43]: 地點位置題
+        - listitem [ref=e44]:
+          - generic [ref=e45]: "15"
+          - generic [ref=e46]: 路線題
+        - listitem [ref=e47]:
+          - generic [ref=e48]: "12"
+          - generic [ref=e49]: 道路守則
+    - generic [ref=e50]:
+      - generic [ref=e51]: "01"
+      - heading "最後衝刺・高頻考點十項" [level=2] [ref=e52]
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]: "01"
+        - generic [ref=e56]: 三種首 2 公里收費
+        - generic [ref=e57]: 市區 $29 ／ 新界 $25.5 ／ 大嶼山 $24
+      - generic [ref=e58]:
+        - generic [ref=e59]: "02"
+        - generic [ref=e60]: 跨越收費門檻
+        - generic [ref=e61]: 市區 $102.5 ／ 新界 $82.5 ／ 大嶼山 $195
+      - generic [ref=e62]:
+        - generic [ref=e63]: "03"
+        - generic [ref=e64]: 過海免回程費
+        - generic [ref=e65]: 在過海的士站上車，或最終目的地不在海港另一方 → 免 $25 回程費
+      - generic [ref=e66]:
+        - generic [ref=e67]: "04"
+        - generic [ref=e68]: 10 分嚴重罪 4 宗
+        - generic [ref=e69]: 濫收車費・拒絕租用・拒駛指定地點・毀損計程錶（重犯升至 $25,000 + 12 個月）
+      - generic [ref=e70]:
+        - generic [ref=e71]: "05"
+        - generic [ref=e72]: 電子支付（2026/4/1 起）
+        - generic [ref=e73]: 必須接受 ≥ 1 種二維碼 + ≥ 1 種非二維碼媒介
+      - generic [ref=e74]:
+        - generic [ref=e75]: "06"
+        - generic [ref=e76]: 輔幣規定
+        - generic [ref=e77]: $90（$10 鈔或 $2 以上硬幣）＋ $10（$1 以下硬幣）
+      - generic [ref=e78]:
+        - generic [ref=e79]: "07"
+        - generic [ref=e80]: 車隊識別牌顏色
+        - generic [ref=e81]: 市區紅 ／ 新界綠 ／ 大嶼山藍
+      - generic [ref=e82]:
+        - generic [ref=e83]: "08"
+        - generic [ref=e84]: 違規停入車隊專位
+        - generic [ref=e85]: 一般的士駛入車隊停車處 → 定額罰款 $600
+      - generic [ref=e86]:
+        - generic [ref=e87]: "09"
+        - generic [ref=e88]: 失物處理
+        - generic [ref=e89]: 6 小時內送警署；物主當場認領並能證明身分 → 可直接交還
+      - generic [ref=e90]:
+        - generic [ref=e91]: "10"
+        - generic [ref=e92]: 記分與停牌
+        - generic [ref=e93]: 2 年內累積 15 分 → 首次停牌 3 個月，其後每次 6 個月
+    - generic [ref=e94]:
+      - generic [ref=e95]: "02"
+      - heading "建議溫習次序" [level=2] [ref=e96]
+    - paragraph [ref=e97]:
+      - text: 先到
+      - link "則例" [ref=e98] [cursor=pointer]:
+        - /url: /regulations
+      - text: 看完 15 章核心規則， 再到
+      - link "收費" [ref=e99] [cursor=pointer]:
+        - /url: /fares
+      - text: 熟記三地收費門檻。 地點題用
+      - link "地方" [ref=e100] [cursor=pointer]:
+        - /url: /places
+      - text: 搜尋功能快速複習， 路線題則到
+      - link "路線" [ref=e101] [cursor=pointer]:
+        - /url: /routes
+      - text: 按三大幹道原則記憶。 每溫完一段，就到
+      - link "測驗" [ref=e102] [cursor=pointer]:
+        - /url: /quiz
+      - text: 隨機抽題自我檢測。
+  - contentinfo "頁尾" [ref=e103]:
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - generic [ref=e107]: 的士筆試備考手冊
+        - generic [ref=e108]: 2026 · 04
+      - generic [ref=e109]: 第三方學習工具・非運輸署官方
+    - generic [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]: 關於
+        - paragraph [ref=e113]: 本應用整理自運輸署公開資料，僅供溫習用途。一切收費、規則、罰則以憲報及運輸署最新公布為準。
+        - paragraph [ref=e114]: 純前端應用・不設帳戶・不收集個人資料・無 cookie 追蹤。
+      - generic [ref=e115]:
+        - generic [ref=e116]: 原文 PDF
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - link "的士營運小冊子（2026/03）" [ref=e119] [cursor=pointer]:
+              - /url: https://www.td.gov.hk/filemanager/tc/publication/taxi%20operation%20booklet_tc_20260320_revised.pdf
+          - listitem [ref=e120]:
+            - link "道路使用者守則" [ref=e121] [cursor=pointer]:
+              - /url: https://www.td.gov.hk/filemanager/tc/content_172/road_users_code_2020_chi.pdf
